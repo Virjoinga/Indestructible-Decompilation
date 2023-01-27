@@ -1,0 +1,481 @@
+<ShopConfig>
+
+  <items>
+    <bundle 
+      id="bundle_thermodon_madness"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="250"
+      vehicleId="vehicle_thermodon"
+      bodyId="body_thermodon_waver"
+      weaponId="weapon_4barrel"
+      armorId="armor_thermodon_tier_4"
+      >
+
+      <components>
+        <component id="component_t3_power" />
+        <component id="component_t3_cooldown_reduce" />
+        <component id="component_t3_damage_per_bullet" />
+      </components>
+      
+      <lock level="5" limitBoughtIAPs="1" />
+    </bundle>
+	
+	<bundle 
+      id="bundle_mantis_t2"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="150"
+      vehicleId="vehicle_mantis"
+      bodyId="body_mantis_canary"
+      weaponId="weapon_green_laser"	  
+      armorId="armor_mantis_tier_1"
+      >
+
+      <components>
+        <component id="component_t3_speed" />
+        <component id="component_t2_speed" />
+        <component id="component_t2_energy_regen" />
+      </components>
+      
+    </bundle>
+
+
+	<bundle 
+      id="bundle_punisher_t2"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="150"
+      vehicleId="vehicle_punisher"
+      bodyId="body_punisher_woodcutter"
+      weaponId="weapon_cannon"	  
+      armorId="armor_punisher_tier_2"
+      >
+
+      <components>
+        <component id="component_t3_power" />
+        <component id="component_t3_cooldown_reduce" />
+        <component id="component_t2_cooldown_reduce" />
+      </components>
+      
+    </bundle>
+
+	<bundle 
+      id="bundle_striker_t2"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="255"
+      vehicleId="vehicle_striker"
+      bodyId="body_striker_heavy_metal"
+      weaponId="weapon_avalanche_launcher"	  
+      armorId="armor_striker_tier_2"
+      >
+
+      <components>
+        <component id="component_t3_power" />
+        <component id="component_t1_energy_regen" />
+        <component id="component_t1_speed" />
+      </components>
+      
+    </bundle>
+
+	<bundle 
+      id="bundle_hurricane_t2"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="350"
+      vehicleId="vehicle_hurricane"
+      bodyId="body_hurricane_hi_tech"
+      weaponId="weapon_4barrel"	  
+      armorId="armor_hurricane_tier_2"
+      >
+
+      <components>
+        <component id="component_t3_damage_per_bullet" />
+        <component id="component_t3_armor" />
+        <component id="component_t3_armor_regen" />
+      </components>
+      
+    </bundle> 
+	
+	<bundle 
+      id="bundle_zambezi_t2"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="250"
+      vehicleId="vehicle_zambezi"
+      bodyId="body_zambezi_pimp"
+      weaponId="weapon_laser"		  
+      armorId="armor_zambezi_tier_2"
+      >
+
+      <components>
+        <component id="component_t3_power" />
+        <component id="component_t3_armor_regen" />
+        <component id="component_t3_armor" />
+      </components>
+      
+    </bundle> 	
+
+	<bundle 
+      id="bundle_demolisher_t2"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="200"
+      vehicleId="vehicle_demolisher"
+      bodyId="body_demolisher_shark"
+      weaponId="weapon_4barrel"	  
+      armorId="armor_demolisher_tier_1"
+      >
+
+      <components>
+        <component id="component_t2_energy_regen" />
+        <component id="component_t2_DOT_duration" />
+        <component id="component_t1_DOT_duration" />
+      </components>
+      
+    </bundle> 	
+
+	<bundle 
+      id="bundle_thermodon_t2"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="600"
+      vehicleId="vehicle_thermodon"
+      bodyId="body_thermodon_waver"
+      weaponId="weapon_avalanche_launcher"
+      armorId="armor_thermodon_tier_2"
+      >
+
+      <components>
+        <component id="component_t3_power" />
+        <component id="component_t4_energy_cunsumption_reduction" />
+        <component id="component_t3_energy_cunsumption_reduction" />
+      </components>
+      
+    </bundle> 
+
+	<bundle 
+      id="bundle_ghost_t2"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="700"
+      vehicleId="vehicle_ghost"
+      bodyId="body_ghost_red"
+      weaponId="weapon_flamethrower"	  
+      armorId="armor_ghost_tier_3"
+      >
+
+      <components>
+        <component id="component_t3_power" />
+        <component id="component_t4_accelerate" />
+        <component id="component_t3_speed" />
+      </components>
+      
+    </bundle> 
+	
+	<bundle 
+      id="bundle_ravager_t2"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="360"
+      vehicleId="vehicle_ravager"
+      bodyId="body_ravager_bronze"
+      weaponId="weapon_black_laser"	
+      armorId="armor_ravager_tier_3"
+      >
+
+      <components>
+        <component id="component_t4_armor" />
+        <component id="component_t3_armor" />
+        <component id="component_t1_armor" />
+      </components>
+      
+    </bundle> 	
+
+	<bundle 
+      id="bundle_dozer_t2"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="1250"
+      vehicleId="vehicle_dozer"
+      bodyId="body_dozer_viking"
+      weaponId="weapon_launcherHMT4"		  
+      armorId="armor_dozer_tier_3"
+      >
+
+      <components>
+        <component id="component_t4_armor" />
+        <component id="component_t3_armor" />
+        <component id="component_t2_armor" />
+      </components>
+      
+    </bundle> 	
+
+	<bundle 
+      id="bundle_mantis_t3"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="350"
+      vehicleId="vehicle_mantis"
+      bodyId="body_mantis_urban"
+      weaponId="weapon_black_laser"	  
+      armorId="armor_mantis_tier_3"
+      >
+
+      <components>
+        <component id="component_t4_power" />
+        <component id="component_t4_speed" />
+        <component id="component_t4_accelerate" />
+      </components>
+      
+    </bundle>
+
+
+	<bundle 
+      id="bundle_punisher_t3"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="150"
+      vehicleId="vehicle_punisher"
+      bodyId="body_punisher_fbi"
+      weaponId="weapon_drill"	  
+      armorId="armor_punisher_tier_3"
+      >
+
+      <components>
+        <component id="component_t4_power" />
+        <component id="component_t4_damage_per_bullet" />
+        <component id="component_t3_damage_per_bullet" />
+      </components>
+      
+    </bundle>
+
+	<bundle 
+      id="bundle_striker_t3"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="550"
+      vehicleId="vehicle_striker"
+      bodyId="body_striker_safari"
+      weaponId="weapon_launcherHMT4"	  
+      armorId="armor_punisher_tier_3"
+      >
+
+      <components>
+        <component id="component_t4_power" />
+        <component id="component_t4_energy_cunsumption_reduction" />
+        <component id="component_t3_energy_cunsumption_reduction" />
+      </components>
+      
+    </bundle>
+
+	<bundle 
+      id="bundle_hurricane_t3"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="550"
+      vehicleId="vehicle_hurricane"
+      bodyId="body_hurricane_hippie"
+      weaponId="weapon_drill"	  
+      armorId="armor_hurricane_tier_4"
+      >
+
+      <components>
+        <component id="component_t4_power" />
+        <component id="component_t4_energy_cunsumption_reduction" />
+        <component id="component_t4_cooldown_reduce" />
+      </components>
+      
+    </bundle> 
+	
+	<bundle 
+      id="bundle_zambezi_t3"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="450"
+      vehicleId="vehicle_zambezi"
+      bodyId="body_zambezi_police"
+      weaponId="weapon_drill"		  
+      armorId="armor_zambezi_tier_4"
+      >
+
+      <components>
+        <component id="component_t4_power" />
+        <component id="component_t4_DOT_duration" />
+        <component id="component_t4_energy_regen" />
+      </components>
+      
+    </bundle> 	
+
+	<bundle 
+      id="bundle_demolisher_t3"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="450"
+      vehicleId="vehicle_demolisher"
+      bodyId="body_demolisher_nurse"
+      weaponId="weapon_drill"	  
+      armorId="armor_demolisher_tier_4"
+      >
+
+      <components>
+        <component id="component_t4_power" />
+        <component id="component_t4_armor" />
+        <component id="component_t4_armor_regen" />
+      </components>
+      
+    </bundle> 	
+
+	<bundle 
+      id="bundle_thermodon_t3"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="800"
+      vehicleId="vehicle_thermodon"
+      bodyId="body_thermodon_magic"
+      weaponId="weapon_black_laser"
+      armorId="armor_thermodon_tier_4"
+      >
+
+      <components>
+        <component id="component_t4_power" />
+        <component id="component_t4_energy_cunsumption_reduction" />
+        <component id="component_t4_cooldown_reduce" />
+      </components>
+      
+    </bundle> 
+
+	<bundle 
+      id="bundle_ghost_t3"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="800"
+      vehicleId="vehicle_ghost"
+      bodyId="body_ghost_space"
+      weaponId="weapon_launcherHMT4"	  
+      armorId="armor_ghost_tier_4"
+      >
+
+      <components>
+        <component id="component_t4_power" />
+        <component id="component_t4_rof_explosive" />
+        <component id="component_t3_rof_explosive" />
+      </components>
+      
+    </bundle> 
+	
+	<bundle 
+      id="bundle_ravager_t3"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="450"
+      vehicleId="vehicle_ravager"
+      bodyId="body_ravager_samurai"
+      weaponId="weapon_black_laser"	
+      armorId="armor_ravager_tier_4"
+      >
+
+      <components>
+        <component id="component_t4_power" />
+        <component id="component_t4_armor" />
+        <component id="component_t4_DOT_duration" />
+      </components>
+      
+    </bundle> 	
+
+	<bundle 
+      id="bundle_dozer_t3"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="1250"
+      vehicleId="vehicle_dozer"
+      bodyId="body_dozer_stoneage"
+      weaponId="weapon_drill"		  
+      armorId="armor_dozer_tier_4"
+      >
+
+      <components>
+        <component id="component_t4_armor" />
+        <component id="component_t3_armor" />
+        <component id="component_t2_armor" />
+      </components>
+      
+    </bundle> 	
+	
+	
+  </items>
+  
+
+  <groups>
+    <group id="bundles" nameId="IDS_GROUP_BUNDLES" visible="true" prefab="Bundles">
+      <itemRefs>
+        <itemRef id="bundle_thermodon_madness_ref" itemId="bundle_thermodon_madness" visible="true" />
+      </itemRefs>
+    </group>
+  </groups>
+  
+</ShopConfig>

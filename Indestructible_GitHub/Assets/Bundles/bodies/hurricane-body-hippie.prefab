@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1363360836546582}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1363360836546582
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4047110543985318}
+  - 33: {fileID: 33837621134173394}
+  - 23: {fileID: 23104360057481505}
+  - 114: {fileID: 114820801107204856}
+  m_Layer: 0
+  m_Name: Hurricane-Body-Hippie
+  m_TagString: StaticLocalTransform
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4047110543985318
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363360836546582}
+  m_LocalRotation: {x: 2.1855694E-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!33 &33837621134173394
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363360836546582}
+  m_Mesh: {fileID: 4300000, guid: f4b8facf7815fdc40ac92b89fba41f33, type: 2}
+--- !u!23 &23104360057481505
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363360836546582}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: d974aa7a768ef674da7ab216d1d2bc4e, type: 2}
+  - {fileID: 2100000, guid: f9df1cbc1ef2f7f429520548f58068bb, type: 2}
+  - {fileID: 2100000, guid: 237d7397f03754242833f873a97cae1f, type: 2}
+  - {fileID: 2100000, guid: 080c32297b2857e4bba2e6e657d6f204, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!114 &114820801107204856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363360836546582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3d8fc32b6ce28f2d769c8e358c33d5, type: 3}
+  m_Name:
+  smokeOptions:
+    effectPrefab: {fileID: 0}
+    emissionSpeed: 0
+    emissionScale: 1
+    velocityScale: 0
+    sizeScale: 1
+    lifetimeScale: 1
+    initEmissionFactor: 0
+    emissionPoints: []
+    shouldDestroyEmissionPoints: 1
+  burnOptions:
+    effectPrefab: {fileID: 0}
+    emissionSpeed: 0
+    emissionScale: 1
+    velocityScale: 0
+    sizeScale: 1
+    lifetimeScale: 1
+    initEmissionFactor: 0
+    emissionPoints: []
+    shouldDestroyEmissionPoints: 1
+  exhaustOptions:
+    effectPrefab: {fileID: 1374131847007320, guid: 99ded684c7483724b9e3cc79864811bb, type: 2}
+    emissionSpeed: 5
+    emissionScale: 5
+    velocityScale: 0.75
+    sizeScale: 1
+    lifetimeScale: 1
+    initEmissionFactor: 0
+    emissionPoints: []
+    shouldDestroyEmissionPoints: 1
+  exhaustThrottleEmissionFactor: 15
+  boostOptions:
+    effectPrefab: {fileID: 0}
+    emissionSpeed: 0
+    emissionScale: 1
+    velocityScale: 0
+    sizeScale: 1
+    lifetimeScale: 1
+    initEmissionFactor: 0
+    emissionPoints: []
+    shouldDestroyEmissionPoints: 1
+  boostThrottleEmissionFactor: -1

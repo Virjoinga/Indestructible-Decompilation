@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: body_2_hi
+  m_Shader: {fileID: 4800000, guid: cedd355433f221044b1c21ca95475330, type: 3}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 02898b185c6b62349a3c5f7ba781e19a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: 09d59e512f7ccb24eb4f0fbe22a71f50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectionMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 6d75ef6c186d76f40bafc76023ed7579, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.6641791, g: 0.6641791, b: 0.6641791, a: 1}
+    - first:
+        name: _ReflectColor
+      second: {r: 0.22388059, g: 0.22388059, b: 0.22388059, a: 0.5019608}

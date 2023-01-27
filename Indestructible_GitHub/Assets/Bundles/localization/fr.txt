@@ -1,0 +1,4433 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+# IAPs Dialog. Instead of  {0}  we place other text strings (for example, we will add 10% instead of  {0}  to receive the final game text). The text length without these additional symbols is 10 symbols 
+msgid "IDS_IAP_SHOP_DISCOUNT"
+msgstr "REMISE {0} %"
+
+# Maximum length of text should be not more than 13 symbols
+msgid "IDS_IAP_SHOP_SPECIAL"
+msgstr "MEILLEUR PRIX"
+
+# IAP Processing Dialog. Maximum length of text should be not more than 13 symbols
+msgid "IDS_IAP_PROCESSING_PROCESSING"
+msgstr "EN COURS…"
+
+# IAP Purchase Successful Dialog. Maximum length of text should be not more than 17 symbols. 
+msgid "IDS_IAP_SUCCESSFUL_TITLE"
+msgstr "ACHAT RÉUSSI"
+
+# Text is without limitations, but should keep the original points of carry-over. Instead of  {0}  we place the item name.
+msgid "IDS_IAP_SUCCESSFUL_TEXT"
+msgstr "Vous avez réussi à acheter le produit suivant : {0}."
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_IAP_SUCCESSFUL_BOOST"
+msgstr "Vous avez réussi à acheter un boost XP et PIÈCES de 24 HEURES !"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_IAP_SUCCESSFUL_BOOST_FOREVER"
+msgstr "Vous avez réussi à acheter un boost XP et PIÈCES PERMANENT !"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_IAP_SUCCESSFUL_BUTTON_OK"
+msgstr "OK"
+
+# IAP Purchase Failed Dialog. Maximum length of text should be not more than 17 symbols.
+msgid "IDS_IAP_FAILED_TITLE"
+msgstr "ÉCHEC DE L'ACHAT"
+
+# Maximum length of text should be not more than 196 symbols
+msgid "IDS_IAP_FAILED_TEXT"
+msgstr "Échec de votre achat. Réessayez plus tard."
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_IAP_FAILED_BUTTON_OK"
+msgstr "OK"
+
+# IAP Purchase Cancelled Dialog. Maximum length of text should be not more than 17 symbols.
+msgid "IDS_IAP_CANCELLED_TITLE"
+msgstr "ACHAT ANNULÉ"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_IAP_CANCELLED_TEXT"
+msgstr "Votre achat a été annulé."
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_IAP_CANCELLED_BUTTON_OK"
+msgstr "OK"
+
+# IAP Turned Off Dialog. Maximum length of text should be not more than 17 symbols
+msgid "IDS_IAP_TURNED_OFF_TITLE"
+msgstr "ACHATS DÉSACTIVÉS"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_IAP_TURNED_OFF_TEXT"
+msgstr "Les applications intégrant des services payants sont désactivées sur votre périphérique. Veuillez les activer depuis l'application Paramètres pour continuer."
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_IAP_TURNED_OFF_BUTTON_OK"
+msgstr "OK"
+
+# IAP No Network Connection Dialog. Maximum length of text should be not more than 17 symbols.
+msgid "IDS_IAP_NO_NETWORK_TITLE"
+msgstr "PAS DE CONNEXION"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_IAP_NO_NETWORK_TEXT"
+msgstr "Connexion au magasin impossible. Veuillez vérifier votre connexion internet et réessayer plus tard."
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_IAP_NO_NETWORK_BUTTON_OK"
+msgstr "OK"
+
+# IAP Restore Failed Dialog. Maximum length of text should be not more than 17 symbols.
+msgid "IDS_IAP_RESTORE_FAILED_TITLE"
+msgstr "ERREUR RÉSEAU"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_IAP_RESTORE_FAILED_TEXT"
+msgstr "Échec de synchronisation de vos achats avec le serveur. Veuillez vérifier votre connexion internet et réessayer plus tard."
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_IAP_RESTORE_FAILED_BUTTON_OK"
+msgstr "OK"
+
+# IAP Restore Empty Dialog. Maximum length of text should be not more than 17 symbols.
+msgid "IDS_IAP_RESTORE_EMPTY_TITLE"
+msgstr "RIEN À RESTAURER"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_IAP_RESTORE_EMPTY_TEXT"
+msgstr "Vous n'avez aucun achat à restaurer."
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_IAP_RESTORE_EMPTY_BUTTON_OK"
+msgstr "OK"
+
+# Not Enough Currency Dialog. Maximum length of text should be not more than 17 symbols.
+msgid "IDS_NOT_ENOUGH_CURRENCY_TITLE"
+msgstr "MANQUE FONDS"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_NOT_ENOUGH_CURRENCY_TEXT"
+msgstr "Vous n'avez pas assez de monnaie pour compléter cet achat."
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_NOT_ENOUGH_CURRENCY_BUTTON_CANCEL"
+msgstr "ANNULER"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_NOT_ENOUGH_CURRENCY_BUTTON_BUY"
+msgstr "ACHAT"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_NOT_ENOUGH_CURRENCY_BUTTON_OK"
+msgstr "OK"
+
+# Not Enough Power Dialog. Maximum length of text should be not more than 17 symbols.
+msgid "IDS_NOT_ENOUGH_POWER_TITLE"
+msgstr "MANQUE CAPACITÉ"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_NOT_ENOUGH_POWER_TEXT"
+msgstr "Capacité véhicule insuffisante pour prendre cet élément."
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_NOT_ENOUGH_POWER_BUTTON_OK"
+msgstr "OK"
+
+# Too Many Power Used Dialog. Maximum length of text should be not more than 17 symbols.
+msgid "IDS_TOO_MUCH_POWER_USED_TEXT"
+msgstr "Vous avez installé des éléments au-delà de votre capacité. Enlevez des éléments ou prenez des composants augmentant la capacité."
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_TOO_MUCH_POWER_USED_TITLE"
+msgstr "HORS CAPACITÉ"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_TOO_MUCH_POWER_USED_BUTTON_OK"
+msgstr "OK"
+
+# Not Spent Talent Points Dialog. Maximum length of text should be not more than 17 symbols.
+msgid "IDS_NOT_SPENT_TALENT_POINTS_TITLE"
+msgstr "AVERTISSEMENT"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_NOT_SPENT_TALENT_POINTS_TEXT"
+msgstr "Impossible de quitter tant que vous avez des points de compétence à apprendre."
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_NOT_SPENT_TALENT_POINTS_BUTTON_OK"
+msgstr "OK"
+
+# Matchmaking Failed Dialog. Maximum length of text should be not more than 17 symbols.
+msgid "IDS_MATCHMAKING_FAILED_TITLE"
+msgstr "ÉCHEC MATCHMAKING"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_MATCHMAKING_FAILED_TEXT"
+msgstr "Une erreur s'est produite. Veuillez vérifier votre connexion internet et réessayer."
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_MATCHMAKING_FAILED_BUTTON_OK"
+msgstr "OK"
+
+# Reset Talents Confirmation Dialog. Instead of  {0}  we place other text strings (for example, we will add 100 GOLD instead of  {0}  to receive the final game text). The text length without these additional symbols is 10 symbols.
+msgid "IDS_RESET_TALENTS_CONFIRMATION_TEXT"
+msgstr "Réinitialiser vos compétences pour {0} ?"
+
+# Text is without limitations, but should keep the original points of carry-over.
+msgid "IDS_RESET_TALENTS_CONFIRMATION_TITLE"
+msgstr "RÉINIT. COMPÉTENCES"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_RESET_TALENTS_CONFIRMATION_BUTTON_OK"
+msgstr "OK"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_RESET_TALENTS_CONFIRMATION_BUTTON_CANCEL"
+msgstr "ANNULER"
+
+# Help Dialog. Text is without limitations, but should keep the original points of carry-over.
+msgid "IDS_HELP_DIALOG_TEXT_1"
+msgstr ""
+" \n"
+"[#CC1100]AIDE\n"
+"\n"
+"[#FFFFFF]INDESTRUCTIBLE [#CCCCCC]est un jeu d'action multijoueurs à deux sticks. Les joueurs sont en compétition les uns contre les autres en équipe de deux ou chacun pour soi. Ils gagnent de l'expérience (XP), des pièces et des points d'influence. Les points d'influence ne peuvent être gagnés que dans les matchs multijoueurs classés.\n"
+"\n"
+"[#CC1100]COMMANDES DU JEU :\n"
+"\n"
+"[#CCCCCC]Utilisez le [#FFFFFF]stick-v gauche [#CCCCCC]pour conduire.\n"
+"\n"
+"[#CCCCCC]Utilisez le [#FFFFFF]stick-v droit [#CCCCCC]pour tirer.\n"
+"\n"
+"[#CCCCCC]Touchez le [#FFFFFF]bouton Capacité [#CCCCCC]situé au-dessus du stick-v droit pour activer la capacité active du véhicule.\n"
+"\n"
+"[#FFFFFF]BARRE BLINDAGE : [#CCCCCC]intégrité de la carène du véhicule, équivalent à la santé.\n"
+"\n"
+"[#FFFFFF]BARRE ÉNERGIE : [#CCCCCC]l'énergie est utilisée pour tirer avec les armes et en utilisant les capacités actives. L'énergie de votre véhicule se régénère au fil du temps.\n"
+
+# Text is without limitations, but should keep the original points of carry-over.
+msgid "IDS_HELP_DIALOG_TEXT_2"
+msgstr ""
+"[#CC1100]VÉHICULES\n"
+"\n"
+"[#CCCCCC]Le jeu dispose d'une sélection de véhicules conçus pour s'adapter à différents styles de jeu. Chaque véhicule a deux [#FFFFFF]capacités [#CCCCCC]uniques qui définissent le style de jeu le plus approprié pour ce véhicule particulier.\n"
+" "
+
+# Text is without limitations, but should keep the original points of carry-over.
+msgid "IDS_HELP_DIALOG_TEXT_3"
+msgstr ""
+"[#FFFFFF]CAPACITÉ PASSIVE : [#CCCCCC]la capacité passive du véhicule est effective pour la durée totale du jeu et n'a pas besoin d'être désactivée.\n"
+"\n"
+"[#FFFFFF]CAPACITÉ ACTIVE : [#CCCCCC]appuyez sur le [#FFFFFF]bouton Capacité[#CCCCCC] pendant le jeu pour activer votre Capacité active. L'activation des capacités consomme de l'Énergie.\n"
+"\n"
+"[#CC1100]CHARGEMENT\n"
+"\n"
+"[#CCCCCC]Avant de commencer une bataille, il vaut mieux équiper votre véhicule avec les armes appropriées. Touchez le bouton [#FFFFFF]Personnaliser le chargement [#CCCCCC]pour aller à l'écran de personnalisation des véhicules.\n"
+"\n"
+"[#CC1100]ARMES\n"
+"\n"
+"[#CCCCCC]Il existe trois types d'armes dans [#FFFFFF]INDESTRUCTIBLE.\n"
+
+# Text is without limitations, but should keep the original points of carry-over.
+msgid "IDS_HELP_DIALOG_TEXT_4"
+msgstr ""
+"[#FFFFFF]Armes cinétiques : [#CCCCCC]canons et mitrailleuses qui tirent des balles, infligeant des dégâts et repoussant les ennemis.\n"
+"\n"
+"[#FFFFFF]Armes thermiques : [#CCCCCC]lasers qui tirent de façon continue, mettant le feu aux véhicules ennemis.\n"
+"\n"
+"[#FFFFFF]Armes explosives : [#CCCCCC]lance-missiles qui tirent des missiles guidés. Les missiles ont une zone d'effet et peuvent infliger des dégâts à plusieurs ennemis à la fois.\n"
+"\n"
+"[#CCCCCC]Toutes les armes à distance consomment de l'énergie en tirant.\n"
+" "
+
+# Text is without limitations, but should keep the original points of carry-over.
+msgid "IDS_HELP_DIALOG_TEXT_5"
+msgstr ""
+"[#CC1100]ARMES DE MÊLÉE\n"
+"\n"
+"[#CCCCCC]Les [#FFFFFF]armes de mêlée [#CCCCCC]peuvent être montées sur chaque véhicule et augmentent les [#FFFFFF]dégâts de collision [#CCCCCC] infligés. Les armes de mêlée ne nécessitent pas d’énergie pour être utilisées. Pour utiliser une arme de mêlée, heurtez simplement un véhicule ennemi.\n"
+"\n"
+"Les armes de mêlée infligent plus de dégâts lorsque le véhicule cible est percuté à l’arrière ou sur les côtés. Les collisions frontales infligeront moins de dégâts à l’ennemi.\n"
+"\n"
+"[#CC1100]COMPOSANTS\n"
+"\n"
+"[#CCCCCC]Les [#FFFFFF]composants [#CCCCCC] sont des pièces spéciales améliorant certains aspects de votre véhicule. Les composants nécessitent généralement de la capacité pour être pris, et certains composants peuvent augmenter votre capacité totale.\n"
+"\n"
+"[#CC1100]CONSOMMABLES\n"
+"\n"
+"[#CCCCCC]Les [#FFFFFF]consommables [#CCCCCC] augmentent la puissance de feu de l’arme que vous avez prise. Les consommables sont vendus en packs et chaque match joué use un consommable que vous avez pris. Chaque consommable ne fonctionne qu’avec des armes d’une certaine classe.\n"
+"\n"
+"[#CC1100]EXPÉRIENCE ET NIVEAUX\n"
+"\n"
+"[#CCCCCC]Au cours des batailles, vous gagnez des points d’[#FFFFFF]expérience[#CCCCCC] et d’[#FFFFFF]influence[#CCCCCC]. Lorsque vous gagnez une certaine quantité de [#FFFFFF]points d’expérience[#CCCCCC], vous passez aux [#FFFFFF]niveaux [#CCCCCC]suivants. [#CCCCCC]Atteignez les niveaux suivants pour déverrouiller de nouveaux véhicules et objets.\n"
+" "
+
+# Text is without limitations, but should keep the original points of carry-over.
+msgid "IDS_HELP_DIALOG_TEXT_6"
+msgstr ""
+"[#CCCCCC]Quand vous gagnez un certain nombre de [#FFFFFF]points d’influence[#CCCCCC], vous êtes promu. Vous démarrez le jeu en [#FFFFFF]Ligue de Bronze [#CCCCCC] et vous vous battez pour arriver en [#FFFFFF] Ligue d’Or.\n"
+"\n"
+"[#CCCCCC]Chaque fois que vous changez de niveau, vous pouvez apprendre une [#FFFFFF]compétence. [#CCCCCC]Les compétences améliorent divers aspects des véhicules que vous possédez et n’ont pas besoin d’être prises. Vous pouvez accéder à vos compétences à tout moment depuis l’écran [#FFFFFF]Profil du joueur[#CCCCCC].\n"
+"\n"
+"[#CC1100]MODES DE JEU\n"
+"\n"
+"[#FFFFFF]Campagne : [#CCCCCC]Jouez en duel tête-à-tête contre des ennemis difficiles contrôlés par IA. Battez-les tous pour gagner un véhicule exclusif.\n"
+"\n"
+"[#FFFFFF]Match à mort en équipe : [#CCCCCC]Tuez les joueurs ennemis dans un match équipe contre l’équipe. La première équipe qui atteint le plafond de tués gagne.\n"
+"\n"
+"[#FFFFFF]Capturer le drapeau : [#CCCCCC]Volez le drapeau de la base ennemie et ramenez-le sur votre base. Faites-le plusieurs fois pour gagner.\n"
+"\n"
+"[#FFFFFF]Match à mort : [#CCCCCC]Tuez les autres joueurs dans un match tous contre tous. Le premier joueur qui atteint le plafond de tués gagne.\n"
+"\n"
+"[#FFFFFF]Récupérer la charge : [#CCCCCC]Ramassez des charges nucléaires et amenez-les à un point de collecte. Faites-le plusieurs fois pour gagner.\n"
+"\n"
+"[#FFFFFF]Pratique : [#CCCCCC]Survivez aux vagues ennemies contrôlées par IA dans une bataille sans fin."
+
+# About Dialog. Instead of  {0} and {1}  we place the game and Unity version. The text length without these additional symbols is 500 symbols.
+msgid "IDS_ABOUT_DIALOG_TEXT"
+msgstr ""
+"Indestructible\n"
+"{0}\n"
+"\n"
+"© 2012 Glu Mobile Inc. Tous droits réservés. Glu, Indestructible et le logo « Gman » sont des marques déposées de Glu Mobile Inc. aux États-Unis et/ou dans d'autres pays. \n"
+"\n"
+"Pour toute question, veuillez visiter notre site d'aide en ligne sur http://www.glu.com/support pour nous contacter.\n"
+"\n"
+"Programme créé avec Unity {1}. Fragments du programme © 2005-2012 Unity Technologies."
+
+# Credits Dialog. Text is without limitations, but should keep the original points of carry-over.
+msgid "IDS_CREDITS_DIALOG_TEXT"
+msgstr ""
+"Équipe Indestructible\n"
+"\n"
+"[#C0C0C0]Ekaterina Bykova\n"
+"Viacheslav Dudin\n"
+"Jason Estebez\n"
+"Roman Ezhkov\n"
+"Konstantin Gladyshev\n"
+"Nikolay Karpov\n"
+"Ivan Korolev\n"
+"Valery Kosinov\n"
+"Alexey Kravchuk\n"
+"Tatyana Kondratyeva\n"
+"Alexander Lashin\n"
+"Alexander Lobanov\n"
+"Sean Lopiccolo\n"
+"Dmitry Lyust\n"
+"Vladimir Makhnytkin\n"
+"Sergey Pavlov\n"
+"Ivan Pozdnyakov\n"
+"Anastasia Rumyantseva\n"
+"Konstantin Sarychev\n"
+"Alexander Svanidze\n"
+"Karina Tverdohleb\n"
+"\n"
+"[#FFFFFF]Équipe Android\n"
+"\n"
+"[#C0C0C0]Sourabh Ahuja\n"
+"Srikanth Basappa\n"
+"Skyler Bauermeister\n"
+"Jimmy Chiu\n"
+"Dennis Feng\n"
+"Garret Hipple\n"
+"Max Schlienger\n"
+"Tao Tao\n"
+"\n"
+"[#FFFFFF]Remerciements\n"
+"\n"
+"[#C0C0C0]Igor Antipenko\n"
+"Alexey Filatov\n"
+"Eric Gross\n"
+"Michael McHale\n"
+"Vladimir Markin\n"
+"Denis Pozdnyakov\n"
+"Yi Qi\n"
+"Marina Sokolova\n"
+"Ilya Teterin\n"
+"Michael Wei"
+
+# Settings Dialog. Maximum length of text should be not more than 12 symbols.
+msgid "IDS_SETTINGS_DIALOG_TITLE"
+msgstr "PARAMÈTRES"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_SETTINGS_DIALOG_BUTTON_ON"
+msgstr "ON"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_SETTINGS_DIALOG_BUTTON_OFF"
+msgstr "OFF"
+
+# Maximum length of text should be not more than 7 symbols
+msgid "IDS_SETTINGS_DIALOG_BUTTON_CREDITS"
+msgstr "CRÉDITS"
+
+# Maximum length of text should be not more than 7 symbols
+msgid "IDS_SETTINGS_DIALOG_BUTTON_ABOUT"
+msgstr "À PROPOS"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_SETTINGS_DIALOG_BUTTON_OK"
+msgstr "OK"
+
+# Maximum length of text should be not more than 14 symbols
+msgid "IDS_SETTINGS_DIALOG_SOUND"
+msgstr "SON"
+
+# Maximum length of text should be not more than 14 symbols
+msgid "IDS_SETTINGS_DIALOG_MUSIC"
+msgstr "MUSIQUE"
+
+# Maximum length of text should be not more than 14 symbols
+msgid "IDS_SETTINGS_DIALOG_NOTIFICATIONS"
+msgstr "NOTIFICATIONS"
+
+# Maximum length of text should be not more than 9 symbols for first string and 9 for second.
+msgid "IDS_SETTINGS_DIALOG_RESTORE_PURCHASES"
+msgstr ""
+"RESTAURER\n"
+"ACHATS"
+
+# 2 lines of text. Max length per line - 5 symbols
+msgid "IDS_SETTINGS_DIALOG_SERVER_SETTINGS"
+msgstr ""
+"RÉGION\n"
+"SERVEUR"
+
+# TapJoy Points Received Dialog. Instead of  {0} and {1}  we place other text strings. The text length without these additional symbols is 100 symbols.
+msgid "IDS_TAPJOY_POINTS_RECEIVED_TEXT"
+msgstr "Vous avez gagné {0} {1} !"
+
+# Maximum length of text should be not more than 17 symbols.
+msgid "IDS_TAPJOY_POINTS_RECEIVED_TITLE"
+msgstr "FÉLICITATIONS !"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_TAPJOY_POINTS_RECEIVED_BUTTON_OK"
+msgstr "OK"
+
+# Force Update Dialog. Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_APP_GOT_FORCED_UPDATE_TEXT"
+msgstr "La version actuellement installée sur votre ordinateur n'est à jour. Veuillez installer la version la plus récente du jeu."
+
+# Maximum length of text should be not more than 17 symbols.
+msgid "IDS_APP_GOT_FORCED_UPDATE_TITLE"
+msgstr "MISE À JOUR DISPO"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_APP_GOT_FORCED_UPDATE_BUTTON_OK"
+msgstr "OK"
+
+# App Got Update Dialog. Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_APP_GOT_UPDATE_TEXT"
+msgstr "Une nouvelle version du jeu est disponible ! Touchez OK pour la télécharger maintenant."
+
+# Maximum length of text should be not more than 17 symbols.
+msgid "IDS_APP_GOT_UPDATE_TITLE"
+msgstr "MISE À JOUR DISPO"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_APP_GOT_UPDATE_BUTTON_OK"
+msgstr "OK"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_APP_GOT_UPDATE_BUTTON_CANCEL"
+msgstr "ANNULER"
+
+# Asset Bundles Load Failed Dialog. Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_APP_FAILED_TO_LOAD_ASSET_BUNDLES_TEXT"
+msgstr "Connexion au serveur impossible. Une connexion internet 3G, Edge ou WiFi est nécessaire."
+
+# Maximum length of text should be not more than 17 symbols.
+msgid "IDS_APP_FAILED_TO_LOAD_ASSET_BUNDLES_TITLE"
+msgstr "ERREUR RÉSEAU"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_APP_FAILED_TO_LOAD_ASSET_BUNDLES_BUTTON_OK"
+msgstr "RÉESSAYER"
+
+# App Should Be Updated Dialog. Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_APP_SHOULD_BE_UPDATED_TEXT"
+msgstr "Votre jeu sera mis à jour vers la version la plus récente."
+
+# Maximum length of text should be not more than 17 symbols.
+msgid "IDS_APP_SHOULD_BE_UPDATED_TITLE"
+msgstr "MISE À JOUR DISPO"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_APP_SHOULD_BE_UPDATED_BUTTON_OK"
+msgstr "OK"
+
+# Player Name Dialog. Maximum length of text should be not more than 52 symbols.
+msgid "IDS_PLAYER_NAME_DIALOG_TEXT_1"
+msgstr "Entrez Nom de joueur ou connectez-vous à Facebook !"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_PLAYER_NAME_DIALOG_TEXT_2"
+msgstr "Lettres & chiffres seuls"
+
+# Instead of  {0}  we place curency icon. The text length without these additional symbols is 25 symbols.
+msgid "IDS_PLAYER_NAME_DIALOG_FACEBOOK_TEXT"
+msgstr "Obtenez 10 {0} pour connexion Facebook !"
+
+# Maximum length of text should be not more than 17 symbols.
+msgid "IDS_PLAYER_NAME_DIALOG_FACEBOOK_BUTTON"
+msgstr "CONNEXION FACEBOOK"
+
+# Maximum length of text should be not more than 5 symbols.
+msgid "IDS_PLAYER_NAME_DIALOG_BUTTON_OK"
+msgstr "OK"
+
+msgid "IDS_PLAYER_NAME_DIALOG_TAP_TO_TYPE"
+msgstr "Toucher et entrer nom"
+
+# League Change Dialog. Maximum length of text should be not more than 15 symbols.
+msgid "IDS_LEAGUE_CHANGE_UP_TITLE"
+msgstr "PROMOTION !"
+
+# Maximum length of text should be not more than 66 symbols.
+msgid "IDS_LEAGUE_CHANGE_UP_TEXT_TOP"
+msgstr "VOUS AVEZ ÉTÉ PROMU"
+
+# In first string, instead of  {0}  we place other text strings. . The text length without these additional symbols is 5 symbols.In second string maximum length of text should be not more than 66 symbols.
+msgid "IDS_LEAGUE_CHANGE_UP_TEXT_BOTTOM"
+msgstr ""
+"LIGUE {0}\n"
+"\n"
+"CONTINUEZ !"
+
+# League Change Dialog. Maximum length of text should be not more than 15 symbols.
+msgid "IDS_LEAGUE_CHANGE_DOWN_TITLE"
+msgstr "RELÉGATION !"
+
+# Maximum length of text should be not more than 66 symbols.
+msgid "IDS_LEAGUE_CHANGE_DOWN_TEXT_TOP"
+msgstr "VOUS AVEZ ÉTÉ DÉCLASSÉ"
+
+# In first string, instead of  {0}  we place other text strings. The text length without these additional symbols is 5 symbols in first string. In second string maximum length of text should be not more than 66 symbols.
+msgid "IDS_LEAGUE_CHANGE_DOWN_TEXT_BOTTOM"
+msgstr ""
+"LIGUE {0}\n"
+"\n"
+"GAGNEZ PLUS DE MATCHS !"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_LEAGUE_CHANGE_BUTTON_OK"
+msgstr "OK"
+
+# Pause Dialog. Maximum length of text should be not more than 15 symbols
+msgid "IDS_PAUSE_DIALOG_TITLE"
+msgstr "MENU JEU"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_PAUSE_DIALOG_BUTTON_ON"
+msgstr "ON"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_PAUSE_DIALOG_BUTTON_OFF"
+msgstr "OFF"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_PAUSE_DIALOG_BUTTON_OK"
+msgstr "OK"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_PAUSE_DIALOG_BUTTON_LEAVE"
+msgstr "QUITTER"
+
+# Maximum length of text should be not more than 14 symbols
+msgid "IDS_PAUSE_DIALOG_SOUND"
+msgstr "SON"
+
+# Maximum length of text should be not more than 14 symbols
+msgid "IDS_PAUSE_DIALOG_MUSIC"
+msgstr "MUSIQUE"
+
+# Refuel Vehicle Dialog. Maximum length of text should be not more than 18 symbols
+msgid "IDS_REFUEL_VEHICLE_TITLE"
+msgstr "FAIRE LE PLEIN"
+
+# Maximum length of text should be not more than 22 symbols
+msgid "IDS_REFUEL_VEHICLE_FULL_TEXT"
+msgstr "Ignorer besoins en essence 24 heures."
+
+# Maximum length of text should be not more than 10 symbols
+msgid "IDS_REFUEL_VEHICLE_FULL_BUTTON"
+msgstr "RÉSERVOIR 1 J"
+
+# Maximum length of text should be not more than 22 symbols
+msgid "IDS_REFUEL_VEHICLE_PERMANENT_TEXT"
+msgstr "Ignorer besoins en essence pour toujours."
+
+# Maximum length of text should be not more than 10 symbols
+msgid "IDS_REFUEL_VEHICLE_PERMANENT_BUTTON"
+msgstr "RÉSERVOIR INFINI"
+
+# Maximum length of text should be not more than 10 symbols
+msgid "IDS_REFUEL_VEHICLE_PERMANENT_LABEL"
+msgstr "INFINI"
+
+# Maximum length of text should be not more than 22 symbols
+msgid "IDS_REFUEL_VEHICLE_GALLON_TEXT"
+msgstr "Faites instantanément le plein (1 litre à la fois)."
+
+# Maximum length of text should be not more than 10 symbols
+msgid "IDS_REFUEL_VEHICLE_GALLON_BUTTON"
+msgstr "UN LITRE"
+
+# Instead of  {0} {1} {2} we place the hours, minutes and seconds. The text length without these additional symbols is 12 symbols.
+msgid "IDS_REFUEL_VEHICLE_TIME"
+msgstr "Plein en {0:00}:{1:00}:{2:00}"
+
+# Maximum length of text should be not more than 20 symbols
+msgid "IDS_REFUEL_VEHICLE_TIME_FINISHED"
+msgstr "VOTRE RÉSERVOIR EST PLEIN !"
+
+# Weapon Details Dialog. Maximum length of text should be not more than 5 symbols.
+msgid "IDS_WEAPON_DETAILS_CLOSE"
+msgstr "FERMÉ"
+
+# Body Details Dialog. Maximum length of text should be not more than 5 symbols.
+msgid "IDS_BODY_DETAILS_CLOSE"
+msgstr "FERMÉ"
+
+# Vehicle Details Dialog. Maximum length of text should be not more than 8 symbols.
+msgid "IDS_VEHICLE_DETAILS_OFFENSE"
+msgstr "ATTAQUE"
+
+# Vehicle Details Dialog. Maximum length of text should be not more than 8 symbols.
+msgid "IDS_VEHICLE_DETAILS_DEFENSE"
+msgstr "DÉFENSE"
+
+# Maximum length of text should be not more than 5 symbols
+msgid "IDS_VEHICLE_DETAILS_CLOSE"
+msgstr "FERMÉ"
+
+# Maximum length of text should be not more than 7 symbols
+msgid "IDS_VEHICLE_DETAILS_REFUEL"
+msgstr "PLEIN"
+
+# Maximum length of text should be not more than 17 symbols
+msgid "IDS_VEHICLE_DETAILS_CUSTOMIZE"
+msgstr "PERSO. CHARGEMENT"
+
+# Game Rewards Dialog. Instead of  {0} and {1} we place other text strings. The text length without these additional symbols is 10 symbols
+msgid "IDS_GAME_REWARDS_IP_REMAINING"
+msgstr "LIGUE {0} À {1}"
+
+# Instead of  {0} we place other text strings. The text length without these additional symbols is 10 symbols
+msgid "IDS_GAME_REWARDS_IP_ABOVE"
+msgstr "LIGUE D'OR + RÉPUTATION {0}"
+
+# Instead of  {0} and {1} we place other text strings. The text length without these additional symbols is 14 symbols
+msgid "IDS_GAME_REWARDS_IP_CURRENT"
+msgstr "POINTS D'INFLUENCE {0} {1}"
+
+# Maximum length of text should be not more than 14 symbols
+msgid "IDS_GAME_REWARDS_GAME_OVER"
+msgstr "[#CC1100]TERMINÉ !"
+
+# Maximum length of text should be not more than 12 symbols. Instead of  {0} we place other text strings
+msgid "IDS_GAME_REWARDS_WAVES_CLEARED"
+msgstr "VAGUES CONTRÔLÉES : {0}"
+
+# Maximum length of text should be not more than 12 symbols. Instead of  {0} we place other text strings
+msgid "IDS_GAME_REWARDS_ENEMIES_KILLED"
+msgstr "ENNEMIS DÉTRUITS : {0}"
+
+# Maximum length of text should be not more than 14 symbols
+msgid "IDS_GAME_REWARDS_VICTORY"
+msgstr "[#FCD116]VICTOIRE !"
+
+# Maximum length of text should be not more than 14 symbols
+msgid "IDS_GAME_REWARDS_DEFEAT"
+msgstr "[#CC1100]DÉFAITE !"
+
+msgid "IDS_GAME_REWARDS_DOUBLE"
+msgstr "DOUBLEZ {0} ET {1} PENDANT 24 HEURES"
+
+msgid "IDS_GAME_REWARDS_DOUBLE_FOREVER"
+msgstr "DOUBLEZ {0} ET {1} DE FAÇON PERMANENTE"
+
+msgid "IDS_GAME_REWARDS_DOUBLE_BOUGHT"
+msgstr "2x {0} ET {1} PENDANT {2:00}:{3:00}:{4:00}"
+
+msgid "IDS_GAME_REWARDS_DOUBLE_FOREVER_BOUGHT"
+msgstr "2x {0} ET {1} DE FAÇON PERMANENTE"
+
+msgid "IDS_GAME_REWARDS_DOUBLE_CONNECTING_STORE"
+msgstr "ACCÈS AU MAGASIN…"
+
+msgid "IDS_GAME_REWARDS_DOUBLE_UNAVAILABLE"
+msgstr "CET OBJET N'EST PAS DISPONIBLE"
+
+# Game Rewards Dialog. Maximum length of text should be not more than 14 symbols.
+msgid "IDS_LEVEL_UP_TITLE"
+msgstr "[#FCD116]FÉLICITATIONS !"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_LEVEL_UP_SKILL_POINT_BUTTON"
+msgstr "POINT COMP."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_LEVEL_UP_SKILL_POINT_EARNED"
+msgstr ""
+"ET VOUS \n"
+"GAGNEZ UN"
+
+# Maximum length of text should be not more than 24 symbols.
+msgid "IDS_LEVEL_UP_UNLOCKED_LABEL"
+msgstr "VOUS AVEZ DÉBLOQUÉ :"
+
+# Maximum length of text should be not more than 3 symbols.
+msgid "IDS_LEVEL_UP_LEVEL_LABEL"
+msgstr "NIV"
+
+# Influence Points Locked Item Dialog. Maximum length of text should be not more than 17 symbols. 
+msgid "IDS_INFLUENCE_POINTS_LOCKED_TITLE"
+msgstr "OBJET BLOQUÉ !"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_INFLUENCE_POINTS_LOCKED_TEXT"
+msgstr "CET OBJET N'EST DISPONIBLE QU'AUX PREMIERS JOUEURS DU CLASSEMENT. JOUEZ AUX MATCHS CLASSÉS ET GAGNEZ DES POINTS D'INFLUENCE POUR DÉBLOQUER CET OBJET."
+
+# Maximum length of text should be not more than 5 symbols.
+msgid "IDS_INFLUENCE_POINTS_LOCKED_BUTTON_OK"
+msgstr "OK"
+
+# Choose First Game Mode Dialog. Maximum length of text should be not more than 20 symbols.
+msgid "IDS_CHOOSE_FIRST_GAME_TITLE"
+msgstr "CHOISIR MODE DE JEU"
+
+# Maximum length of text should be not more than 200 symbols.
+msgid "IDS_CHOOSE_FIRST_GAME_TEXT"
+msgstr ""
+"Si vous jouez à Indestructible pour la première fois, nous vous recommandons de jouer contre un adversaire virtuel dans un match d'entraînement.\n"
+"\n"
+"Comment voulez-vous jouer ?"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_CHOOSE_FIRST_GAME_BUTTON_LEFT"
+msgstr ""
+"ADVERSAIRE\n"
+"RÉEL"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_CHOOSE_FIRST_GAME_BUTTON_RIGHT"
+msgstr ""
+"ADVERS.\n"
+"VIRTUEL"
+
+# Game Disconnected Dialog. Maximum length of text should be not more than 17 symbols. 
+msgid "IDS_GAME_DISCONNECTED_TITLE"
+msgstr "ERREUR RÉSEAU"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_GAME_DISCONNECTED_TEXT"
+msgstr "Connexion au serveur impossible. Une connexion internet 3G, Edge ou WiFi est nécessaire pour accéder à toutes les fonctionnalités du jeu."
+
+# Maximum length of text should be not more than 5 symbols.
+msgid "IDS_GAME_DISCONNECTED_BUTTON_OK"
+msgstr "OK"
+
+# Connection Failed Dialog. Maximum length of text should be not more than 17 symbols. 
+msgid "IDS_CONNECTION_FAILED_TITLE"
+msgstr "ERREUR RÉSEAU"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_CONNECTION_FAILED_TEXT"
+msgstr "Veuillez vérifier votre connexion internet et réessayer."
+
+# Maximum length of text should be not more than 5 symbols.
+msgid "IDS_CONNECTION_FAILED_BUTTON_OK"
+msgstr "OK"
+
+# Facebook Name Incorrect Dialog. Maximum length of text should be not more than 17 symbols. 
+msgid "IDS_FACEBOOK_NAME_INCORRECT_TITLE"
+msgstr "NOM INVALIDE"
+
+# Text is without limitations, but should keep the original points of carry-over
+msgid "IDS_FACEBOOK_NAME_INCORRECT_TEXT"
+msgstr ""
+"Votre nom Facebook ne remplit pas les critères de notre nom utilisateur. Veuillez entrer un nouveau nom.\n"
+"\n"
+"Le nom utilisateur ne doit contenir que des lettres et des chiffres."
+
+# Maximum length of text should be not more than 5 symbols.
+msgid "IDS_FACEBOOK_NAME_INCORRECT_BUTTON_OK"
+msgstr "OK"
+
+# Multiplayer Game End Dialog. Maximum length of text should be not more than 30 symbols.
+msgid "IDS_MULTIPLAYER_END_MESSAGE_TYPE"
+msgstr "ENTRER UN MESSAGE…"
+
+msgid "IDS_MULTIPLAYER_END_MESSAGE_FORMAT"
+msgstr "{0}: {1}"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_MULTIPLAYER_END_COLUMN_NAME"
+msgstr "NOM"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_MULTIPLAYER_END_COLUMN_KILLS"
+msgstr "KILLS"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_MULTIPLAYER_END_COLUMN_DEATHS"
+msgstr "MORTS"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_MULTIPLAYER_END_COLUMN_POINTS"
+msgstr "POINTS"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_MULTIPLAYER_END_COLUMN_CHARGES"
+msgstr "CHARGES"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_MULTIPLAYER_END_COLUMN_FRAGS"
+msgstr "POINTS"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_MULTIPLAYER_END_COLUMN_FLAGS"
+msgstr "DRAPEAUX"
+
+# Maximum length of text should be not more than 5 symbols.
+msgid "IDS_MULTIPLAYER_END_BUTTON_OK"
+msgstr "OK"
+
+# Instead of  {0} we place the player name. The text length without these additional symbols is 30 symbols.
+msgid "IDS_MULTIPLAYER_END_JOINED_CHAT"
+msgstr "[#A0A0A0]{0} A REJOINT LE CHAT"
+
+# Instead of  {0} we place the player name. The text length without these additional symbols is 30 symbols.
+msgid "IDS_MULTIPLAYER_END_LEFT_CHAT"
+msgstr "[#A0A0A0]{0} A QUITTÉ LE CHAT"
+
+# Instead of  {0} we place the player name. The text length without these additional symbols is 30 symbols.
+msgid "IDS_MULTIPLAYER_END_DISCONNECTED"
+msgstr "[#A0A0A0]VOUS ÊTES DÉCONNECTÉ"
+
+# Dialog Rate Me. Maximum length of text should be not more than 12 symbols. Reduce the length of korean by 2 symbols
+msgid "IDS_RATEME_TITLE"
+msgstr "Noter INDESTRUCTIBLE"
+
+# Maximum length of text should be not more than 72 symbols.
+msgid "IDS_RATEME_MESSAGE"
+msgstr "Vous avez aimé jouer à Indestructible ! Voulez-vous le noter ?"
+
+# Maximum length of text should be not more than 72 symbols.
+msgid "IDS_RATEME_MESSAGE_ANDROID"
+msgstr "Nous espérons que tu apprécies Indestructible™ ! Évalue le jeu et reçois 5 Glu crédits."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_RATEME_RATE"
+msgstr "NOTER MAINTENANT"
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_RATEME_NEVER_ASK"
+msgstr "NE PAS ME REDEMANDER"
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_RATEME_LATER"
+msgstr "RAPPELER PLUS TARD"
+
+# Dialog Bundle Content. Maximum length of text should be not more than 12 symbols.
+msgid "IDS_BUNDLE_CONTENT_TIMER_TITLE"
+msgstr "EXPIRE DANS :"
+
+msgid "IDS_BUNDLE_CONTENT_TIMER_FORMAT"
+msgstr "{0:00}:{1:00}:{2:00}"
+
+# Maximum length of text should be not more than 75 symbols.
+msgid "IDS_BUNDLE_CONTENT_CONTENTS"
+msgstr ""
+"1 VÉHICULE\n"
+"1 PEINTURE\n"
+"1 ARME DISTANCE\n"
+"1 ARME MÊLÉE\n"
+"3 COMPOSANTS"
+
+# Maximum length of text should be not more than 6 symbols.
+msgid "IDS_BUNDLE_CONTENT_BADGE"
+msgstr "ACHAT"
+
+# Maximum length of text should be not more than 12 symbols.
+msgid "IDS_BUNDLE_CONTENT_OLD_PRICE_TITLE"
+msgstr "PRIX NORMAL"
+
+# Maximum length of text should be not more than 6 symbols.
+msgid "IDS_BUNDLE_CONTENT_BUTTON_LATER"
+msgstr "APRÈS"
+
+# Dialog Select Server. Maximum length of text should be not more than 12 symbols.
+msgid "IDS_SELECT_SERVER_TITLE"
+msgstr "CHOISISSEZ VOTRE RÉGION"
+
+# Maximum length of text should be not more than 5 symbols.
+msgid "IDS_SELECT_SERVER_BUTTON_OK"
+msgstr "OK"
+
+# Maximum length of text should be not more than 9 symbols.
+msgid "IDS_SELECT_SERVER_AUTOMATIC"
+msgstr "AUTOMATIQUE"
+
+# Maximum length of text should be not more than 9 symbols.
+msgid "IDS_SELECT_SERVER_UNITED_STATES"
+msgstr "AMÉRIQUE NORD"
+
+# Maximum length of text should be not more than 9 symbols.
+msgid "IDS_SELECT_SERVER_EUROPE"
+msgstr "EUROPE"
+
+# Maximum length of text should be not more than 9 symbols.
+msgid "IDS_SELECT_SERVER_ASIA"
+msgstr "ASIE"
+
+# Dialog Daily Challenges
+msgid "IDS_DAILY_CHALLENGES_TITLE"
+msgstr "DÉFIS QUOTIDIENS"
+
+# Maximum length of text should be not more than 9 symbols.
+msgid "IDS_DAILY_CHALLENGES_TIMER"
+msgstr "[#CCCCCC] NOUVEAUX DÉFIS DANS :[#FFFFFF] {0:00}:{1:00}:{2:00}"
+
+# Maximum length of text should be not more than 9 symbols.
+msgid "IDS_DAILY_CHALLENGES_OVERALL_TITLE"
+msgstr "[#FCD116]ACHEVEZ TOUS LES DÉFIS !"
+
+# Maximum length of text should be not more than 9 symbols.
+msgid "IDS_DAILY_CHALLENGES_OVERALL_REWARDS"
+msgstr "[#FFFFFF]RÉCOMPENSE :  {0}"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_DAILY_CHALLENGES_OVERALL_PROGRESS"
+msgstr "[#FFFFFF]TERMINÉ : {0}/{1}"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_DAILY_CHALLENGES_CHALLENGE_REWARDS"
+msgstr "[#CCCCCC]RÉCOMPENSE :[#FFFFFF] {0}"
+
+msgid "IDS_BUNDLE_BOSS_OFFER"
+msgstr "OFFRE UNIQUE "
+
+msgid "IDS_BUNDLE_BOSS_DEFEATED"
+msgstr "CHEF VAINCU !"
+
+msgid "IDS_BUNDLE_BOSS_GEAR"
+msgstr "Acheter l'équipement ? "
+
+msgid "IDS_BUNDLE_BOSS_VEHICLE"
+msgstr "1 VÉHICULE"
+
+msgid "IDS_BUNDLE_BOSS_PAINT_JOB"
+msgstr "1 PEINTURE"
+
+msgid "IDS_BUNDLE_BOSS_WEAPON"
+msgstr "1 ARME"
+
+msgid "IDS_BUNDLE_BOSS_MELEE_WEAPON"
+msgstr "1 ARME DE MÊLÉE"
+
+msgid "IDS_BUNDLE_BOSS_1_COMPONENT"
+msgstr "1 COMPOSANT"
+
+msgid "IDS_BUNDLE_BOSS_2_COMPONENTS"
+msgstr "2 COMPOSANTS"
+
+msgid "IDS_BUNDLE_BOSS_3_COMPONENTS"
+msgstr "3 COMPOSANTS"
+
+msgid "IDS_BUNDLE_BOSS_CLOSE"
+msgstr "FERMER"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_GARAGE_BUTTON_PROFILE"
+msgstr "PROFIL"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_GARAGE_BUTTON_PLAY"
+msgstr "JOUER"
+
+# Maximum length of text should be not more than 14 symbols.
+msgid "IDS_GARAGE_BUTTON_CUSTOMIZE"
+msgstr ""
+"PERSO.\n"
+"CHARGEMENT"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_GARAGE_BUTTON_PAINT"
+msgstr "PEINTURES"
+
+msgid "IDS_GARAGE_BUTTON_DAILY_CHALLENGES"
+msgstr ""
+"DÉFIS\n"
+"QUOTIDIENS"
+
+# Instead of  {0}  we place a player level. The text length without these additional symbols is 5 symbols.
+msgid "IDS_GARAGE_LEVEL_METER"
+msgstr "NIV {0}"
+
+# Instead of  {0}  we place a player level. The text length without these additional symbols is 10 symbols.
+msgid "IDS_GARAGE_LEVEL_METER_MAX"
+msgstr "NIV {0} MAX"
+
+msgid "IDS_LOADOUT_AMMUNITION"
+msgstr "CONSOMMABLES"
+
+msgid "IDS_CURRENT_LOADOUT"
+msgstr "CHARGEMENT EN COURS"
+
+msgid "IDS_BOOST_YOUR_FIREPOWER"
+msgstr "BOOSTEZ VOTRE PUISS. DE FEU !"
+
+msgid "IDS_AMMUNITION_OWNED"
+msgstr "POSSÉDÉ : {0}"
+
+msgid "IDS_LOADOUT_COMPONENTS"
+msgstr "COMPOSANTS :"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_PROFILE_BUTTON_MENU"
+msgstr "MENU"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_PROFILE_BUTTON_GARAGE"
+msgstr "GARAGE"
+
+# Maximum length of text should be not more than 12 symbols.
+msgid "IDS_PROFILE_ACHIEVEMENTS"
+msgstr "RÉUSSITES"
+
+# Maximum length of text should be not more than 12 symbols.
+msgid "IDS_PROFILE_LEADERBOARDS"
+msgstr "CLASSEMENTS"
+
+# Maximum length of text should be not more than 12 symbols.
+msgid "IDS_PROFILE_SETTINGS"
+msgstr "PARAMÈTRES"
+
+# Maximum length of text should be not more than 12 symbols.
+msgid "IDS_PROFILE_ABOUT"
+msgstr "À PROPOS"
+
+# Maximum length of text should be not more than 12 symbols.
+msgid "IDS_PROFILE_HELP"
+msgstr "AIDE"
+
+msgid "IDS_PROFILE_TERMS"
+msgstr "PRIVACY / TERMS"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_PROFILE_FACEBOOK_LOGIN"
+msgstr "CONNEXION"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_PROFILE_FACEBOOK_LOGOUT"
+msgstr "DÉCONNEXION"
+
+# Instead of  {0}  we place a curency mark. The text length without these additional symbols is 8 symbols.
+msgid "IDS_PROFILE_FACEBOOK_FREE_GOLD"
+msgstr "OBTENIR 10 {0} !"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_LEAGUE_GOLD"
+msgstr "OR"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_LEAGUE_SILVER"
+msgstr "ARGENT"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_LEAGUE_BRONZE"
+msgstr "BRONZE"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_TALENTS_BUTTON_BACK"
+msgstr "RETOUR"
+
+# Maximum length of text should be not more than 9 symbols.
+msgid "IDS_TALENTS_RESET_SKILLS"
+msgstr "RÉINIT COMP."
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_TALENTS_LEARN_SKILL"
+msgstr "APPRENDRE"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_TALENTS_SKILL_MAXED"
+msgstr "LIMITE"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_TALENTS_SKILL_LOCKED"
+msgstr "BLOQUÉ"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 12 symbols.
+msgid "IDS_TALENTS_AVAILABLE_POINTS"
+msgstr "POINTS DISPO : {0}"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 50 symbols.
+msgid "IDS_TALENTS_MORE_POINTS_REQUIRED"
+msgstr ""
+" \n"
+"- {0} points en plus nécessaires dans cet arbre."
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_TALENTS_LEARN_PARENT_SKILL"
+msgstr ""
+" \n"
+"- apprendre compétence parente"
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_TALENTS_NOTHING_SELECTED"
+msgstr "AUCUNE COMPÉT SÉL"
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_TALENTS_TAP_TO_SELECT"
+msgstr ""
+"TOUCHEZ COMPÉTENCE\n"
+"POUR CHOISIR"
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_LOADING_LOADING"
+msgstr "CHARGEMENT…"
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_LOADING_DOWNLOADING"
+msgstr "CHARGEMENT…"
+
+# Maximum length of text should be not more than 11 symbols.
+msgid "IDS_LOADING_TAP_TO_START"
+msgstr "TOUCHEZ POUR CONTINUER\n"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_CURRENCY_SOFT"
+msgstr "PIÈCES"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_CURRENCY_HARD"
+msgstr "GLU CRÉDITS"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 8 symbols.
+msgid "IDS_SHOP_ITEM_LOCK_LEVEL"
+msgstr "NIV {0} REQUIS"
+
+# Instead of  {0} and {1}  we place other text string. The text length without these additional symbols is 5 symbols.
+msgid "IDS_SHOP_ITEM_LOCK_INFLUENCE_POINTS"
+msgstr "{0} {1} REQUIS"
+
+# Maximum length of text should be not more than 12 symbols.
+msgid "IDS_SHOP_ITEM_LOCK_VEHICLE"
+msgstr "ACHAT VÉHICULE"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_SHOP_ITEM_LOCKED"
+msgstr "BLOQUÉ"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_SHOP_ITEM_EQUIP"
+msgstr "PRENDRE"
+
+# Maximum length of text should be not more than 8 symbols. Japanese should be 4 symbols shorter
+msgid "IDS_SHOP_ITEM_EQUIPPED"
+msgstr "PRIS"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_SHOP_ITEM_REMOVE"
+msgstr "SUPPR."
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_SHOP_ITEM_FREE"
+msgstr "LIBRE"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 6 symbols.
+msgid "IDS_SHOP_ITEM_SAVE_BADGE"
+msgstr ""
+"ENREG.\n"
+"{0}"
+
+msgid "IDS_SHOP_ITEM_BUNDLE_TIMER_FORMAT"
+msgstr "{0:00}:{1:00}:{2:00}"
+
+# vehicle «power level»
+msgid "IDS_SHOP_ITEM_GRADE_LEVEL"
+msgstr "PUISSANCE"
+
+# Maximum length of text should be not more than 14 symbols.
+msgid "IDS_BUNDLE_THERMODON_MADNESS"
+msgstr "OFFRE UNIQUE"
+
+# Maximum length of text should be not more than 75 symbols.
+msgid "IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+msgstr ""
+"1 VÉHICULE\n"
+"1 PEINTURE\n"
+"1 ARME DISTANCE\n"
+"1 ARME MÊLÉE\n"
+"3 COMPOSANTS"
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_POWERUP_SPAWNED_TEXT"
+msgstr "NOUVEAU POWER-UP !"
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_POWERUP_SPEED_BOOST"
+msgstr "BOOST VITESSE !"
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_POWERUP_HEALING"
+msgstr "RÉPARATION !"
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_POWERUP_DOUBLE_DAMAGE"
+msgstr "DOUBLES DÉGÂTS !"
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_POWERUP_ENERGY_RESTORE"
+msgstr "ÉNERGIE RESTAURÉE !"
+
+# Instead of  {0} and {1}  we place other text string. The text length without these additional symbols is 15 symbols.
+msgid "IDS_CTF_FLAG_CAPTURED"
+msgstr "{0} a capturé le drapeau {1} !"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 15 symbols.
+msgid "IDS_CTF_FLAG_DROPPED"
+msgstr "Drapeau {0} jeté !"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 15 symbols.
+msgid "IDS_CTF_FLAG_TAKEN"
+msgstr "Drapeau {0} pris !"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 15 symbols.
+msgid "IDS_CTF_FLAG_RETURNED"
+msgstr "Drapeau {0} revenu à la base !"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_TEAM_NAME_RED"
+msgstr "ROUGE"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_TEAM_NAME_BLUE"
+msgstr "BLEU"
+
+# Maximum length of text should be not more than 15 symbols.
+msgid "IDS_WEAPON_CLASS"
+msgstr "CLASSE"
+
+# Maximum length of text should be not more than 15 symbols.
+msgid "IDS_WEAPON_THERMAL"
+msgstr "THERMIQUE"
+
+# Maximum length of text should be not more than 15 symbols.
+msgid "IDS_WEAPON_KINETIC"
+msgstr "CINÉTIQUE"
+
+# Maximum length of text should be not more than 15 symbols.
+msgid "IDS_WEAPON_EXPLOSIVE"
+msgstr "EXPLOSIVE"
+
+# Maximum length of text should be not more than 15 symbols.
+msgid "IDS_WEAPON_RATE_OF_FIRE"
+msgstr "CADENCE TIR"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 10 symbols.
+msgid "IDS_WEAPON_RATE_OF_FIRE_SEC"
+msgstr "{0}/SEC"
+
+# Maximum length of text should be not more than 15 symbols.
+msgid "IDS_WEAPON_RATE_OF_FIRE_CONTINUOUS"
+msgstr "CONTINU"
+
+# Maximum length of text should be not more than 15 symbols.
+msgid "IDS_WEAPON_DAMAGE"
+msgstr "DÉGÂTS"
+
+# Maximum length of text should be not more than 15 symbols.
+msgid "IDS_WEAPON_CAPACITY"
+msgstr "CAPACITÉ"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 10 symbols.
+msgid "IDS_WEAPON_DAMAGE_SEC"
+msgstr "{0}/SEC"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 10 symbols.
+msgid "IDS_WEAPON_DAMAGE_SHOT"
+msgstr "{0}/TIR"
+
+# Maximum length of text should be not more than 15 symbols.
+msgid "IDS_WEAPON_ENERGY_CONSUMPTION"
+msgstr "CONSO ÉNERG"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 10 symbols.
+msgid "IDS_WEAPON_ENERGY_CONSUMPTION_SEC"
+msgstr "{0}/SEC"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 10 symbols.
+msgid "IDS_WEAPON_ENERGY_CONSUMPTION_SHOT"
+msgstr "{0}/TIR"
+
+# Maximum length of text should be not more than 15 symbols.
+msgid "IDS_WEAPON_BURN_DAMAGE"
+msgstr "DÉGÂT BRÛL."
+
+# Instead of  {0} and {1}  we place other text string. The text length without these additional symbols is 10 symbols.
+msgid "IDS_WEAPON_BURN_DAMAGE_TEXT"
+msgstr "{0} x {1} SEC"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_MULTIPLAYER_GAMES_PLAYED"
+msgstr "Matchs multijoueurs joués"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_MULTIPLAYER_GAMES_WON"
+msgstr "Matchs multijoueurs gagnés"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_MULTIPLAYER_TOTAL_KILLS"
+msgstr "Kills totaux multijoueurs"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_MULTIPLAYER_TOTAL_DEATHS"
+msgstr "Morts totales multijoueurs"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_MULTIPLAYER_AVERAGE_KILLS"
+msgstr "Kills multijoueurs par match"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_MULTIPLAYER_AVERAGE_DEATHS"
+msgstr "Morts multijoueurs par match"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_MULTIPLAYER_TOTAL_FLAGS_CAPTURED"
+msgstr "CLD : drapeaux ramenés à la base"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_MULTIPLAYER_TOTAL_TIME_ON_POINT"
+msgstr "KOH : temps au point de contrôle"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_MULTIPLAYER_TOTAL_CHARGES_CAPTURED"
+msgstr "Charges récupérées"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_TOTAL_EXPERIENCE_EARNED"
+msgstr "Expérience totale gagnée"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_TOTAL_INFLUENCE_POINTS_EARNED"
+msgstr "Total pts d'influence gagnés"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_TOTAL_MONEY_SOFT_EARNED"
+msgstr "Total pièces gagnées"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_TOTAL_VEHICLES_OWNED"
+msgstr "Véhicules détenus"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_TOTAL_WEAPONS_OWNED"
+msgstr "Armes détenues"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_STATISTICS_MULTIPLAYER_POWERUPS_COLLECTED"
+msgstr "Power-ups multijoueurs pris"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_TUTORIAL_CHOOSE_FIRST_VEHICLE"
+msgstr "CHOIX DU PREMIER VÉHICULE"
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_TUTORIAL_PLAY_FIRST_GAME_TEXT"
+msgstr ""
+"Jouez votre premier match classé\n"
+"pour débloquer le mode solo"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_TUTORIAL_CUSTOMIZE_HINT"
+msgstr "Touchez « Personnaliser » pour équiper votre véhicule"
+
+# Maximum length of text should be not more than 12 symbols.
+msgid "IDS_TUTORIAL_ABILITY_BUTTON"
+msgstr ""
+"CAPACITÉ\n"
+"SPÉCIALE"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_TUTORIAL_DRIVE_BUTTON"
+msgstr "PILOTER"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_TUTORIAL_FIRE_BUTTON"
+msgstr "TIRER"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_CUSTOMIZE_SLOT_WEAPON"
+msgstr "ARME"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_CUSTOMIZE_BUTTON_PLAY"
+msgstr "JOUER"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_CUSTOMIZE_BUTTON_BACK"
+msgstr "RETOUR"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_CUSTOMIZE_SLOT_ARMOR"
+msgstr "MÊLÉE"
+
+msgid "IDS_CUSTOMIZE_SLOT_AMMUNITION"
+msgstr "CONSOMMABLES"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_CUSTOMIZE_SLOT_COMPONENT_1"
+msgstr "COMPOSANT 1"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_CUSTOMIZE_SLOT_COMPONENT_2"
+msgstr "COMPOSANT 2"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_CUSTOMIZE_SLOT_COMPONENT_3"
+msgstr "COMPOSANT 3"
+
+# Maximum length of text should be not more than 18 symbols. Korean should be 2 symbols shorter
+msgid "IDS_CUSTOMIZE_TAP_TO_CHANGE"
+msgstr ""
+"TOUCHEZ POUR\n"
+"CHANGER"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_CUSTOMIZE_TAP_TO_EQUIP"
+msgstr ""
+"TOUCHEZ\n"
+"POUR\n"
+"PRENDRE"
+
+# Maximum length of text should be not more than 6 symbols.
+msgid "IDS_CUSTOMIZE_PARAMETER_ARMOR"
+msgstr "ARMURE"
+
+# Maximum length of text should be not more than 6 symbols.
+msgid "IDS_CUSTOMIZE_PARAMETER_SPEED"
+msgstr "VITESSE"
+
+# Maximum length of text should be not more than 6 symbols.
+msgid "IDS_CUSTOMIZE_PARAMETER_DAMAGE"
+msgstr "DÉGÂTS"
+
+# Maximum length of text should be not more than 6 symbols.
+msgid "IDS_CUSTOMIZE_PARAMETER_ENERGY"
+msgstr "ÉNERGIE"
+
+# Maximum length of text should be not more than 6 symbols.
+msgid "IDS_CUSTOMIZE_PARAMETER_CAPACITY"
+msgstr "CAPACITÉ"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_AMMUNITION_NO_AMMUNITION_EQUIPPED"
+msgstr ""
+"[#FF4000]AUCUN\n"
+"ÉQUIPEMENT"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_AMMUNITION_NO_COMPONENT_EQUIPPED"
+msgstr "AUCUN ÉQUIPEMENT"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_SHOP_BUTTON_BACK"
+msgstr "RETOUR"
+
+# 2 lines of text. Max length per line - 6 symbols
+msgid "IDS_SHOP_BUTTON_GET_MORE_GOLD"
+msgstr ""
+"REÇOIS PLUS DE\n"
+"GLU CRÉDITS"
+
+# Maximum length of text should be not more than 7 symbols.
+msgid "IDS_SELECT_BUTTON_BACK"
+msgstr "RETOUR"
+
+# Maximum length of text should be not more than 10 symbols.
+msgid "IDS_SELECT_MATCHMAKING_BUTTON_1X1"
+msgstr ""
+"JOUER\n"
+"1X1"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_MATCHMAKING_SEARCHING"
+msgstr "RECHERCHE…"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_MATCHMAKING_CONNECTING"
+msgstr "Connexion en cours…"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 25 symbols.
+msgid "IDS_SELECT_MATCHMAKING_PLAYERS_FOUND"
+msgstr "Joueurs trouvés : {0}"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_MATCHMAKING_WAITING_PLAYERS"
+msgstr "Attente joueurs distants…"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_MATCHMAKING_JOINING"
+msgstr "Rejoindre…"
+
+# Instead of  {0} and {1}  we place other text string. The text length without these additional symbols is 25 symbols.
+msgid "IDS_SELECT_MATCHMAKING_PLAYERS_JOINED"
+msgstr "Nouveaux joueurs : {0} sur {1}"
+
+# Instead of  {0} and {1}  we place other text string. The text length without these additional symbols is 25 symbols.
+msgid "IDS_SELECT_MATCHMAKING_PLAYERS_READY"
+msgstr "Joueurs prêts : {0} sur {1}"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_SELECT_MATCHMAKING_SERVER_REGION"
+msgstr "RÉG. ACTUELLE : [#FFFF00]{0}"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_MODE_MULTIPLAYER"
+msgstr "MULTIJOUEUR"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_SELECT_MODE_MULTIPLAYER_RECOMMENDED"
+msgstr "RECOMMANDÉ"
+
+msgid "IDS_SELECT_MODE_CAMPAIGN"
+msgstr "CAMPAGNE EN SOLO"
+
+msgid "IDS_SELECT_MODE_CAMPAIGN_DESCRIPTION"
+msgstr "VAINCRE TOUS LES ENNEMIS POUR GAGNER UN VÉHICULE !"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_MODE_SINGLE_PLAYER_BIG"
+msgstr "MODE ENTRAÎNEMENT"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_MODE_SINGLE_PLAYER"
+msgstr ""
+"MODE\n"
+"SOLO"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_MODE_CUSTOM_GAME"
+msgstr ""
+"JOUER AVEC\n"
+"DES AMIS"
+
+# Maximum length of text should be not more than 8 symbols.
+msgid "IDS_SELECT_MODE_LOCKED"
+msgstr "BLOQUÉ"
+
+# Maximum length of text should be not more than 11 symbols.
+msgid "IDS_SELECT_MODE_LOCKED_KOH"
+msgstr "NIV 9 REQUIS"
+
+# Maximum length of text should be not more than 11 symbols.
+msgid "IDS_SELECT_MODE_LOCKED_CRS"
+msgstr "NIV 6 REQUIS"
+
+msgid "IDS_SELECT_MODE_LOCKED_CTF"
+msgstr "NIV 3 REQUIS"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_TITLE_SINGLE_PLAYER"
+msgstr "MODE ENTRAÎNEMENT"
+
+msgid "IDS_SELECT_TITLE_CAMPAIGN"
+msgstr "CAMPAGNE"
+
+msgid "IDS_SELECT_TITLE_CAMPAIGN_DESCRIPTION"
+msgstr "VAINCRE TOUS LES ENNEMIS POUR GAGNER UN VÉHICULE !"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_TITLE_SINGLE_MODE"
+msgstr "MODE ENTRAÎNEMENT"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_TITLE_SURVIVAL"
+msgstr "MODE ENTRAÎNEMENT"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_TITLE_STUNT"
+msgstr "CASCADE"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_TITLE_PRACTICE"
+msgstr "ENTRAÎNEMENT"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_TITLE_MULTIPLAYER"
+msgstr "MULTIJOUEUR"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_TITLE_CUSTOM_GAME"
+msgstr "JOUER AVEC DES AMIS"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_TITLE_CAPTURE_THE_FLAG"
+msgstr "CAPTURER LE DRAPEAU"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_TITLE_COLLECT_RESOURCES"
+msgstr "RÉCUPÉRER LA CHARGE"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_SELECT_TITLE_DEATHMATCH"
+msgstr "MATCH À MORT"
+
+msgid "IDS_SELECT_TITLE_TEAM_DEATHMATCH"
+msgstr "MATCH À MORT EN ÉQUIPE"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_LABEL_SURVIVAL"
+msgstr "MODE ENTRAÎNEMENT"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_LABEL_STUNT"
+msgstr "CASCADE"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_LABEL_PRACTICE"
+msgstr "ENTRAÎNEMENT"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_LABEL_CTF"
+msgstr "CAPTURER DRAPEAU"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_LABEL_CTF_RECOMMENDED"
+msgstr "RECOMMANDÉ"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_LABEL_KOH"
+msgstr "COMBAT À MORT"
+
+msgid "IDS_SELECT_LABEL_TDM"
+msgstr "MATCH À MORT EN ÉQUIPE"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_LABEL_CRS"
+msgstr "RÉCUPÉRER CHARGE"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_LABEL_AIRCRASH"
+msgstr "ACCIDENT D'AVION"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_LABEL_ICEBERG"
+msgstr "ICEBERG"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_LABEL_ROCKETBASE"
+msgstr "BASE DE FUSÉES"
+
+# Maximum length of text should be not more than 5 symbols.
+msgid "IDS_SELECT_LABEL_CUSTOM_1X1"
+msgstr "1 c. 1"
+
+# Maximum length of text should be not more than 5 symbols.
+msgid "IDS_SELECT_LABEL_CUSTOM_2X2"
+msgstr "2 c. 2"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_SERVER_REGION_BUTTON_1"
+msgstr "RÉGION ACTUELLE : [#FFFF00]{0}"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SELECT_SERVER_REGION_BUTTON_2"
+msgstr "APPUYER POUR MODIFIER RÉGION"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 35 symbols.
+msgid "IDS_CR_TEAM_CHARGE_CAPTURED"
+msgstr "ÉQUIPE {0} A PRIS LA CHARGE !"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 35 symbols.
+msgid "IDS_CR_TEAM_CHARGE_COLLECTED"
+msgstr "ÉQUIPE {0} A RÉCUPÉRÉ LA CHARGE !"
+
+# Maximum length of text should be not more than 25 symbols.
+msgid "IDS_CHARGE_SPAWNED_TEXT"
+msgstr "Apparition de charge !"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 35 symbols.
+msgid "IDS_SURVIVAL_WAVE_COMPLETE"
+msgstr "VAGUE {0} CONTRÔLÉE !"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 35 symbols.
+msgid "IDS_SURVIVAL_WAVE_STARTED"
+msgstr "VAGUE {0}"
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_LOADING_SCREEN_CTF_1"
+msgstr "1. PRENEZ LE DRAPEAU ENNEMI !"
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_LOADING_SCREEN_CTF_2"
+msgstr "2. TUEZ LES ENNEMIS QUI PRENNENT VOTRE DRAPEAU !"
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_LOADING_SCREEN_CTF_3"
+msgstr "3. RAPPORTEZ LE DRAPEAU ENNEMI SUR VOTRE BASE !"
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_LOADING_SCREEN_CRS_1"
+msgstr "1. INTERCEPTEZ LA CHARGE NUCLÉAIRE !"
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_LOADING_SCREEN_CRS_2"
+msgstr "2. SÉCURISEZ-LE DANS VOTRE CENTRE DE RÉCUP. !"
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_LOADING_SCREEN_CRS_3"
+msgstr "3. PROTÉGEZ-LA JUSQU'À SÉCURISATION !"
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_LOADING_SCREEN_DM_1"
+msgstr "1. TIREZ SUR TOUT LE MONDE !"
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_LOADING_SCREEN_DM_2"
+msgstr "2. GAGNEZ DES POINTS EN DÉTRUISANT LES AUTRES !"
+
+# Maximum length of text should be not more than 50 symbols.
+msgid "IDS_LOADING_SCREEN_DM_3"
+msgstr "3. LE PREMIER JOUEUR À MARQUER 5 POINTS GAGNE !"
+
+msgid "IDS_LOADING_SCREEN_TDM_1"
+msgstr "1. TIREZ SUR LES ENNEMIS !"
+
+msgid "IDS_LOADING_SCREEN_TDM_2"
+msgstr "2. MARQUEZ DES POINTS EN DÉTRUISANT LES JOUEURS ENNEMIS !"
+
+msgid "IDS_LOADING_SCREEN_TDM_3"
+msgstr "3. LA PREMIÈRE ÉQUIPE QUI MARQUE 5 POINTS GAGNE !"
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_1"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Les armes cinétiques repoussent les véhicules ennemis à l'impact."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_2"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Les armes explosives causent des dégâts et peuvent toucher plusieurs cibles à la fois."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_3"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Les armes thermiques mettent le feu aux véhicules et infligent des dégâts supplémentaires."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_4"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Chaque véhicule a une capacité passive unique toujours effective."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_5"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Les armes et les capacités actives requièrent de l'énergie, représentée par une barre orange."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_6"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Chaque véhicule a un style de jeu unique basé sur les capacités passives et actives du véhicule."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_7"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Chaque match nécessite un litre d'essence. Vous pouvez faire le plein à tout moment dans l'écran des détails du véhicule."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_8"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Impossible de capturer le drapeau d'un ennemi quand l'ennemi tient votre drapeau en mode Capture de drapeau."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_9"
+msgstr "[#FCD116]TRUC : [#FFFFFF]En mode Récupérer la charge, transporter une charge vous ralentit mais vous donne un boost de dégâts."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_10"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Armes et composants requièrent de la capacité pour être pris, mais certains composants augmentent la capacité."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_11"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Les composants peuvent améliorer presque toutes les performances de votre véhicule."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_12"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Certains véhicules ont plus de capacité, ce qui leur permet de prendre plus d'armes et d'équipements."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_13"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Les compétences affectent la performance de tous vos véhicules et n'ont pas besoin d'être embarquées."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_14"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Vous gagnez un point de compétence à chaque niveau."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_15"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Choisissez les compétences les plus adaptés à votre style de jeu."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_16"
+msgstr "[#FCD116]TRUC : [#FFFFFF]gagnez de l'influence en gagnant des matchs classés. Augmenter votre influence débloque des peintures spéciales pour certains véhicules."
+
+# Maximum length of text should be not more than 80 symbols.
+msgid "IDS_LOADING_SCREEN_TIP_17"
+msgstr "[#FCD116]TRUC : [#FFFFFF]Perdre un match de Ligue d'Or ou d'Argent diminue votre score d'influence.[#D00000]"
+
+# Instead of  {0}  we place other text string. Text is without limitations, but should keep the original points of carry-over.
+msgid "IDS_LOCAL_PUSH_FULL_TANK"
+msgstr "Le réservoir de votre {0} est rempli !"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 30 symbols.
+msgid "IDS_GAMEPLAY_RESPAWN_TIMER"
+msgstr "RÉAPPARITION DANS : {0}"
+
+msgid "IDS_GAMEPLAY_RESPAWN_SPAWNING"
+msgstr "RÉGÉNÉRATION EN COURS..."
+
+msgid "IDS_GAMEPLAY_RESPAWN_KILLER"
+msgstr "VOUS AVEZ ÉTÉ TUÉ PAR {0}"
+
+msgid "IDS_GAMEPLAY_RESPAWN_KILLER_SUICIDE"
+msgstr "SUICIDE !"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 30 symbols.
+msgid "IDS_GAMEPLAY_GO_LABEL"
+msgstr "GO !"
+
+# Instead of  {0}  we place other text string. The text length without these additional symbols is 5 symbols.
+msgid "IDS_GAMEPLAY_ABILITY_BUTTON"
+msgstr ""
+"COÛT\n"
+"{0}"
+
+# Instead of  {0} and {2}  we place other text string. The text length without these additional symbols is 15 symbols.
+msgid "IDS_GAMEPLAY_INFORMER_SINGLE"
+msgstr "VAGUE : {2}, FRAGS : {0}"
+
+# Instead of  {0} and {1}  we place other text string. The text length without these additional symbols is 10 symbols.
+msgid "IDS_GAMEPLAY_INFORMER_DEATHMATCH"
+msgstr "FRAGS: {0} [{1}]"
+
+msgid "IDS_GAMEPLAY_INFORMER_TEAM_DEATHMATCH_RED"
+msgstr "ROUGE :"
+
+msgid "IDS_GAMEPLAY_INFORMER_TEAM_DEATHMATCH_BLUE"
+msgstr "BLEU :"
+
+msgid "IDS_GAMEPLAY_INFORMER_CAMPAIGN_PLAYER"
+msgstr "VOUS :"
+
+msgid "IDS_GAMEPLAY_INFORMER_CAMPAIGN_ENEMY"
+msgstr "ENNEMI :"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_FIRST_WIN_TITLE"
+msgstr "NOVICE"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_FIRST_WIN_DESCRIPTION"
+msgstr "Match multijoueurs classé gagné."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_100_WINS_TITLE"
+msgstr "ASSASSIN"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_100_WINS_DESCRIPTION"
+msgstr "100 matchs multijoueurs classés gagnés."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_LEVEL_20_TITLE"
+msgstr "MEULE"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_LEVEL_20_DESCRIPTION"
+msgstr "Niveau 20 atteint."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_SILVER_LEAGUE_TITLE"
+msgstr "STERLING"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_SILVER_LEAGUE_DESCRIPTION"
+msgstr "Promu en Ligue d'Argent."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_GOLD_LEAGUE_TITLE"
+msgstr "LE STANDARD OR"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_GOLD_LEAGUE_DESCRIPTION"
+msgstr "Promu en Ligue d'Or."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_50_COLLISION_KILLS_TITLE"
+msgstr "MAÎTRE DE MÊLÉE"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_50_COLLISION_KILLS_DESCRIPTION"
+msgstr "50 ennemis détruits avec dégâts de collision."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_50_FLAGS_TITLE"
+msgstr "COURSIER"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_50_FLAGS_DESCRIPTION"
+msgstr "50 drapeaux ennemis capturés."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_KILL_50_FLAGS_CARRIERS_TITLE"
+msgstr "INTERCEPTOR"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_KILL_50_FLAGS_CARRIERS_DESCRIPTION"
+msgstr "50 porteurs de drapeau détruits."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_50_CHARGES_TITLE"
+msgstr "SUPERCHARGÉ"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_50_CHARGES_DESCRIPTION"
+msgstr "50 charges nucléaires sécurisées."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_DM_5_KILLS_0_DEATHS_TITLE"
+msgstr "PERFECTION"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_DM_5_KILLS_0_DEATHS_DESCRIPTION"
+msgstr "Combat à mort multijoueurs classé terminé avec 5 kills et 0 mort."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_5_KILLS_ON_5_VEHICLES_TITLE"
+msgstr "VÉHIKILL !"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_5_KILLS_ON_5_VEHICLES_DESCRIPTION"
+msgstr "5 kills effectués en matchs multijoueurs classés avec 5 véhicules différents."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_NEW_VEHICLE_TITLE"
+msgstr "NOUVEAU JOUET"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_NEW_VEHICLE_DESCRIPTION"
+msgstr "Deuxième véhicule obtenu."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ACHIEVEMENT_PAINT_JOB_TITLE"
+msgstr "PEINTURE FRAÎCHE"
+
+# Maximum length of text should be not more than 28 symbols.
+msgid "IDS_ACHIEVEMENT_PAINT_JOB_DESCRIPTION"
+msgstr "Nouvelle peinture récupérée."
+
+msgid "IDS_ACHIEVEMENT_LEVEL_30_TITLE"
+msgstr "ÉLITE"
+
+msgid "IDS_ACHIEVEMENT_LEVEL_30_DESCRIPTION"
+msgstr "Niveau 30 atteint."
+
+msgid "IDS_ACHIEVEMENT_30_BOSSES_TITLE"
+msgstr "PRESQUE ARRIVÉS"
+
+msgid "IDS_ACHIEVEMENT_30_BOSSES_DESCRIPTION"
+msgstr "30 chefs battus pendant la campagne."
+
+msgid "IDS_ACHIEVEMENT_SHOOTER_TRUCK_TITLE"
+msgstr "C’EST À MOI MAINTENANT"
+
+msgid "IDS_ACHIEVEMENT_SHOOTER_TRUCK_DESCRIPTION"
+msgstr "Camion du tireur obtenu."
+
+msgid "IDS_ACHIEVEMENT_DEFEAT_SHOOTER_TITLE"
+msgstr "NE TIREZ PLUS"
+
+msgid "IDS_ACHIEVEMENT_DEFEAT_SHOOTER_DESCRIPTION"
+msgstr "Tireur battu."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SERVER_REGION_AUTOMATIC"
+msgstr "AUTOMATIQUE"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SERVER_REGION_UNITED_STATES"
+msgstr "AMÉRIQUE NORD"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SERVER_REGION_EUROPE"
+msgstr "EUROPE"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SERVER_REGION_ASIA"
+msgstr "ASIE"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SERVER_REGION_AUTOMATIC_SHORT"
+msgstr "AUTO"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SERVER_REGION_UNITED_STATES_SHORT"
+msgstr "USA"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SERVER_REGION_EUROPE_SHORT"
+msgstr "EUR"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_SERVER_REGION_ASIA_SHORT"
+msgstr "ASI"
+
+msgid "IDS_CAMPAIGN_BUTTON_CONTINUE"
+msgstr "CONTINUER"
+
+msgid "IDS_CAMPAIGN_BUTTON_FIGHT"
+msgstr "JOUER"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_BEHEMOTH_ABILITY_PASSIVE"
+msgstr "BÉHÉMOTH P"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_BEHEMOTH_ABILITY_PASSIVE_TEXT"
+msgstr "Le Béhémoth gagne 15 % de dégâts explosifs supplémentaires pendant 5 secondes après avoir infligé cinq fois des dégâts aux ennemis."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_BEHEMOTH_ABILITY_ACTIVE"
+msgstr "BÉHÉMOTH A"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_BEHEMOTH_ABILITY_ACTIVE_TEXT"
+msgstr "Le Béhémoth lance une attaque orbitale, infligeant 400 points de dégâts explosifs à tous les ennemis dans un rayon de 40 mètres."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_BEHEMOTH_BODY_MILITARY"
+msgstr "BÉHÉMOTH"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_BEHEMOTH_BODY_MILITARY_TEXT"
+msgstr "IDS_BEHEMOTH_BODY_MILITARY_TEXT"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ZAMBEZI_ABILITY_PASSIVE"
+msgstr "FEU DE L'ENFER"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_ZAMBEZI_ABILITY_PASSIVE_TEXT"
+msgstr "Chaque fois qu'il inflige les dégâts de collision, le Rétro enflamme l'ennemi pendant 4 secondes et inflige 30 points de dégâts thermiques supplémentaires chaque seconde."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ZAMBEZI_ABILITY_ACTIVE"
+msgstr "CHARGE"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_ZAMBEZI_ABILITY_ACTIVE_TEXT"
+msgstr "Avancez à grande vitesse, en infligeant 100 dégâts de collision à tous les ennemis sur votre passage."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_ZAMBEZI_BODY_SHARK"
+msgstr "RÉTRO"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_ZAMBEZI_BODY_SHARK_TEXT"
+msgstr "Le Rétro est solide et rapide mais sa tenue de route n'a pas bonne réputation. Modifié pour utiliser les armes thermiques plus efficacement."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_ZAMBEZI_BODY_PIMP"
+msgstr "RÉTRO VIOLET"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_ZAMBEZI_BODY_PIMP_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté !"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_ZAMBEZI_BODY_POLICE"
+msgstr "RÉTRO OFFICIER"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_ZAMBEZI_BODY_POLICE_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez celle-ci, elle n’est disponible qu’aux joueurs de niveau élite !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ZAMBEZI_ARMOR_1"
+msgstr ""
+"DÉFENSEUR\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_ZAMBEZI_ARMOR_1_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 50 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ZAMBEZI_ARMOR_2"
+msgstr ""
+"TERREUR\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_ZAMBEZI_ARMOR_2_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 100 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ZAMBEZI_ARMOR_3"
+msgstr ""
+"HACHOIR\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_ZAMBEZI_ARMOR_3_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 150 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_ZAMBEZI_ARMOR_4"
+msgstr ""
+"TRANCHEUR\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_ZAMBEZI_ARMOR_4_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 200 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_THERMODON_ABILITY_PASSIVE"
+msgstr "FEU DE L'ENFER"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_THERMODON_ABILITY_PASSIVE_TEXT"
+msgstr "Renvoie 10 % des dégâts subis sur l'attaquant. L'attaquant doit se trouver dans un rayon de 30 mètres."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_THERMODON_ABILITY_ACTIVE"
+msgstr "INFERNO"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_THERMODON_ABILITY_ACTIVE_TEXT"
+msgstr "Tire une série de charges de plasma, chacune d'elle infligeant 200 points de dégâts aux ennemis se trouvant sur leur chemin."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_THERMODON_BODY_RED"
+msgstr "THERMODON"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_THERMODON_BODY_RED_TEXT"
+msgstr "Le Thermodon est un aéroglisseur au blindage renforcé utilisant des armes thermiques. Planant au-dessus des autres véhicules, il est immunisé contre les dégâts de collision."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_THERMODON_BODY_WAVER"
+msgstr "FUTUR THERMODON"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_THERMODON_BODY_WAVER_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté !"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_THERMODON_BODY_MAGIC"
+msgstr "THERMODON MAGIQUE"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_THERMODON_BODY_MAGIC_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez celle-ci, elle n’est disponible qu’aux joueurs de la Ligue d’Argent !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_THERMODON_ARMOR_1"
+msgstr ""
+"EXÉCUTEUR\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_THERMODON_ARMOR_1_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 50 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_THERMODON_ARMOR_2"
+msgstr ""
+"DÉFENSEUR\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_THERMODON_ARMOR_2_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 100 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_THERMODON_ARMOR_3"
+msgstr ""
+"MUTILATEUR\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_THERMODON_ARMOR_3_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 150 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_THERMODON_ARMOR_4"
+msgstr ""
+"HACHOIR\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_THERMODON_ARMOR_4_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 200 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_PUNISHER_ABILITY_PASSIVE"
+msgstr "CHÂTIMENT"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_PUNISHER_ABILITY_PASSIVE_TEXT"
+msgstr "Les armes cinétiques infligent 15 % de dégâts supplémentaires."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_PUNISHER_ABILITY_ACTIVE"
+msgstr "MINE INCENDIAIRE"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_PUNISHER_ABILITY_ACTIVE_TEXT"
+msgstr "Lâchez une mine incendiaire qui inflige 250 points de dégâts explosifs et continue à brûler tous les ennemis touchés dans le rayon de l'explosion pendant 5 secondes."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_PUNISHER_BODY_CAMOUFLAGE"
+msgstr "PUNISSEUR"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_PUNISHER_BODY_CAMOUFLAGE_TEXT"
+msgstr "Le Punisseur est un pick-up modifié conçu pour utiliser les armes cinétiques. Il est relativement rapide et assez facile à conduire."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_PUNISHER_BODY_WOODCUTTER"
+msgstr "PUNISSEUR DES BOIS"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_PUNISHER_BODY_WOODCUTTER_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté !"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_PUNISHER_BODY_FBI"
+msgstr "PUNISSEUR FÉDÉRAL"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_PUNISHER_BODY_FBI_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez celle-ci, elle n'est disponible qu'aux joueurs de la Ligue d'Argent !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_PUNISHER_ARMOR_0"
+msgstr "PARE-CHOCS DE CHOC"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_PUNISHER_ARMOR_0_TEXT"
+msgstr "Pare-chocs de choc"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_PUNISHER_ARMOR_1"
+msgstr ""
+"DÉFENSEUR\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_PUNISHER_ARMOR_1_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 50 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_PUNISHER_ARMOR_2"
+msgstr ""
+"TERREUR\n"
+"(NIVEAU 2)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_PUNISHER_ARMOR_2_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 100 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_PUNISHER_ARMOR_3"
+msgstr ""
+"HACHOIR\n"
+"(NIVEAU 3)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_PUNISHER_ARMOR_3_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 150 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_PUNISHER_ARMOR_4"
+msgstr ""
+"TRANCHEUR\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_PUNISHER_ARMOR_4_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 200 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_MANTIS_ABILITY_PASSIVE"
+msgstr "TÉMÉRITÉ"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_MANTIS_ABILITY_PASSIVE_TEXT"
+msgstr "Plus la Mantis roule vite, plus les dégâts explosifs infligés augmentent, jusqu'à un maximum de 20 % de la vitesse de pointe."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_MANTIS_ABILITY_ACTIVE"
+msgstr "NITRO"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_MANTIS_ABILITY_ACTIVE_TEXT"
+msgstr "Vitesse de pointe augmentée de 20 % toutes les 10 secondes lors de l'utilisation."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_MANTIS_ARMOR_1"
+msgstr ""
+"DÉFENSEUR\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_MANTIS_ARMOR_1_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 50 %."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_MANTIS_ARMOR_2"
+msgstr ""
+"TERREUR\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_MANTIS_ARMOR_2_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 100 %."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_MANTIS_ARMOR_3"
+msgstr ""
+"HACHOIR\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_MANTIS_ARMOR_3_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 150 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_MANTIS_ARMOR_4"
+msgstr ""
+"TRANCHEUR\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_MANTIS_ARMOR_4_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 200 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_MANTIS_BODY_CANARY"
+msgstr "MANTIS DE COURSE"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_MANTIS_BODY_CANARY_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_MANTIS_BODY_BLACKFIRE"
+msgstr "MANTIS"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_MANTIS_BODY_BLACKFIRE_TEXT"
+msgstr "La Mantis est petite, rapide et mortelle. Elle a été conçue pour utiliser les armes explosives en conduisant à haute vitesse, l'empêchant d'être facilement touchée."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_MANTIS_BODY_URBAN"
+msgstr "MANTIS URBAINE"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_MANTIS_BODY_URBAN_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté disponible aux seuls joueurs de la Ligue Argent !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DEMOLISHER_ABILITY_PASSIVE"
+msgstr "SYPHON BLINDÉ"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_DEMOLISHER_ABILITY_PASSIVE_TEXT"
+msgstr "Inflige des dégâts à un ennemi avec une arme de distance, avec une chance de 5 % de restaurer 15 % de blindage maximum."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DEMOLISHER_ABILITY_ACTIVE"
+msgstr "TEMPÊTE DE BALLES"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_DEMOLISHER_ABILITY_ACTIVE_TEXT"
+msgstr "Augmente la cadence de tir de l'arme de 30 % pendant 5 secondes."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_DEMOLISHER_BODY_MARINE"
+msgstr "DÉMOLISSEUR"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_DEMOLISHER_BODY_MARINE_TEXT"
+msgstr "Le Démolisseur est un véhicule militaire futuriste avec la capacité de restaurer l'armure quand il inflige des dégâts."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_DEMOLISHER_BODY_SHARK"
+msgstr "DÉMOLISR DU MAL"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_DEMOLISHER_BODY_SHARK_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté !"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_DEMOLISHER_BODY_NURSE"
+msgstr "DÉMOLISSEUR M.D."
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_DEMOLISHER_BODY_NURSE_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez celle-ci, elle n'est disponible qu'aux joueurs de la Ligue d'Argent !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DEMOLISHER_ARMOR_1"
+msgstr ""
+"ASSAUT\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DEMOLISHER_ARMOR_1_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 50 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DEMOLISHER_ARMOR_2"
+msgstr ""
+"POUSSÉE\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DEMOLISHER_ARMOR_2_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 100 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DEMOLISHER_ARMOR_3"
+msgstr ""
+"MUTILATEUR\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DEMOLISHER_ARMOR_3_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 150 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DEMOLISHER_ARMOR_4"
+msgstr ""
+"BROYEUR\n"
+"(NIVEAU 4)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DEMOLISHER_ARMOR_4_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 200 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_RAVAGER_ABILITY_PASSIVE"
+msgstr "DÉROBEUR DE VIE"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_RAVAGER_ABILITY_PASSIVE_TEXT"
+msgstr "Les effets résiduels des dégâts coûtent 10 points de blindage et 5 points d'énergie par seconde à votre adversaire."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_RAVAGER_ABILITY_ACTIVE"
+msgstr "COUP DE LA PANNE"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_RAVAGER_ABILITY_ACTIVE_TEXT"
+msgstr "Le Ravageur libère une attaque à impulsion électromagnétique sur tous les ennemis dans un rayon de 20 mètres, désactivant leurs moteurs pendant 3 secondes."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_RAVAGER_BODY_GREY"
+msgstr "RAVAGEUR"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_RAVAGER_BODY_GREY_TEXT"
+msgstr "Le Ravageur est un véhicule militaire télécommandé ayant la capacité de ralentir les ennemis."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_RAVAGER_BODY_BRONZE"
+msgstr "RAVAGE STEAMPUNK"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_RAVAGER_BODY_BRONZE_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté !"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_RAVAGER_BODY_SAMURAI"
+msgstr "RAVAGEUR SAMOURAÏ"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_RAVAGER_BODY_SAMURAI_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez celle-ci, elle n’est disponible qu’aux joueurs de la Ligue d’Or !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_RAVAGER_ARMOR_1"
+msgstr ""
+"SPIKER\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_RAVAGER_ARMOR_1_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 50 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_RAVAGER_ARMOR_2"
+msgstr ""
+"PROTECTOR\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_RAVAGER_ARMOR_2_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 100 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_RAVAGER_ARMOR_3"
+msgstr ""
+"DÉCHIQUETEUR\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_RAVAGER_ARMOR_3_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 150 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_RAVAGER_ARMOR_4"
+msgstr ""
+"MOISSONNEUR\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_RAVAGER_ARMOR_4_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 200 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_HURRICANE_ABILITY_PASSIVE"
+msgstr "SUPÉRIORITÉ BALISTIQUE"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_HURRICANE_ABILITY_PASSIVE_TEXT"
+msgstr "La cadence de tir de l'arme cinétique est augmentée de 20 % pendant 15 secondes après avoir subi les dégâts d'un ennemi."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_HURRICANE_ABILITY_ACTIVE"
+msgstr "CHOC CINÉTIQUE"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_HURRICANE_ABILITY_ACTIVE_TEXT"
+msgstr "Libère une onde de choc qui inflige 100 points de dégâts cinétiques sur tous les ennemis se trouvant dans un rayon de 23 mètres et les repousse."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_HURRICANE_BODY_FLAMER"
+msgstr "BIGRIG"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_HURRICANE_BODY_FLAMER_TEXT"
+msgstr "Le Bigrig est un semi-remorque modifié conçu pour utiliser les armes cinétiques. Il est gros et lent, mais lourdement blindé."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_HURRICANE_BODY_HI_TECH"
+msgstr "CYBER BIGRIG"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_HURRICANE_BODY_HI_TECH_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté !"
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_HURRICANE_BODY_HIPPIE"
+msgstr "BIGRIG SENSASS"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_HURRICANE_BODY_HIPPIE_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez celle-ci, elle n’est disponible qu’aux joueurs de niveau élite !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_HURRICANE_ARMOR_1"
+msgstr ""
+"PROTECTEUR\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_HURRICANE_ARMOR_1_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 50 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_HURRICANE_ARMOR_2"
+msgstr ""
+"BÉHÉMOTH\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_HURRICANE_ARMOR_2_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 100 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_HURRICANE_ARMOR_3"
+msgstr ""
+"DÉRAILLEUR\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_HURRICANE_ARMOR_3_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 150 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_HURRICANE_ARMOR_4"
+msgstr ""
+"EMPALEUR\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_HURRICANE_ARMOR_4_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 200 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_STRIKER_ABILITY_PASSIVE"
+msgstr "CARNAGE"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_STRIKER_ABILITY_PASSIVE_TEXT"
+msgstr "Les dégâts des armes explosives du Marteleur augmentent de 15 % pendant 10 secondes, après avoir infligé cinq fois des dégâts à un ennemi."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_STRIKER_ABILITY_ACTIVE"
+msgstr "FRAPPE AÉRIENNE"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_STRIKER_ABILITY_ACTIVE_TEXT"
+msgstr "Appelle une frappe aérienne infligeant 400 points de dégâts explosifs sur tous les ennemis se trouvant dans un rayon de 40 mètres."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_STRIKER_ARMOR_1"
+msgstr ""
+"EXÉCUTEUR\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_STRIKER_ARMOR_1_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 50 %."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_STRIKER_ARMOR_2"
+msgstr ""
+"GROS LOURD\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_STRIKER_ARMOR_2_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 100 %."
+
+# Maximum length of text should be not more than 16 symbols.
+msgid "IDS_STRIKER_ARMOR_3"
+msgstr ""
+"DESTROYEUR\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 144 symbols.
+msgid "IDS_STRIKER_ARMOR_3_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 150 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_STRIKER_ARMOR_4"
+msgstr ""
+"VINDICATOR\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_STRIKER_ARMOR_4_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 200 %."
+
+# Maximum length of text should be not more than 18 symbols. For chinise instead of the name they used vehicle desription.
+msgid "IDS_STRIKER_BODY_ARMY"
+msgstr "MARTELEUR"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_STRIKER_BODY_ARMY_TEXT"
+msgstr "Le Marteleur est un véhicule d'attaque de taille moyenne conçu pour utiliser des armes explosives."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_STRIKER_BODY_HEAVY_METAL"
+msgstr "MARTELEUR TOP"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_STRIKER_BODY_HEAVY_METAL_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_STRIKER_BODY_SAFARI"
+msgstr "MARTELEUR SAFARI"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_STRIKER_BODY_SAFARI_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez celle-ci, elle n'est disponible qu'aux joueurs de la Ligue d'Argent !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DOZER_BODY_YELLOW"
+msgstr "REMBLAYEUR"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DOZER_BODY_YELLOW_TEXT"
+msgstr "Le Remblayeur est un véhicule industriel gigantesque et lourdement modifié disponible aux seuls premiers joueurs du classement !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DOZER_BODY_VIKING"
+msgstr "BULLDOZER VIKING"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DOZER_BODY_VIKING_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DOZER_BODY_STONEAGE"
+msgstr "BULLDOZER ANTIQ"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DOZER_BODY_STONEAGE_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez celle-ci, elle n’est disponible qu’aux joueurs de niveau élite !"
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DOZER_ARMOR_1"
+msgstr ""
+" DÉFENSEUR\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DOZER_ARMOR_1_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 50 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DOZER_ARMOR_2"
+msgstr ""
+"TERRORISEUR\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DOZER_ARMOR_2_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 100 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DOZER_ARMOR_3"
+msgstr ""
+"MUTILATEUR\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DOZER_ARMOR_3_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 150 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DOZER_ARMOR_4"
+msgstr ""
+"PIQUEUR\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 40 symbols.
+msgid "IDS_DOZER_ARMOR_4_TEXT"
+msgstr "Augmente les dégâts de collision du véhicule de 200 %."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DOZER_ABILITY_PASSIVE"
+msgstr "PROTECTION"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_DOZER_ABILITY_PASSIVE_TEXT"
+msgstr "Le bulldozer subit 50 % de dégâts en moins quand il est attaqué de face."
+
+# Maximum length of text should be not more than 18 symbols.
+msgid "IDS_DOZER_ABILITY_ACTIVE"
+msgstr "ATTAQUE À LA LAME"
+
+# Maximum length of text should be not more than 168 symbols.
+msgid "IDS_DOZER_ABILITY_ACTIVE_TEXT"
+msgstr "Le bulldozer attaque les ennemis proches avec sa lame, infligeant 500 points de dégâts et les faisant tomber."
+
+msgid "IDS_GHOST_ABILITY_PASSIVE"
+msgstr "RÉCUPÉRATION"
+
+msgid "IDS_GHOST_ABILITY_PASSIVE_TEXT"
+msgstr "Le fantôme restaure automatiquement 15 points de blindage par seconde."
+
+msgid "IDS_GHOST_ABILITY_ACTIVE"
+msgstr "CAMOUFLAGE"
+
+msgid "IDS_GHOST_ABILITY_ACTIVE_TEXT"
+msgstr "Le fantôme devient invisible pendant 10 secondes. Tirer, ramasser un drapeau ou une charge désactive le champ de camouflage."
+
+msgid "IDS_GHOST_BODY_GRAY"
+msgstr "FANTÔME"
+
+msgid "IDS_GHOST_BODY_GRAY_TEXT"
+msgstr "Le fantôme est un véhicule léger et agile qui peut devenir invisible et restaurer son blindage. Il est parfaitement adapté aux tactiques de frappe et retrait."
+
+msgid "IDS_GHOST_BODY_RED"
+msgstr "FANTÔME ROUGE"
+
+msgid "IDS_GHOST_BODY_RED_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez une nouveauté !"
+
+msgid "IDS_GHOST_BODY_SPACE"
+msgstr "FANTÔME DE L’ESPACE"
+
+msgid "IDS_GHOST_BODY_SPACE_TEXT"
+msgstr "Insatisfait de votre stock de peinture ? Essayez celle-ci, disponible aux seuls joueurs de la Ligue d’Argent !"
+
+msgid "IDS_GHOST_ARMOR_1"
+msgstr ""
+"PROTECTOR\n"
+"(NIV 1)"
+
+msgid "IDS_GHOST_ARMOR_2"
+msgstr ""
+"DESTROYEUR\n"
+"(NIV 2)"
+
+msgid "IDS_GHOST_ARMOR_3"
+msgstr ""
+"VINDICATOR\n"
+"(NIV 3)"
+
+msgid "IDS_GHOST_ARMOR_4"
+msgstr ""
+"DÉCHIQUETEUR\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_WEAPON_MINE_LASER_NAME"
+msgstr ""
+"LASER RUBIS 5GW\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_WEAPON_MINE_LASER_TEXT"
+msgstr "Ce laser industriel a été développé pour les mines de diamant africaines, mais il perce le métal aussi bien que la pierre. Les armes thermiques mettent le feu aux véhicules ennemis et infligent plus de dégâts résiduels."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_WEAPON_GREEN_LASER_NAME"
+msgstr ""
+"LASER HOLMIUM BLEU\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_WEAPON_GREEN_LASER_TEXT"
+msgstr "Léger et efficace, ce modèle militaire nécessitant moins de condensateurs est une arme thermique équilibrée. Toutes les armes thermiques mettent le feu aux véhicules ennemis et infligent plus de dégâts résiduels."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_WEAPON_AVALANCHE_LAUNCHER_NAME"
+msgstr ""
+"MISSILE GUIDÉ M6\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_WEAPON_AVALANCHE_LAUNCHER_TEXT"
+msgstr "Le M6 est un missile lourd et puissant. Il n'est pas bon marché, discret ou agile, mais il cache un sacré punch. Toutes les armes explosives infligent des dégâts sur une zone entière et à plusieurs cibles à la fois."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_WEAPON_ASSAULT_LAUNCHER_NAME"
+msgstr ""
+"MISSILE HÉLIUM DK\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_WEAPON_ASSAULT_LAUNCHER_TEXT"
+msgstr "Le missile Hélium DK est un missile lourd et pas moins agile. Il inflige des dégâts modérés et s'adapte à la plupart des véhicules. Les armes explosives infligent des dégâts sur une zone et à plusieurs cibles à la fois."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_WEAPON_MGNOVA_NAME"
+msgstr ""
+"PACIFICATEUR\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_WEAPON_MGNOVA_TEXT"
+msgstr "Bien que sommaire, le Pacificateur est l'arme préférée de ceux qui veulent une arme bien équilibrée à un bon prix. Les armes cinétiques font reculer légèrement les véhicules ennemis à l'impact."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_WEAPON_CANNON_NAME"
+msgstr ""
+"CHARGEUR GUIDÉ\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_WEAPON_CANNON_TEXT"
+msgstr "Le Chargeur guidé utilise à la fois le guidage électromagnétique et la poudre à canon pour tirer une balle. Lent, mais percutant. Les armes cinétiques font reculer légèrement les véhicules ennemis à l'impact."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_WEAPON_LASER_NAME"
+msgstr ""
+"LASER GRAVITÉ VERT\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_WEAPON_LASER_TEXT"
+msgstr "Voici le laser le plus scientifiquement avancé. Les armes thermiques mettent le feu aux véhicules ennemis et infligent des dégâts résiduels supplémentaires."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_WEAPON_4BARREL_NAME"
+msgstr ""
+"CANON AUTO MK-75\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_WEAPON_4BARREL_TEXT"
+msgstr "Ce canon automatique à quatre corps est assez lourd sur le condensateur, mais il va faire exploser vos ennemis. Les armes cinétiques font reculer légèrement les véhicules ennemis à l'impact."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_WEAPON_ROCKET_NAME"
+msgstr ""
+"MISSILE TOW G3\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_WEAPON_ROCKET_TEXT"
+msgstr "Éprouvé et fiable, ce missile TOW 3e génération requière une grande précision et inflige des dégâts modérés. Les armes explosives infligent des dégâts sur une zone et à plusieurs cibles à la fois."
+
+msgid "IDS_WEAPON_FLAMETHROWER_NAME"
+msgstr ""
+"LANCE-FLAMMES M12A3\n"
+"(NIV 4)"
+
+msgid "IDS_WEAPON_FLAMETHROWER_TEXT"
+msgstr "Le lance-flammes M12A3 est idéal pour carboniser les ennemis à faible distance.  Cette arme inflige de gros dégâts, mais n’est utile que si vous pouvez vous approcher de très près !  Toutes les armes thermiques enflamment les véhicules ennemis et infliger des dégâts supplémentaires au fil du temps."
+
+msgid "IDS_WEAPON_LAUNCHERHMT4_NAME"
+msgstr ""
+"LANCE-MISSILES HMT4\n"
+"(NIV 4)"
+
+msgid "IDS_WEAPON_LAUNCHERHMT4_TEXT"
+msgstr "Le missile le plus rapide, le plus lourd, le plus bruyant et le plus agile du marché. En bref, c’est LE lance-missiles. Toutes les armes explosives infligent des dégâts à une zone et peuvent endommager plusieurs cibles à la fois."
+
+msgid "IDS_WEAPON_BLACK_LASER_NAME"
+msgstr ""
+"LASER À VIDE NOIR\n"
+"(NIV 4)"
+
+msgid "IDS_WEAPON_BLACK_LASER_TEXT"
+msgstr "Le plus meurtrier des lasers a été créé suite à des expériences avec l’antimatière. Il n’est pas vendu en dehors du marché noir, et officiellement, il n’existe même pas. Toutes les armes thermiques enflamment les véhicules ennemis et infliger des dégâts supplémentaires au fil du temps."
+
+msgid "IDS_WEAPON_DRILL_NAME"
+msgstr ""
+"CANON TORNADE\n"
+"(NIV 4)"
+
+msgid "IDS_WEAPON_DRILL_TEXT"
+msgstr "Rapide et puissant, ce canon est une parfaite combinaison d’une force cinétique ultime et d’une fantastique cadence de tir. Toutes les armes cinétiques repoussent légèrement les véhicules ennemis à l’impact."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_POWER"
+msgstr ""
+"CONDENSATEUR MODIFIÉ\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_POWER_TEXT"
+msgstr "Augmente le Condensateur de 30."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_POWER"
+msgstr ""
+"CONDENSATEUR AMÉLIORÉ\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_POWER_TEXT"
+msgstr "Augmente le Condensateur de 45."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_POWER"
+msgstr ""
+"CONDENSATEUR AVANCÉ\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_POWER_TEXT"
+msgstr "Augmente le Condensateur de 65."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_POWER"
+msgstr ""
+"PROTOTYPE DE CONDENSATEUR\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_POWER_TEXT"
+msgstr "Augmente le Condensateur de 97."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_ACCELERATE"
+msgstr ""
+"CONSOMMATION MODIFIÉE\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_ACCELERATE_TEXT"
+msgstr "Accélération augmentée de 10 %."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_ACCELERATE"
+msgstr ""
+"CONSOMMATION AMÉLIORÉE\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_ACCELERATE_TEXT"
+msgstr "Accélération augmentée de 20 %."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_ACCELERATE"
+msgstr ""
+"CONSOMMATION AVANCÉE\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_ACCELERATE_TEXT"
+msgstr "Accélération augmentée de 30 %."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_ACCELERATE"
+msgstr ""
+"PROTOTYPE DE CONSOMMATION\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_ACCELERATE_TEXT"
+msgstr "Accélération augmentée de 40 %."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_ARMOR"
+msgstr ""
+"FENÊTRE BLINDÉE ALU\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_ARMOR_TEXT"
+msgstr "Augmente le Blindage de 300."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_ARMOR"
+msgstr ""
+"FENÊTRE BLINDÉE ACIER\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_ARMOR_TEXT"
+msgstr "Augmente le Blindage de 500."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_ARMOR"
+msgstr ""
+"FENÊTRE BLINDÉE TITANE\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_ARMOR_TEXT"
+msgstr "Augmente le Blindage de 700."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_ARMOR"
+msgstr ""
+"FENÊTRE BLINDÉE TUNGSTÈNE\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_ARMOR_TEXT"
+msgstr "Augmente le Blindage de 1 00."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_SPEED"
+msgstr ""
+"ÉCHAPPEMENT MODIFIÉ\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_SPEED_TEXT"
+msgstr "Vitesse de pointe augmentée de 1,6 km/h"
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_SPEED"
+msgstr ""
+"ÉCHAPPEMENT AMÉLIORÉ\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_SPEED_TEXT"
+msgstr "Vitesse de pointe augmentée de 3,2 km/h"
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_SPEED"
+msgstr ""
+"ÉCHAPPEMENT AMÉLIORÉ\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_SPEED_TEXT"
+msgstr "Vitesse de pointe augmentée de 4,8 km/h"
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_SPEED"
+msgstr ""
+"PROTOTYPE D'ÉCHAPPEMENT\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_SPEED_TEXT"
+msgstr "Vitesse de pointe augmentée de 6,4 km/h"
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_COOLDOWN_REDUCE"
+msgstr ""
+"RECHARGE MODIFIÉE\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_COOLDOWN_REDUCE_TEXT"
+msgstr "Réduit le temps de récupération de la capacité active de 10 %"
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_COOLDOWN_REDUCE"
+msgstr ""
+"RECHARGE AMÉLIORÉE\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_COOLDOWN_REDUCE_TEXT"
+msgstr "Réduit le temps de récupération de la capacité active de 20 %"
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_COOLDOWN_REDUCE"
+msgstr ""
+"RECHARGE AVANCÉE\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_COOLDOWN_REDUCE_TEXT"
+msgstr "Réduit le temps de récupération de la capacité active de 30 %"
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_COOLDOWN_REDUCE"
+msgstr ""
+"PROTOTYPE DE RECHARGE\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_COOLDOWN_REDUCE_TEXT"
+msgstr "Réduit le temps de récupération de la capacité active de 40 %"
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_ENERGY_CUNSUMPTION_REDUCTION"
+msgstr ""
+"CHARGEUR MODIFIÉ\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_ENERGY_CUNSUMPTION_REDUCTION_TEXT"
+msgstr "La capacité active consomme 20 % d'Énergie en moins."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_ENERGY_CUNSUMPTION_REDUCTION"
+msgstr ""
+"CHARGEUR AMÉLIORÉ\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_ENERGY_CUNSUMPTION_REDUCTION_TEXT"
+msgstr "La capacité active consomme 30 % d'Énergie en moins."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_ENERGY_CUNSUMPTION_REDUCTION"
+msgstr ""
+"CHARGEUR AVANCÉ\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_ENERGY_CUNSUMPTION_REDUCTION_TEXT"
+msgstr "La capacité active consomme 40 % d'Énergie en moins."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_ENERGY_CUNSUMPTION_REDUCTION"
+msgstr ""
+"PROTOTYPE DE CHARGEUR\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_ENERGY_CUNSUMPTION_REDUCTION_TEXT"
+msgstr "La capacité active consomme 50 % d'Énergie en moins."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_ROF_EXPLOSIVE"
+msgstr ""
+"MÉCANISME DE CHARGEMENT \n"
+"MODIFIÉ (NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_ROF_EXPLOSIVE_TEXT"
+msgstr "Cadence de tir d'arme explosive augmentée de 5 %."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_ROF_EXPLOSIVE"
+msgstr ""
+"MÉCANISME DE CHARGEMENT \n"
+"AMÉLIORÉ (NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_ROF_EXPLOSIVE_TEXT"
+msgstr "Cadence de tir d'arme explosive augmentée de 7 %."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_ROF_EXPLOSIVE"
+msgstr ""
+"MÉCANISME DE CHARGEMENT \n"
+"AVANCÉ (NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_ROF_EXPLOSIVE_TEXT"
+msgstr "Cadence de tir d'arme explosive augmentée de 10 %."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_ROF_EXPLOSIVE"
+msgstr ""
+"PROTOTYPE DE MÉCANISME\n"
+"DE CHARGEMENT (NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_ROF_EXPLOSIVE_TEXT"
+msgstr "Cadence de tir d'arme explosive augmentée de 10 %."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_DAMAGE_PER_BULLET"
+msgstr ""
+"MUNITION CHEMISÉE\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_DAMAGE_PER_BULLET_TEXT"
+msgstr "Les armes cinétiques infligent 10 % de dégâts supplémentaires."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_DAMAGE_PER_BULLET"
+msgstr ""
+"MUNITION EXPANSIVE\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_DAMAGE_PER_BULLET_TEXT"
+msgstr "Les armes cinétiques infligent 15 % de dégâts supplémentaires."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_DAMAGE_PER_BULLET"
+msgstr ""
+"MUNITION PERFORANTE\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_DAMAGE_PER_BULLET_TEXT"
+msgstr "Les armes cinétiques infligent 17 % de dégâts supplémentaires."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_DAMAGE_PER_BULLET"
+msgstr ""
+"PROTOTYPE DE MUNITION\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_DAMAGE_PER_BULLET_TEXT"
+msgstr "Les armes cinétiques infligent 20 % de dégâts supplémentaires."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_ENERGY_REGEN"
+msgstr ""
+"GÉNÉRATEUR\n"
+"MODIFIÉ (NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_ENERGY_REGEN_TEXT"
+msgstr "Restaure automatiquement 1 point d'énergie toutes les 2 secondes."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_ENERGY_REGEN"
+msgstr ""
+"GÉNÉRATEUR\n"
+"AMÉLIORÉ (NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_ENERGY_REGEN_TEXT"
+msgstr "Restaure automatiquement 1 point d'énergie par seconde."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_ENERGY_REGEN"
+msgstr ""
+"GÉNÉRATEUR\n"
+"AVANCÉ (NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_ENERGY_REGEN_TEXT"
+msgstr "Restaure automatiquement 2 points d'énergie par seconde."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_ENERGY_REGEN"
+msgstr ""
+"PROTOTYPE DE\n"
+"GÉNÉRATEUR (NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_ENERGY_REGEN_TEXT"
+msgstr "Restaure automatiquement 3 points d'énergie par seconde."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_MAX_ENERGY"
+msgstr ""
+"BATTERIE MODIFIÉE\n"
+"(NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_MAX_ENERGY_TEXT"
+msgstr "Augmente l'Énergie maximum de 15."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_MAX_ENERGY"
+msgstr ""
+"BATTERIE AMÉLIORÉE\n"
+"(NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_MAX_ENERGY_TEXT"
+msgstr "Augmente l'Énergie maximum de 22."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_MAX_ENERGY"
+msgstr ""
+"BATTERIE AVANCÉE\n"
+"(NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_MAX_ENERGY_TEXT"
+msgstr "Augmente l'Énergie maximum de 33."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_MAX_ENERGY"
+msgstr ""
+"PROTOTYPE DE BATTERIE\n"
+"(NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_MAX_ENERGY_TEXT"
+msgstr "Augmente l'Énergie maximum de 50."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_ARMOR_REGEN"
+msgstr ""
+"KIT RÉPARATION\n"
+"MODIFIÉ (NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_ARMOR_REGEN_TEXT"
+msgstr "Répare automatiquement 7 points de blindage par seconde."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_ARMOR_REGEN"
+msgstr ""
+"KIT RÉPARATION\n"
+"AMÉLIORÉ (NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_ARMOR_REGEN_TEXT"
+msgstr "Répare automatiquement 10 points de blindage par seconde."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_ARMOR_REGEN"
+msgstr ""
+"KIT RÉPARATION\n"
+"AVANCÉ (NIV 3)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_ARMOR_REGEN_TEXT"
+msgstr "Répare automatiquement 14 points de blindage par seconde."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_ARMOR_REGEN"
+msgstr ""
+"PROTOTYPE DE KIT\n"
+"RÉPARATION (NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_ARMOR_REGEN_TEXT"
+msgstr "Répare automatiquement 20 points de blindage par seconde."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T1_DOT_DURATION"
+msgstr ""
+"RÉSONATEUR OPTIQUE\n"
+"MODIFIÉ (NIV 1)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T1_DOT_DURATION_TEXT"
+msgstr "L'effet résiduel des dégâts des armes thermiques dure 10 % plus longtemps."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T2_DOT_DURATION"
+msgstr ""
+"RÉSONATEUR OPTIQUE\n"
+"AMÉLIORÉ (NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T2_DOT_DURATION_TEXT"
+msgstr "L'effet résiduel des dégâts des armes thermiques dure 15 % plus longtemps."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T3_DOT_DURATION"
+msgstr ""
+"RÉSONATEUR OPTIQUE\n"
+"AVANCÉ (NIV 2)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T3_DOT_DURATION_TEXT"
+msgstr "L'effet résiduel des dégâts des armes thermiques dure 20 % plus longtemps."
+
+# Maximum length of text should be not more than 30 symbols.
+msgid "IDS_COMPONENT_T4_DOT_DURATION"
+msgstr ""
+"PROTOTYPE DE\n"
+"RÉSONATEUR OPTIQUE (NIV 4)"
+
+# Maximum length of text should be not more than 220 symbols.
+msgid "IDS_COMPONENT_T4_DOT_DURATION_TEXT"
+msgstr "L'effet résiduel des dégâts des armes thermiques dure 30 % plus longtemps."
+
+msgid "IDS_CONSUMABLE_MG_INCENDIARY"
+msgstr ""
+"BALLES INCENDIAIRES\n"
+"(CONSOMMABLE)"
+
+msgid "IDS_CONSUMABLE_MG_INCENDIARY_TEXT"
+msgstr "Les balles d’armes cinétiques enflamment les ennemis et infligent 40 pts de dégâts supplémentaires chaque seconde pendant 4,5 s."
+
+msgid "IDS_CONSUMABLE_MG_HIGH_IMPACT"
+msgstr ""
+"BALLES À GRAND IMPACT\n"
+"(CONSOMMABLE)"
+
+msgid "IDS_CONSUMABLE_MG_HIGH_IMPACT_TEXT"
+msgstr "Les balles d’armes cinétiques ont plus d’impact et repoussent les véhicules ennemis davantage."
+
+msgid "IDS_CONSUMABLE_L_HIGH_IMPACT"
+msgstr ""
+"LASER À GRAND IMPACT\n"
+"(CONSOMMABLE)"
+
+msgid "IDS_CONSUMABLE_L_HIGH_IMPACT_TEXT"
+msgstr "Les armes thermiques repoussent les ennemis."
+
+msgid "IDS_CONSUMABLE_L_HIGH_TEMPERATURE"
+msgstr ""
+"LASER À HAUTE TEMPÉRATURE\n"
+"(CONSOMMABLE)"
+
+msgid "IDS_CONSUMABLE_L_HIGH_TEMPERATURE_TEXT"
+msgstr "Les armes thermiques infligent 40 % de brûlures en plus."
+
+msgid "IDS_CONSUMABLE_R_HIGH_IMPACT"
+msgstr ""
+"ROQUETTES À GRAND IMPACT\n"
+"(CONSOMMABLE)"
+
+msgid "IDS_CONSUMABLE_R_HIGH_IMPACT_TEXT"
+msgstr "Les armes explosives ont plus d’impact et repoussent les véhicules ennemis davantage."
+
+msgid "IDS_CONSUMABLE_R_INCENDIARY"
+msgstr ""
+"ROQUETTES INCENDIAIRES\n"
+"(CONSOMMABLE)"
+
+msgid "IDS_CONSUMABLE_R_INCENDIARY_TEXT"
+msgstr "Les armes explosives enflamment les ennemis et infligent 40 pts de dégâts supplémentaires chaque seconde pendant 4,5 s."
+
+msgid "IDS_CONSUMABLE_R_HEAT_SEEKING"
+msgstr ""
+"ROQUETTES INFRAROUGES\n"
+"(CONSOMMABLE)"
+
+msgid "IDS_CONSUMABLE_R_HEAT_SEEKING_TEXT"
+msgstr "Les armes explosives lancent des roquettes 20 % plus rapides."
+
+# Maximum length of text should be not more than 14 symbols.
+msgid "IDS_GAME_RESULT_LOSE"
+msgstr "[#CC1100]DÉFAITE !"
+
+# Maximum length of text should be not more than 14 symbols.
+msgid "IDS_GAME_RESULT_WIN"
+msgstr "[#FCD116]VICTOIRE !"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_COLLECT_10_POWERUPS_TITLE"
+msgstr "Ramassez 10 power-ups"
+
+msgid "IDS_DAILY_CHALLENGE_COLLECT_10_POWERUPS_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_5_KILLS_TITLE"
+msgstr "Tuez 5 ennemis en matchs classés"
+
+msgid "IDS_DAILY_CHALLENGE_5_KILLS_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_3_WINS_TITLE"
+msgstr "Gagnez 3 matchs avec classement"
+
+msgid "IDS_DAILY_CHALLENGE_3_WINS_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_KILLS_WITH_EACH_WEAPON_TYPE_TITLE"
+msgstr "Tuez 1 ennemi minimum avec chq classe d'arme"
+
+msgid "IDS_DAILY_CHALLENGE_KILLS_WITH_EACH_WEAPON_TYPE_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_CAPTURE_3_FLAGS_TITLE"
+msgstr "Capturez 3 drapeaux"
+
+msgid "IDS_DAILY_CHALLENGE_CAPTURE_3_FLAGS_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_RECOVER_3_CHARGES_TITLE"
+msgstr "Récupérez 3 charges"
+
+msgid "IDS_DAILY_CHALLENGE_RECOVER_3_CHARGES_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_5_KILLS_IN_DM_TITLE"
+msgstr "Tuez 5 x en match à mort"
+
+msgid "IDS_DAILY_CHALLENGE_5_KILLS_IN_DM_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_5_KILLS_IN_TDM_TITLE"
+msgstr "Tuez 5 x en match à mort en équipe"
+
+msgid "IDS_DAILY_CHALLENGE_5_KILLS_IN_TDM_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_IN_EVERY_MOD_TITLE"
+msgstr "Gagnez un match dans chaque mode"
+
+msgid "IDS_DAILY_CHALLENGE_WIN_IN_EVERY_MOD_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_PLAY_ON_ALL_MAPS_TITLE"
+msgstr "Jouez un match sur 4 cartes diff."
+
+msgid "IDS_DAILY_CHALLENGE_PLAY_ON_ALL_MAPS_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_SCORE_POINT_TITLE"
+msgstr "Marquez le point gagnant d’un match"
+
+msgid "IDS_DAILY_CHALLENGE_SCORE_POINT_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_ON_ALL_MAPS_TITLE"
+msgstr "Gagnez un match sur 4 cartes diff."
+
+msgid "IDS_DAILY_CHALLENGE_WIN_ON_ALL_MAPS_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_KILLS_ON_3_DIFFERENT_VEHICLES_TITLE"
+msgstr "Tuez un ennemi avec 3 véhic. différ."
+
+msgid "IDS_DAILY_CHALLENGE_KILLS_ON_3_DIFFERENT_VEHICLES_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_MATCH_WITH_0_POWERUPS_TITLE"
+msgstr "Gagnez un match sans ramasser aucun power-up"
+
+msgid "IDS_DAILY_CHALLENGE_WIN_MATCH_WITH_0_POWERUPS_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_3_KILLS_WITH_FLAG_TITLE"
+msgstr "Tuez 3 fois en portant un drapeau"
+
+msgid "IDS_DAILY_CHALLENGE_3_KILLS_WITH_FLAG_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_3_KILLS_WITH_CHARGE_TITLE"
+msgstr "Tuez 3 fois en portant une charge"
+
+msgid "IDS_DAILY_CHALLENGE_3_KILLS_WITH_CHARGE_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_MOST_KILLS_TITLE"
+msgstr "Terminez 1 match en mode au choix avec le + de tués"
+
+msgid "IDS_DAILY_CHALLENGE_MOST_KILLS_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_5_REPAIRS_IN_MATCH_TITLE"
+msgstr "Ramassez 5 power-ups de répar. en un match"
+
+msgid "IDS_DAILY_CHALLENGE_5_REPAIRS_IN_MATCH_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_KILL_10_LIGHT_VEHICLES_TITLE"
+msgstr "Détruisez 10 véhicules légers"
+
+msgid "IDS_DAILY_CHALLENGE_KILL_10_LIGHT_VEHICLES_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_KILL_5_MEDIUM_VEHICLES_TITLE"
+msgstr "Détruisez 5 véhicules moyens"
+
+msgid "IDS_DAILY_CHALLENGE_KILL_5_MEDIUM_VEHICLES_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_KILL_3_HEAVY_VEHICLES_TITLE"
+msgstr "Détruisez 3 véhicules lourds"
+
+msgid "IDS_DAILY_CHALLENGE_KILL_3_HEAVY_VEHICLES_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_ON_3_DIFFERENT_VEHICLES_TITLE"
+msgstr "Gagnez un match avec 3 véhic. différ."
+
+msgid "IDS_DAILY_CHALLENGE_WIN_ON_3_DIFFERENT_VEHICLES_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_KILL_5_FLAGS_CARRIER_TITLE"
+msgstr "Tuez 5 porteurs de drapeau"
+
+msgid "IDS_DAILY_CHALLENGE_KILL_5_FLAGS_CARRIER_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_KILL_5_CHARGE_CARRIER_TITLE"
+msgstr "Tuez 5 porteurs de charge"
+
+msgid "IDS_DAILY_CHALLENGE_KILL_5_CHARGE_CARRIER_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_KILL_EACH_OPPONENT_IN_DM_TITLE"
+msgstr "Tuez chq adversaire en match à mort"
+
+msgid "IDS_DAILY_CHALLENGE_KILL_EACH_OPPONENT_IN_DM_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_FIRST_KILL_TITLE"
+msgstr "Soyez le 1er à tuer pendant un match"
+
+msgid "IDS_DAILY_CHALLENGE_FIRST_KILL_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_10_KILLS_WITH_KINETIC_WEAPON_TITLE"
+msgstr "Tuez 10 ennemis par arme cinétique"
+
+msgid "IDS_DAILY_CHALLENGE_10_KILLS_WITH_KINETIC_WEAPON_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_10_KILLS_WITH_THERMAL_WEAPON_TITLE"
+msgstr "Tuez 10 ennemis par arme thermique"
+
+msgid "IDS_DAILY_CHALLENGE_10_KILLS_WITH_THERMAL_WEAPON_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_10_KILLS_WITH_EXPLOSIVE_WEAPON_TITLE"
+msgstr "Tuez 10 ennemis par arme explosive"
+
+msgid "IDS_DAILY_CHALLENGE_10_KILLS_WITH_EXPLOSIVE_WEAPON_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_POINT_UNDER_5P_ARMOR_TITLE"
+msgstr "Marquez 1 point gagnant avec blindage < 5 %"
+
+msgid "IDS_DAILY_CHALLENGE_POINT_UNDER_5P_ARMOR_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_3_KILLS_UNDER_DD_TITLE"
+msgstr "Tuez 3 ennemis sous power-up Doubles dégâts"
+
+msgid "IDS_DAILY_CHALLENGE_3_KILLS_UNDER_DD_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_5_COLLISION_KILLS_TITLE"
+msgstr "Tuez 5 ennemis par collision"
+
+msgid "IDS_DAILY_CHALLENGE_5_COLLISION_KILLS_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_3_KILLS_WITH_DOT_TITLE"
+msgstr "Tuez 3 ennemis par brûlure"
+
+msgid "IDS_DAILY_CHALLENGE_3_KILLS_WITH_DOT_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_DM_WITH_6_FRAGS_TITLE"
+msgstr "Gagnez un match à mort avec 6 tués"
+
+msgid "IDS_DAILY_CHALLENGE_WIN_DM_WITH_6_FRAGS_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_CTF_WITH_3_0_TITLE"
+msgstr "Gagnez un match capture du drapeau avec 3-0"
+
+msgid "IDS_DAILY_CHALLENGE_WIN_CTF_WITH_3_0_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_RTC_WITH_3_0_TITLE"
+msgstr "Gagnez un match récupération de charge avec 3-0"
+
+msgid "IDS_DAILY_CHALLENGE_WIN_RTC_WITH_3_0_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_TDM_WITH_4_OR_MORE_TITLE"
+msgstr "Gagnez match à mort en équipe avec 4 tués ou +"
+
+msgid "IDS_DAILY_CHALLENGE_WIN_TDM_WITH_4_OR_MORE_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_WITHOUT_DYING_TITLE"
+msgstr "Gagnez un match sans mourir"
+
+msgid "IDS_DAILY_CHALLENGE_WIN_WITHOUT_DYING_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_KILL_ENEMY_WITH_ACTIVE_ABILITY_TITLE"
+msgstr "Tuez un ennemi avec capacité active véhicule"
+
+msgid "IDS_DAILY_CHALLENGE_KILL_ENEMY_WITH_ACTIVE_ABILITY_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_KILL_3_ENEMIES_IN_ROW_TITLE"
+msgstr "Tuez 3 ennemis d’affilée"
+
+msgid "IDS_DAILY_CHALLENGE_KILL_3_ENEMIES_IN_ROW_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_3_MATCHES_IN_ROW_TITLE"
+msgstr "Gagnez 3 matchs d’affilée"
+
+msgid "IDS_DAILY_CHALLENGE_WIN_3_MATCHES_IN_ROW_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_5_KILLS_IN_SINGLE_MATCH_TITLE"
+msgstr "Tuez 5 fois en un seul match"
+
+msgid "IDS_DAILY_CHALLENGE_5_KILLS_IN_SINGLE_MATCH_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+# Maximum length of text should be not more than 35 symbols.
+msgid "IDS_DAILY_CHALLENGE_WIN_WITH_100P_ARMOR_TITLE"
+msgstr "Gagnez un match avec blindage 100 %"
+
+msgid "IDS_DAILY_CHALLENGE_WIN_WITH_100P_ARMOR_PROGRESS"
+msgstr "[#CCCCCC]PROGRESSION :[#FFFFFF] {0}/{1}"
+
+msgid "IDS_CKZ_BODY_SAND"
+msgstr "CK: Zombies SHOOTER"
+
+msgid "IDS_CKZ_BODY_SAND_TEXT"
+msgstr "Ils m'appellent Shooter car c'est mon métier... Achevez la campagne pour déverrouiller ce véhicule."
+
+msgid "IDS_CKZ_BODY_MILITARY"
+msgstr "CK: Zombies EVELYN"
+
+msgid "IDS_CKZ_BODY_BLUE"
+msgstr "CK: Zombies 2 EVELYN"
+
+msgid "IDS_CKZ_ABILITY_ACTIVE_1"
+msgstr "ASSAUT EXPLOSIF"
+
+msgid "IDS_CKZ_ABILITY_ACTIVE_1_TEXT"
+msgstr "Jette un tas de grenades qui infligent 500 dégâts à tous les ennemis dans un rayon de 30 mètres"
+
+msgid "IDS_CKZ_ABILITY_ACTIVE_2"
+msgstr "GUÉRISON"
+
+msgid "IDS_CKZ_ABILITY_ACTIVE_2_TEXT"
+msgstr "Restaure aussitôt la moitié de l'armure perdue."
+
+msgid "IDS_CKZ_ABILITY_PASSIVE"
+msgstr "ESSOUFFLÉ"
+
+msgid "IDS_CKZ_ABILITY_PASSIVE_TEXT"
+msgstr "Doubles dégâts si l'armure est à moins de 25 %"
+
+msgid "IDS_CAMPAIGN_HORDE_1"
+msgstr "HORDE 1"
+
+msgid "IDS_CAMPAIGN_HORDE_2"
+msgstr "HORDE 2"
+
+msgid "IDS_CAMPAIGN_HORDE_3"
+msgstr "HORDE 3"
+
+msgid "IDS_CAMPAIGN_HORDE_4"
+msgstr "HORDE 4"
+
+msgid "IDS_CAMPAIGN_HORDE_5"
+msgstr "HORDE 5"
+
+msgid "IDS_CAMPAIGN_HORDE_6"
+msgstr "HORDE 6"
+
+msgid "IDS_CAMPAIGN_HORDE_7"
+msgstr "HORDE 7"
+
+msgid "IDS_CAMPAIGN_HORDE_8"
+msgstr "HORDE 8"
+
+msgid "IDS_CAMPAIGN_HORDE_9"
+msgstr "HORDE 9"
+
+msgid "IDS_CAMPAIGN_1"
+msgstr "Votre premier ennemi est la Mantis armée d'une simple mitrailleuse. Ça devrait être du gâteau !"
+
+msgid "IDS_CAMPAIGN_1_VICTORY"
+msgstr "Facile en effet ! Voulez-vous vous tester contre le prochain ennemi ?"
+
+msgid "IDS_CAMPAIGN_1_DEFEAT"
+msgstr "Pas de souci, échouer, c'est s'entraîner. Réessayez !"
+
+msgid "IDS_CAMPAIGN_2"
+msgstr "Mettre à terre ce Punisseur ne devrait pas être un problème, du moment que vous évitez les mines incendiaires."
+
+msgid "IDS_CAMPAIGN_2_VICTORY"
+msgstr "Ça n'a pas été trop dur, n'est-ce pas ? Il n'avait aucune chance contre vous."
+
+msgid "IDS_CAMPAIGN_2_DEFEAT"
+msgstr "Les missiles du Punisseur sont dangereux, mais vous pourrez gérer."
+
+msgid "IDS_CAMPAIGN_3"
+msgstr "Le marteleur peut appeler un raid aérien si vous vous approchez trop. Soyez prudent et restez à distance !"
+
+msgid "IDS_CAMPAIGN_3_VICTORY"
+msgstr "Vous faites de bons progrès! Les raids aériens ne sont pas assez pour vous arrêter !"
+
+msgid "IDS_CAMPAIGN_3_DEFEAT"
+msgstr "Restez à distance, prudent et concentré, pour ne pas être blessé par un raid aérien."
+
+msgid "IDS_CAMPAIGN_4"
+msgstr "Le Bigrig est fort, mais plutôt lent. Soyez plus habile et brûlez-le !"
+
+msgid "IDS_CAMPAIGN_4_VICTORY"
+msgstr "Un autre homme à terre ! Vous, vous savez tirer!"
+
+msgid "IDS_CAMPAIGN_4_DEFEAT"
+msgstr "Utilisez-vous la meilleure arme pour le véhicule ? Différents véhicules fonctionnent mieux avec différentes armes."
+
+msgid "IDS_CAMPAIGN_5"
+msgstr "Il est temps de faire une pause et de vous entraîner avec ces insectes. Nettoyez-en une vague pour continuer."
+
+msgid "IDS_CAMPAIGN_5_VICTORY"
+msgstr "Bon travail ! Maintenant, ça va se corser : les ennemis ont des armes de niveau 2 !"
+
+msgid "IDS_CAMPAIGN_5_DEFEAT"
+msgstr "Allez, vous pouvez mieux faire ! Sinon, peut-être avez-vous juste besoin d'une autre arme ?"
+
+msgid "IDS_CAMPAIGN_6"
+msgstr "Le Rétro est rapide et enflamme les ennemis en cas collision. Il est difficile à manœuvrer : utilisez cela à votre avantage. "
+
+msgid "IDS_CAMPAIGN_6_VICTORY"
+msgstr "Le Missiles Hélium DK n'ont vraiment pas aidé ce pauvre Rétro : il est en pièces. Bravo !"
+
+msgid "IDS_CAMPAIGN_6_DEFEAT"
+msgstr "Utilisez-vous toutes les capacités du véhicule ? La victoire contre des ennemis plus forts peut en dépendre."
+
+msgid "IDS_CAMPAIGN_7"
+msgstr "Le Démolisseur peut se réparer lorsqu'il vous endommage : renforcez votre armure et frappez dur !"
+
+msgid "IDS_CAMPAIGN_7_VICTORY"
+msgstr "Beau Travail ! Vos capacités sont impressionnantes!"
+
+msgid "IDS_CAMPAIGN_7_DEFEAT"
+msgstr "N'oubliez pas : les lasers ennemis brûlent votre véhicule et infligent des dégâts supplémentaires à terme..."
+
+msgid "IDS_CAMPAIGN_8"
+msgstr "Le Thermodon n'est pas un véhicule agile, utilisez ça à votre avantage si vous voulez gagner..."
+
+msgid "IDS_CAMPAIGN_8_VICTORY"
+msgstr "Bravo ! Vous devriez essayer le Match multijoueur classé si ce n'est pas déjà fait."
+
+msgid "IDS_CAMPAIGN_8_DEFEAT"
+msgstr "N'approchez pas trop du Thermodon car il peut réfléchir les dégâts que vous lui infligez."
+
+msgid "IDS_CAMPAIGN_9"
+msgstr "Relaxez-vous et défoulez-vous sur une horde d'insectes et de camions blindés."
+
+msgid "IDS_CAMPAIGN_9_VICTORY"
+msgstr "Ces gars-là sont trop lents et trop faibles pour vous. Affrontez de vrais ennemis."
+
+msgid "IDS_CAMPAIGN_9_DEFEAT"
+msgstr "Pas de souci, échouer, c'est s'entraîner. Réessayez !"
+
+msgid "IDS_CAMPAIGN_10"
+msgstr "Ne laissez pas le Fantôme vous aprocher grâce à son Invisibilité. Soyez toujours prudent !"
+
+msgid "IDS_CAMPAIGN_10_VICTORY"
+msgstr "Le Fantôme parti, votre prochain adversaire attend ! Êtes-vous prêt à relever le défi ?"
+
+msgid "IDS_CAMPAIGN_10_DEFEAT"
+msgstr "Saviez-vous que les balles à grand impact sont super contre les petits ennemis ?"
+
+msgid "IDS_CAMPAIGN_11"
+msgstr "Le Ravageur est assez effrayant. Mais ce n'est rien dont vous ne pouvez vous occuper, si vous êtes bien équipé."
+
+msgid "IDS_CAMPAIGN_11_VICTORY"
+msgstr "Bravo ! Vous avez ravagé le Ravageur !"
+
+msgid "IDS_CAMPAIGN_11_DEFEAT"
+msgstr "Vous devriez réessayer : restez concentré et n'oubliez pas d'utiliser vos capacités!"
+
+msgid "IDS_CAMPAIGN_12"
+msgstr "Le Remblayeur est l'ennemi ultime. Il est grand, fort et peut vous frapper avec sa lame si vous êtes trop près..."
+
+msgid "IDS_CAMPAIGN_12_VICTORY"
+msgstr "La compétence est plus importante que la force ! Belle victoire !"
+
+msgid "IDS_CAMPAIGN_12_DEFEAT"
+msgstr "Savez-vous que le Remblayeur subit moins de dégâts lors d'une attaque frontale ? Tirez sur l'arrière ou le flanc !"
+
+msgid "IDS_CAMPAIGN_13"
+msgstr "Faites la Fête ! Le Remblayeur détruit, plus aucune horde ne peut vous stopper."
+
+msgid "IDS_CAMPAIGN_13_VICTORY"
+msgstr "Vous êtes imbattable, jusqu'ici !"
+
+msgid "IDS_CAMPAIGN_13_DEFEAT"
+msgstr "Utilisez-vous la meilleure arme pour le véhicule ? Différents véhicules fonctionnent mieux avec différentes armes."
+
+msgid "IDS_CAMPAIGN_14"
+msgstr "Cette Mantis de course a plus de vitesse grâce à ses compétences et ses composants. Ne la laissez pas vous attraper !"
+
+msgid "IDS_CAMPAIGN_14_VICTORY"
+msgstr "Vous l'avez eu ! Bien joué !"
+
+msgid "IDS_CAMPAIGN_14_DEFEAT"
+msgstr "Essayez de trouver la fréquence de régénération des power-ups, ils font la différence."
+
+msgid "IDS_CAMPAIGN_15"
+msgstr "Savez-vous que les Punisseurs font 15 % de dégâts de plus avec des mitrailleuses : celui-ci en a une."
+
+msgid "IDS_CAMPAIGN_15_VICTORY"
+msgstr "Les mauviettes sont éliminées ! Maintenant, vos ennemis ont des armes de niveau 3. Préparez-vous !"
+
+msgid "IDS_CAMPAIGN_15_DEFEAT"
+msgstr "Essayez de ne pas heurter les mines incendiaires et tout ira bien !"
+
+msgid "IDS_CAMPAIGN_16"
+msgstr "Son Missile Guidé M6 frappe fort, seulement si vous le permettez. Soyez rapide, agile et gagnez !"
+
+msgid "IDS_CAMPAIGN_16_VICTORY"
+msgstr "Vous l'avez vaincu. Joli !"
+
+msgid "IDS_CAMPAIGN_16_DEFEAT"
+msgstr "Ce Marteleur est équipé d'explosifs, alors faites attention à sa Capacité Passive."
+
+msgid "IDS_CAMPAIGN_17"
+msgstr "Le Bigrig est lent, mais son armure épaisse peut être un problème. Agissez avec prudence et une sérieuse puissance de feu."
+
+msgid "IDS_CAMPAIGN_17_VICTORY"
+msgstr "Aucune armure n'est impénétrable. Vous venez de le prouver !"
+
+msgid "IDS_CAMPAIGN_17_DEFEAT"
+msgstr "Si vous ne pouvez pas le battre seul, essayez de trouver un power-up Double Dégât."
+
+msgid "IDS_CAMPAIGN_18"
+msgstr "Temps pour une autre horde. Celle-ci est un peu plus dure que la précédente..."
+
+msgid "IDS_CAMPAIGN_18_VICTORY"
+msgstr "Très bien ! Vous approchez de la campagne à mi-parcours..."
+
+msgid "IDS_CAMPAIGN_18_DEFEAT"
+msgstr "Quand vous connaissez sa tactique, il est un peu plus facile de s'occuper de la Horde."
+
+msgid "IDS_CAMPAIGN_19"
+msgstr "La capacité active du Rétro lui permet de se projeter en avant à grande vitesse. Restez hors de son chemin et ne le laissez pas s'échapper."
+
+msgid "IDS_CAMPAIGN_19_VICTORY"
+msgstr "Cet adversaire n'était pas assez fort pour vous. Félicitations !"
+
+msgid "IDS_CAMPAIGN_19_DEFEAT"
+msgstr "Utilisez vos points de compétence à chaque niveau. Les compétences sont essentielles !"
+
+msgid "IDS_CAMPAIGN_20"
+msgstr "Ce Démolisseur est lourdement armé, soyez prudent."
+
+msgid "IDS_CAMPAIGN_20_VICTORY"
+msgstr "Vous êtes à mi-chemin! Continuez et dominez tous ceux qui s'opposent à vous !"
+
+msgid "IDS_CAMPAIGN_20_DEFEAT"
+msgstr "Si vous avez du mal, essayez d'acheter des consommables."
+
+msgid "IDS_CAMPAIGN_21"
+msgstr "Son Missile Guidé M6 fait beaucoup de dégâts mais il utilise beaucoup d'énergie. Frappez quand il est faible en énergie !"
+
+msgid "IDS_CAMPAIGN_21_VICTORY"
+msgstr "Excellente victoire ! À suivre : une autre Horde !"
+
+msgid "IDS_CAMPAIGN_21_DEFEAT"
+msgstr "La capacité active du Thermodon fait beaucoup de dégâts, vous devriez renforcer votre armure."
+
+msgid "IDS_CAMPAIGN_22"
+msgstr "Ces gars-là font mal si vous les laissez faire. Continuez d'avancer et ça devrait aller."
+
+msgid "IDS_CAMPAIGN_22_VICTORY"
+msgstr "Certains véhicules contrent d'autres véhicules, mais tous fonctionnent bien contre la Horde."
+
+msgid "IDS_CAMPAIGN_22_DEFEAT"
+msgstr "Tuez en premier les petits véhicules: ils sont plus faciles à abattre."
+
+msgid "IDS_CAMPAIGN_23"
+msgstr "Ce fantôme, rapide comme l'éclair, est armé d'un lance-flamme. Ne le laissez pas s'approcher trop près de vous !"
+
+msgid "IDS_CAMPAIGN_23_VICTORY"
+msgstr "Bien Joué ! Le Lance-flamme est inutile si vous restez hors de portée."
+
+msgid "IDS_CAMPAIGN_23_DEFEAT"
+msgstr "Être en mouvement est la clé pour battre un ennemi au lance-flamme..."
+
+msgid "IDS_CAMPAIGN_24"
+msgstr "Savez-vous que le laser du Ravageur vole votre Armure et votre Énergie ? Équipez votre véhicule en conséquence !"
+
+msgid "IDS_CAMPAIGN_24_VICTORY"
+msgstr "Très bien! Essayez de personnaliser votre équipement en fonction de votre ennemi."
+
+msgid "IDS_CAMPAIGN_24_DEFEAT"
+msgstr "Les Générateurs de puissance sont utiles pour lutter contre ce voleur d'énergie..."
+
+msgid "IDS_CAMPAIGN_25"
+msgstr "Les bulldozers ont de solides armures, et celui-ci d'autant plus avec ses composants de niveau 4. Il est dangereux."
+
+msgid "IDS_CAMPAIGN_25_VICTORY"
+msgstr "Peu importe sa force, le Remblayeur n'est pas invincible. Bon Travail !"
+
+msgid "IDS_CAMPAIGN_25_DEFEAT"
+msgstr "Utilisez vos points de compétence à chaque niveau. Les compétences sont essentielles !"
+
+msgid "IDS_CAMPAIGN_26"
+msgstr "À la horde suivante. Verrouillez et chargez."
+
+msgid "IDS_CAMPAIGN_26_VICTORY"
+msgstr "Cela va devenir beaucoup plus intéressant..."
+
+msgid "IDS_CAMPAIGN_26_DEFEAT"
+msgstr "Vous avez vu que les insectes ne collectent pas les power-ups ? Ni les camions blindés."
+
+msgid "IDS_CAMPAIGN_27"
+msgstr "Le lance-missiles est la meilleure arme pour Mantis, ne soyez donc pas trop détendu. Cet ennemi est très dangereux."
+
+msgid "IDS_CAMPAIGN_27_VICTORY"
+msgstr "La campagne finale est proche, ne vous arrêtez pas !"
+
+msgid "IDS_CAMPAIGN_27_DEFEAT"
+msgstr "En progressant dans la campagne, vos ennemis deviennent plus intelligents. Adaptez-vous !"
+
+msgid "IDS_CAMPAIGN_28"
+msgstr "Le Punisseur utilise son bonus de 15 % de dégâts cinétiques et son canon Tornade... Méfiez-vous."
+
+msgid "IDS_CAMPAIGN_28_VICTORY"
+msgstr "Vous l'avez bien puni, juste comme il le mérite. Bon travail !"
+
+msgid "IDS_CAMPAIGN_28_DEFEAT"
+msgstr "À quel niveau êtes-vous ? Vous devriez gagner un peu d'expérience dans les matchs multijoueurs classés et revenir plus fort."
+
+msgid "IDS_CAMPAIGN_29"
+msgstr "Compétences et Composants maximisent la force de frappe aérienne du Marteleur. Prenez plus de précautions !"
+
+msgid "IDS_CAMPAIGN_29_VICTORY"
+msgstr "Continuez à les détruire, bien joué !"
+
+msgid "IDS_CAMPAIGN_29_DEFEAT"
+msgstr "Le Marteleur a une bonne armure. Ce serait une bonne idée d'augmenter votre puissance de feu."
+
+msgid "IDS_CAMPAIGN_30"
+msgstr "N'allez pas trop près du bord de la carte en combattant le Bigrig, il peut vous faire tomber avec sa capacité active."
+
+msgid "IDS_CAMPAIGN_30_VICTORY"
+msgstr "Juste dix campagnes avant de régner en maître !"
+
+msgid "IDS_CAMPAIGN_30_DEFEAT"
+msgstr "Vérifiez vos compétences et assurez-vous de les avoir choisies correctement. Vous pouvez les réinitialiser à partir de la page Compétences."
+
+msgid "IDS_CAMPAIGN_31"
+msgstr "Ces gars-là font mal si vous les laissez faire. Continuez d'avancer et ça devrait aller."
+
+msgid "IDS_CAMPAIGN_31_VICTORY"
+msgstr "Vous êtes imbattable, jusqu'ici !"
+
+msgid "IDS_CAMPAIGN_31_DEFEAT"
+msgstr "N'oubliez pas les power-ups, ils se trouvent dans toute la carte."
+
+msgid "IDS_CAMPAIGN_32"
+msgstr "Ce Rétro a un Canon Tornade de niveau 4 avec de sérieux composants. Résisterez-vous ?"
+
+msgid "IDS_CAMPAIGN_32_VICTORY"
+msgstr "Pas facile, mais réussi ! Bon travail !"
+
+msgid "IDS_CAMPAIGN_32_DEFEAT"
+msgstr "La meilleure protection contre une Canon Tornade est un véhicule lourd et puissant... En avez-vous un ?"
+
+msgid "IDS_CAMPAIGN_33"
+msgstr "Ce Démolisseur peut s'autoréparer et il a une solide armure. Pouvez-vous lui infliger assez de blessures pour le détruire ?"
+
+msgid "IDS_CAMPAIGN_33_VICTORY"
+msgstr "Le Démolisseur a été démoli. Maintenant, il vous reste les ennemis les plus dangereux..."
+
+msgid "IDS_CAMPAIGN_33_DEFEAT"
+msgstr "Dans un combat avec un Démolisseur, il faut attaquer sa capacité de guérison."
+
+msgid "IDS_CAMPAIGN_34"
+msgstr "Ne tournez jamais le dos à un Thermodon, surtout lorsque sa capacité est renforcée par Compétences et des Composants !"
+
+msgid "IDS_CAMPAIGN_34_VICTORY"
+msgstr "Il a reçu une leçon ! Continuez !"
+
+msgid "IDS_CAMPAIGN_34_DEFEAT"
+msgstr "Vous êtes seul contre ces ennemis de haut niveau, restez concentré."
+
+msgid "IDS_CAMPAIGN_35"
+msgstr "Cette Horde est très dangereuse, mais ce n'est rien en comparaison du Thermodon que vous venez d'abattre..."
+
+msgid "IDS_CAMPAIGN_35_VICTORY"
+msgstr "Plus que cinq campagnes. Continuez !"
+
+msgid "IDS_CAMPAIGN_35_DEFEAT"
+msgstr "Continuez à avancer : il est plus dur pour les ennemis de frapper."
+
+msgid "IDS_CAMPAIGN_36"
+msgstr "Choisissez-vous Armure ou Vitesse pour faire face aux missiles mortels HMT4 du Fantôme ?"
+
+msgid "IDS_CAMPAIGN_36_VICTORY"
+msgstr "Le Fantôme est mort. Il ne reste que quelques ennemis ! Bouclez votre ceinture!"
+
+msgid "IDS_CAMPAIGN_36_DEFEAT"
+msgstr "Le Fantôme répare son armure au fil du temps. Mettez la pression !"
+
+msgid "IDS_CAMPAIGN_37"
+msgstr "Ce Ravageur Samouraï est plus rapide que les autres. Son laser à vide noir peut faire vraiment très mal. Vraiment."
+
+msgid "IDS_CAMPAIGN_37_VICTORY"
+msgstr "Assez difficile, n'est-ce pas ? Mais rien n'est trop difficile pour un joueur habile, non ?"
+
+msgid "IDS_CAMPAIGN_37_DEFEAT"
+msgstr "Les Générateurs de puissance sont utiles pour lutter contre ce voleur d'énergie..."
+
+msgid "IDS_CAMPAIGN_38"
+msgstr "Ce Bulldozer Antique est très dangereux. Vous aurez besoin d'une sérieuse puissance de feu pour le descendre."
+
+msgid "IDS_CAMPAIGN_38_VICTORY"
+msgstr "Génial ! Vous avez achevé tous les autres. Êtes-vous assez bon pour vous occuper de Shooter ?"
+
+msgid "IDS_CAMPAIGN_38_DEFEAT"
+msgstr "Ne vous arrêtez pas après tout ce chemin ! Détruisez tous les ennemis !"
+
+msgid "IDS_CAMPAIGN_39"
+msgstr "Dernière campagne avant la confrontation finale..."
+
+msgid "IDS_CAMPAIGN_39_VICTORY"
+msgstr "Bon Travail ! Pouvez-vous vaincre Shooter et déverrouiller son véhicule ?"
+
+msgid "IDS_CAMPAIGN_39_DEFEAT"
+msgstr "Ils vous ont eu, mais ce n'est pas impossible. Vous avez juste besoin d'être plus offensif..."
+
+msgid "IDS_CAMPAIGN_40"
+msgstr "Voilà, c'est le tête-à-tête avec Shooter ! Si vous gagnez, vous pouvez avoir son camion. Bonne chance !"
+
+msgid "IDS_CAMPAIGN_40_VICTORY"
+msgstr "Félicitations. Vous avez vaincu Shooter. Son véhicule est disponible gratuitement dans le magasin."
+
+msgid "IDS_CAMPAIGN_40_DEFEAT"
+msgstr "Il faudrait être fou pour s'arrêter là, vous êtes tout près de déverrouiller un nouveau véhicule extra !"
+
+msgid "IDS_CAMPAIGN_RESULT_VICTORY"
+msgstr "[#FCD116]VICTOIRE !"
+
+msgid "IDS_CAMPAIGN_RESULT_DEFEAT"
+msgstr "[#CC1100]PERDU !"
+
+msgid "IDS_CAMPAIGN_BADGE_DEFEATED"
+msgstr "[#CC1100]PERDU !"
+
+msgid "IDS_CAMPAIGN_BATTLE_LIST"
+msgstr "CAMPAGNE {0} SUR {1}"
+
+# Maximum length of text should be not more than 13 symbols.
+msgid "IDS_SHOP_ITEM_LOCK_CAMPAIGN"
+msgstr "GAGNER CAMPAG."
+
+msgid "IDS_GET_MORE_GAMES"
+msgstr "Plus de jeux"
+
+msgid "IDS_BOSS_SHOOTER"
+msgstr "SHOOTER"
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T1_ARMOR_2P"
+msgstr "PLAQUE DE BLINDAGE"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T1_ARMOR_2P_TEXT"
+msgstr ""
+"Augmente le Blindage de tous vos véhicules.\n"
+"Niveau 1 : +2 %.\n"
+"Niveau 2 : +4 %.\n"
+"Niveau 3 : +6 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T1_SPEED_2P"
+msgstr "INJECTION DIRECTE"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T1_SPEED_2P_TEXT"
+msgstr ""
+"Augmente la vitesse de tous vos véhicules.\n"
+"Niveau 1 : +2 %.\n"
+"Niveau 2 : +4 %.\n"
+"Niveau 3 : +6 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T1_WEAPON_DAMAGE_2P"
+msgstr "SNIPER"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T1_WEAPON_DAMAGE_2P_TEXT"
+msgstr ""
+"Augmente les dégâts sur tous vos véhicules.\n"
+"Niveau 1 : +2 %.\n"
+"Niveau 2 : +4 %.\n"
+"Niveau 3 : +6 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T2_SPEED_5P_2S_ON_DAMAGE"
+msgstr "RÉTROGRADER"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T2_SPEED_5P_2S_ON_DAMAGE_TEXT"
+msgstr ""
+"Augmente temporairement la vitesse de votre véhicule après avoir subi des dégâts.\n"
+"Niveau 1 : boost +2 %.\n"
+"Niveau 2 : boost +4 %.\n"
+"Niveau 3 : boost +6 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T2_ENERGY_REGEN_7P"
+msgstr "ALTERNATEUR AMÉLIORÉ"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T2_ENERGY_REGEN_7P_TEXT"
+msgstr ""
+"Augmente le taux de régénération de l'énergie de tous vos véhicules.\n"
+"Niveau 1 : +7 %.\n"
+"Niveau 2 : +14 %.\n"
+"Niveau 3 : +21 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T3_DAGAME_REDUCE_10P_10S_RESPAWN"
+msgstr "AVANTAGE"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T3_DAGAME_REDUCE_10P_10S_RESPAWN_TEXT"
+msgstr ""
+"Réduit tous les dégâts subis pendant 10 secondes après réapparition.\n"
+"Niveau 1 : +10 %.\n"
+"Niveau 2 : +20 %.\n"
+"Niveau 3 : +30 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T3_ARMOR_5P_ON_COLLISION"
+msgstr "À TOUCHE-TOUCHE"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T3_ARMOR_5P_ON_COLLISION_TEXT"
+msgstr ""
+"Votre véhicule est réparé chaque fois que vous infligez les dégâts de collision.\n"
+"Niveau 1 : pour 2 % de blindage max.\n"
+"Niveau 2 : pour 4 % de blindage max.\n"
+"Niveau 3 : pour 8 % de blindage max."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T3_COLLISION_5P_5P_MINUS"
+msgstr "COGNEUR"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T3_COLLISION_5P_5P_MINUS_TEXT"
+msgstr ""
+"Augmente les dégâts de collision infligés tout en réduisant les dégâts de collision subis.\n"
+"Niveau 1 : +5 %.\n"
+"Niveau 2 : +10 %.\n"
+"Niveau 3 : +15 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T3_ENERGY_5P_MINUS"
+msgstr "ÉCO-ÉNERGIE"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T3_ENERGY_5P_MINUS_TEXT"
+msgstr ""
+"Les armes de votre véhicule consomment moins d'énergie.\n"
+"Niveau 1 : -5 %.\n"
+"Niveau 2 : -10 %.\n"
+"Niveau 3 : -15 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T4_ABILITY_ENERGY_5P_MINUS"
+msgstr "ÉCO-ACTIF"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T4_ABILITY_ENERGY_5P_MINUS_TEXT"
+msgstr ""
+"La capacité active de votre véhicule consomme moins d'énergie.\n"
+"Niveau 1 : -5 %.\n"
+"Niveau 2 : -10 %.\n"
+"Niveau 3 : -15 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T4_DAMAGE_2P_UNTIL_HIT"
+msgstr "SANS PITIÉ"
+
+# MAIN DESCRIPTION SHOULD FIT IN TWO LINES ON DEVICE
+msgid "IDS_TALENT_T4_DAMAGE_2P_UNTIL_HIT_TEXT"
+msgstr ""
+"En attaque, les dégâts d'arme augmentent chaque seconde jusqu'à ce qu'un ennemi vous touche.\n"
+"Niveau 1 : +2 %.\n"
+"Niveau 2 : +4 %.\n"
+"Niveau 3 : +6 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T5_RETURN_DAMAGE_1P_HEAL_2S"
+msgstr "REBOND"
+
+# MAIN DESCRIPTION SHOULD FIT IN TWO LINES ON DEVICE
+msgid "IDS_TALENT_T5_RETURN_DAMAGE_1P_HEAL_2S_TEXT"
+msgstr ""
+"Vous donne la possibilité de réparer votre blindage et renvoie les dégâts entrants sur votre attaquant.\n"
+"Niveau 1 : 1 % de chance.\n"
+"Niveau 2 : 2 % de chance.\n"
+"Niveau 3 : 3 % de chance."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T5_ENERGY_1_BY_10_DAMAGE"
+msgstr "RESTAURATION"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T5_ENERGY_1_BY_10_DAMAGE_TEXT"
+msgstr ""
+"Dégâts entrants convertis en énergie.\n"
+"Niveau 1 : 10 % de dégâts.\n"
+"Niveau 2 : 20 % de dégâts.\n"
+"Niveau 3 : 30 % de dégâts."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T5_PASSIVE_ABILITY_5P"
+msgstr "PASSIF AGRESSIF"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T5_PASSIVE_ABILITY_5P_TEXT"
+msgstr ""
+"Augmente l'efficacité de la capacité passive de votre véhicule.\n"
+"Niveau 1 : 5 % d'augmentation.\n"
+"Niveau 2 : 10 % d'augmentation.\n"
+"Niveau 3 : 15 % d'augmentation."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T5_WEAPON_10P_FIRE"
+msgstr "FOU DE LA GÂCHETTE"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T5_WEAPON_10P_FIRE_TEXT"
+msgstr ""
+"Cadence de tir augmentée pour les armes cinétiques et explosives.\n"
+"Niveau 1 : 5 % d'augmentation.\n"
+"Niveau 2 : 10 % d'augmentation.\n"
+"Niveau 3 : 15 % d'augmentation."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T6_DAMAGE_10_MINUS"
+msgstr "PARE-BALLES"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T6_DAMAGE_10_MINUS_TEXT"
+msgstr "Tous les dégâts subis sont réduits de 10 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T6_SPEED_025P_BY_1_HEALTH"
+msgstr "SECOND SOUFFLE"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T6_SPEED_025P_BY_1_HEALTH_TEXT"
+msgstr "Augmentation de votre vitesse de 0,25 % pour chaque pour cent de Blindage manquant."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T6_COOLDOWN_10P_EFFECT_10P"
+msgstr "DE SANG-FROID"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T6_COOLDOWN_10P_EFFECT_10P_TEXT"
+msgstr "Le temps de récupération de la capacité active est diminué de 10 % pendant que l'effet augmente de 10 %."
+
+# Maximum length of text should be not more than 20 symbols.
+msgid "IDS_TALENT_T6_DAMAGE_10P"
+msgstr "ASSOIFFÉ DE SANG"
+
+# Maximum length of text should be not more than 192 symbols.
+msgid "IDS_TALENT_T6_DAMAGE_10P_TEXT"
+msgstr "Tous les dégâts infligés sont augmentés de 10 %."
+
+msgid "quit_confirm_title"
+msgstr "QUITTER"
+
+msgid "quit_confirm_body"
+msgstr "Veux-tu vraiment quitter ?"
+
+msgid "quit_button_ok"
+msgstr "OK"
+
+msgid "quit_button_cancel"
+msgstr "ANNULER"
+
+msgid "rate_game_award_title"
+msgstr "FÉLICITATIONS"
+
+msgid "rate_game_award_body"
+msgstr "Tu as reçu 5 Glu crédits !"
+
+msgid "notifications_prompt_body"
+msgstr "Souhaites-tu recevoir des notifications ?"

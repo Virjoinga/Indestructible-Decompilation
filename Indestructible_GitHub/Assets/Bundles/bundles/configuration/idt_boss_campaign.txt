@@ -1,0 +1,380 @@
+<bossCampaign>
+
+ <fights>
+    
+    <fight  bossName="IDS_MANTIS_BODY_BLACKFIRE" shopVehicleBody="body_mantis_urban" >
+	  <texts description="IDS_CAMPAIGN_1" win="IDS_CAMPAIGN_1_VICTORY" defeat="IDS_CAMPAIGN_1_DEFEAT" />
+	  <reward moneySoft="50" experience="6" />
+	  <rewardFail moneySoft="15" experience="2" />
+	  <compareInfo  damage="152" armor="1326" speed="24" energy="53" />
+      <bosses>
+		<boss name="IDS_MANTIS_BODY_BLACKFIRE" prefab="MantisAIBoss"/>
+	  </bosses>
+    </fight>
+
+	<fight bossName="IDS_PUNISHER_BODY_CAMOUFLAGE" shopVehicleBody="body_punisher_fbi" >
+     <texts description="IDS_CAMPAIGN_2" win="IDS_CAMPAIGN_2_VICTORY" defeat="IDS_CAMPAIGN_2_DEFEAT" />
+	 <reward moneySoft="128" experience="9" />
+	 <rewardFail moneySoft="38" experience="5" />
+	 <compareInfo  damage="205" armor="1300" speed="24" energy="26" />
+      <bosses>
+		<boss name="IDS_PUNISHER_BODY_CAMOUFLAGE" prefab="PunisherAIBoss"/>
+	  </bosses>
+    </fight>
+	
+	<fight  bossName="IDS_STRIKER_BODY_ARMY" shopVehicleBody="body_striker_army" >
+	  <texts description="IDS_CAMPAIGN_3" win="IDS_CAMPAIGN_3_VICTORY" defeat="IDS_CAMPAIGN_3_DEFEAT" />
+	  <compareInfo  damage="150" armor="3640" speed="23" energy="53" />
+	  <reward moneySoft="202" experience="16" />
+	  <rewardFail moneySoft="60" experience="8" />
+      <bosses>
+		<boss name="IDS_STRIKER_BODY_ARMY" prefab="StrikerAIBoss"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_HURRICANE_BODY_FLAMER"  shopVehicleBody="body_hurricane_flamer" >
+	  <texts description="IDS_CAMPAIGN_4" win="IDS_CAMPAIGN_4_VICTORY" defeat="IDS_CAMPAIGN_4_DEFEAT" />
+	  <compareInfo  damage="152" armor="4440" speed="20" energy="75" />
+	  <reward moneySoft="255" experience="22" />
+	  <rewardFail moneySoft="77" experience="12" />
+      <bosses>
+		<boss name="IDS_HURRICANE_BODY_FLAMER" prefab="HurricaneAIBoss"/>
+	  </bosses>
+    </fight>
+
+	<fight waveNumber="5" bossName="IDS_CAMPAIGN_HORDE_1" backgroundImage="HordesPictures/card_1l" >
+     <texts description="IDS_CAMPAIGN_5" win="IDS_CAMPAIGN_5_VICTORY" defeat="IDS_CAMPAIGN_5_DEFEAT" />
+	 <reward moneySoft="500" experience="50" />
+	 <rewardFail moneySoft="100" experience="10" />
+	 <compareInfo  damage="55.2" armor="115" speed="25" energy="18" />
+    </fight>
+	
+	<fight bossName="IDS_ZAMBEZI_BODY_SHARK"  shopVehicleBody="body_zambezi_shark" >
+	  <texts description="IDS_CAMPAIGN_6" win="IDS_CAMPAIGN_6_VICTORY" defeat="IDS_CAMPAIGN_6_DEFEAT" />
+	  <compareInfo  damage="242" armor="1300" speed="26.4" energy="50" />
+	  <reward moneySoft="296" experience="29" />
+	  <rewardFail moneySoft="89" experience="15" />
+      <bosses>
+		<boss name="IDS_ZAMBEZI_BODY_SHARK" prefab="ZambeziAIBoss"/>
+	  </bosses>
+    </fight>
+	
+ 	<fight bossName="IDS_DEMOLISHER_BODY_MARINE"  shopVehicleBody="body_demolisher_marine" >
+	  <texts description="IDS_CAMPAIGN_7" win="IDS_CAMPAIGN_7_VICTORY" defeat="IDS_CAMPAIGN_7_DEFEAT" />
+	  <compareInfo  damage="187" armor="2100" speed="22" energy="53" />
+	  <reward moneySoft="330" experience="35" />
+	  <rewardFail moneySoft="99" experience="19" />
+      <bosses>
+		<boss name="IDS_DEMOLISHER_BODY_MARINE" prefab="DemolisherAIBoss"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_THERMODON_BODY_RED"  shopVehicleBody="body_thermodon_red" >
+	  <texts description="IDS_CAMPAIGN_8" win="IDS_CAMPAIGN_8_VICTORY" defeat="IDS_CAMPAIGN_8_DEFEAT" />
+	  <compareInfo  damage="230.9" armor="4210" speed="20" energy="53" />
+	  <reward moneySoft="358" experience="42" />
+	  <rewardFail moneySoft="107" experience="22" />
+      <bosses>
+		<boss name="IDS_THERMODON_BODY_RED" prefab="ThermodonAIBoss"/>
+	  </bosses>
+    </fight>
+	
+	<fight waveNumber="8" bossName="IDS_CAMPAIGN_HORDE_2" backgroundImage="HordesPictures/card_2" >
+     <texts description="IDS_CAMPAIGN_9" win="IDS_CAMPAIGN_9_VICTORY" defeat="IDS_CAMPAIGN_9_DEFEAT" />
+	 <reward moneySoft="700" experience="80" />
+	 <rewardFail moneySoft="140" experience="16" />
+	 <compareInfo  damage="74" armor="122.1" speed="24.6" energy="18" />
+    </fight>
+	
+	<fight bossName="IDS_GHOST_BODY_GRAY"  shopVehicleBody="body_ghost_gray" >
+	  <texts description="IDS_CAMPAIGN_10" win="IDS_CAMPAIGN_10_VICTORY" defeat="IDS_CAMPAIGN_10_DEFEAT" />
+	  <reward moneySoft="383" experience="48" />
+	  <rewardFail moneySoft="115" experience="26" />
+	  <compareInfo  damage="256.5" armor="1000" speed="27.9" energy="53" />
+      <bosses>
+		<boss name="IDS_GHOST_BODY_GRAY" prefab="GhostAIBoss"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_RAVAGER_BODY_GREY"  shopVehicleBody="body_ravager_grey" >
+	  <texts description="IDS_CAMPAIGN_11" win="IDS_CAMPAIGN_11_VICTORY" defeat="IDS_CAMPAIGN_11_DEFEAT" />
+	  <reward moneySoft="404" experience="55" />
+	  <rewardFail moneySoft="121" experience="29" />
+	  <compareInfo  damage="179" armor="2100" speed="25.8" energy="53" />
+      <bosses>
+		<boss name="IDS_RAVAGER_BODY_GREY" prefab="RavagerAIBoss"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_DOZER_BODY_YELLOW"  shopVehicleBody="body_dozer_yellow" >
+	  <texts description="IDS_CAMPAIGN_12" win="IDS_CAMPAIGN_12_VICTORY" defeat="IDS_CAMPAIGN_12_DEFEAT" />
+	  <reward moneySoft="423" experience="61" />
+	  <rewardFail moneySoft="127" experience="33" />
+	  <compareInfo  damage="230.9" armor="5000" speed="21.2" energy="53" />
+      <bosses>
+		<boss name="IDS_DOZER_BODY_YELLOW" prefab="DozerAIBoss"/>
+	  </bosses>
+    </fight>
+
+	<fight waveNumber="11" bossName="IDS_CAMPAIGN_HORDE_3" backgroundImage="HordesPictures/card_3" >
+     <texts description="IDS_CAMPAIGN_13" win="IDS_CAMPAIGN_13_VICTORY" defeat="IDS_CAMPAIGN_13_DEFEAT" />
+	 <reward moneySoft="800" experience="120" />
+	 <rewardFail moneySoft="160" experience="24" />
+	 <compareInfo  damage="87.7" armor="156.9" speed="22.2" energy="19" />
+    </fight>
+	
+	<fight  bossName="IDS_MANTIS_BODY_CANARY" shopVehicleBody="body_mantis_canary" >
+	  <texts description="IDS_CAMPAIGN_14" win="IDS_CAMPAIGN_14_VICTORY" lose="IDS_CAMPAIGN_14_DEFEAT" />
+	  <reward moneySoft="441" experience="68" bundleId="bundle_mantis_t2"/>
+	  <rewardFail moneySoft="132" experience="36" />
+	  <compareInfo  damage="173.4" armor="1300" speed="28.9" energy="53" />
+      <bosses>
+		<boss name="IDS_MANTIS_BODY_BLACKFIRE" prefab="MantisAIBoss2"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_PUNISHER_BODY_WOODCUTTER" shopVehicleBody="body_punisher_woodcutter" >
+     <texts description="IDS_CAMPAIGN_15" win="IDS_CAMPAIGN_15_VICTORY" defeat="IDS_CAMPAIGN_15_DEFEAT" />
+	 <reward moneySoft="457" experience="74" />
+	 <rewardFail moneySoft="137" experience="40" />
+	 <compareInfo  damage="189.7" armor="1378" speed="24" energy="26" bundleId="bundle_punisher_t2"/>
+      <bosses>
+		<boss name="IDS_PUNISHER_BODY_CAMOUFLAGE" prefab="PunisherAIBoss2"/>
+	  </bosses>
+    </fight>
+	
+	<fight  bossName="IDS_STRIKER_BODY_HEAVY_METAL" shopVehicleBody="body_striker_heavy_metal" >
+	  <texts description="IDS_CAMPAIGN_16" win="IDS_CAMPAIGN_16_VICTORY" defeat="IDS_CAMPAIGN_16_DEFEAT" />
+	  <reward moneySoft="472" experience="81" bundleId="bundle_striker_t2"/>
+	  <rewardFail moneySoft="141" experience="43" />
+	  <compareInfo  damage="344.8" armor="3710" speed="22" energy="53" />
+      <bosses>
+		<boss name="IDS_STRIKER_BODY_ARMY" prefab="StrikerAIBoss2"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_HURRICANE_BODY_HI_TECH"  shopVehicleBody="body_hurricane_hi_tech" >
+	  <texts description="IDS_CAMPAIGN_17" win="IDS_CAMPAIGN_17_VICTORY" defeat="IDS_CAMPAIGN_17_DEFEAT" />
+	  <reward moneySoft="485" experience="87" bundleId="bundle_hurricane_t2"/>
+	  <rewardFail moneySoft="145" experience="47" />
+	  <compareInfo  damage="243.4" armor="4410" speed="21.2" energy="75" />
+      <bosses>
+		<boss name="IDS_HURRICANE_BODY_FLAMER" prefab="HurricaneAIBoss2"/>
+	  </bosses>
+    </fight>
+
+	<fight waveNumber="13" bossName="IDS_CAMPAIGN_HORDE_4" backgroundImage="HordesPictures/card_4" >
+     <texts description="IDS_CAMPAIGN_18" win="IDS_CAMPAIGN_18_VICTORY" defeat="IDS_CAMPAIGN_18_DEFEAT" />
+	 <reward moneySoft="850" experience="140" />
+	 <rewardFail moneySoft="170" experience="28" />
+	 <compareInfo  damage="96.0" armor="170.0" speed="21.0" energy="19" />
+    </fight>
+	
+	<fight bossName="IDS_ZAMBEZI_BODY_PIMP"  shopVehicleBody="body_zambezi_pimp" >
+	  <texts description="IDS_CAMPAIGN_19" win="IDS_CAMPAIGN_19_VICTORY" defeat="IDS_CAMPAIGN_19_DEFEAT" />
+	  <reward moneySoft="498" experience="94" bundleId="bundle_zambezi_t2"/>
+	  <rewardFail moneySoft="149" experience="50" />
+	  <compareInfo  damage="190" armor="2078" speed="25.4" energy="50" />
+	  <reward moneySoft="100" experience="100" />
+      <bosses>
+		<boss name="IDS_ZAMBEZI_BODY_SHARK" prefab="ZambeziAIBoss2"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_DEMOLISHER_BODY_SHARK"  shopVehicleBody="body_demolisher_shark" >
+	  <texts description="IDS_CAMPAIGN_20" win="IDS_CAMPAIGN_20_VICTORY" defeat="IDS_CAMPAIGN_20_DEFEAT" />
+	  <reward moneySoft="510" experience="100" bundleId="bundle_demolisher_t2"/>
+	  <rewardFail moneySoft="153" experience="54" />
+	  <compareInfo  damage="208" armor="2926" speed="23.3" energy="53" />
+      <bosses>
+		<boss name="IDS_DEMOLISHER_BODY_MARINE" prefab="DemolisherAIBoss2"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_THERMODON_BODY_WAVER"  shopVehicleBody="body_thermodon_waver" >
+	  <texts description="IDS_CAMPAIGN_21" win="IDS_CAMPAIGN_21_VICTORY" defeat="IDS_CAMPAIGN_21_DEFEAT" />
+	  <reward moneySoft="521" experience="107" bundleId="bundle_thermodon_t2"/>
+	  <rewardFail moneySoft="156" experience="57" />
+	  <compareInfo  damage="294.7" armor="3570" speed="20" energy="53" />
+      <bosses>
+		<boss name="IDS_THERMODON_BODY_RED" prefab="ThermodonAIBoss2"/>
+	  </bosses>
+    </fight>
+
+	<fight waveNumber="17" bossName="IDS_CAMPAIGN_HORDE_5" backgroundImage="HordesPictures/card_5" >
+     <texts description="IDS_CAMPAIGN_22" win="IDS_CAMPAIGN_22_VICTORY" defeat="IDS_CAMPAIGN_22_DEFEAT" />
+	 <reward moneySoft="1000" experience="200" />
+	 <rewardFail moneySoft="200" experience="40" />
+	 <compareInfo  damage="124.3" armor="157.4" speed="23.6" energy="20" />
+    </fight>
+	
+	<fight bossName="IDS_GHOST_BODY_RED"  shopVehicleBody="body_ghost_red" >
+	  <texts description="IDS_CAMPAIGN_23" win="IDS_CAMPAIGN_23_VICTORY" defeat="IDS_CAMPAIGN_23_DEFEAT" />
+	  <reward moneySoft="532" experience="113" bundleId="bundle_ghost_t2"/>
+	  <rewardFail moneySoft="159" experience="61" />
+	  <compareInfo  damage="1200" armor="1000" speed="27.4" energy="53" />
+      <bosses>
+		<boss name="IDS_GHOST_BODY_GRAY" prefab="GhostAIBoss2"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_RAVAGER_BODY_BRONZE"  shopVehicleBody="body_ravager_bronze" >
+	  <texts description="IDS_CAMPAIGN_24" win="IDS_CAMPAIGN_24_VICTORY" defeat="IDS_CAMPAIGN_24_DEFEAT" />
+	  <reward moneySoft="541" experience="120" bundleId="bundle_ravager_t2"/>
+	  <rewardFail moneySoft="162" experience="64" />
+	  <compareInfo  damage="223" armor="4226" speed="22" energy="53" />
+      <bosses>
+		<boss name="IDS_RAVAGER_BODY_GREY" prefab="RavagerAIBoss2"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_DOZER_BODY_VIKING"  shopVehicleBody="body_dozer_viking" >
+	  <texts description="IDS_CAMPAIGN_25" win="IDS_CAMPAIGN_25_VICTORY" defeat="IDS_CAMPAIGN_25_DEFEAT" />
+	  <reward moneySoft="551" experience="126" bundleId="bundle_dozer"/>
+	  <rewardFail moneySoft="165" experience="68" />
+	  <compareInfo  damage="236" armor="6970" speed="20" energy="53" />
+      <bosses>
+		<boss name="IDS_DOZER_BODY_YELLOW" prefab="DozerAIBoss2"/>
+	  </bosses>
+    </fight>
+
+	<fight waveNumber="20" bossName="IDS_CAMPAIGN_HORDE_6" backgroundImage="HordesPictures/card_6" >
+     <texts description="IDS_CAMPAIGN_26" win="IDS_CAMPAIGN_26_VICTORY" defeat="IDS_CAMPAIGN_26_DEFEAT" />
+	 <reward moneySoft="1100" experience="250" />
+	 <rewardFail moneySoft="220" experience="50" />
+	 <compareInfo  damage="148.9" armor="157.9" speed="24.1" energy="20" />
+    </fight>
+	
+	<fight  bossName="IDS_MANTIS_BODY_URBAN" shopVehicleBody="body_mantis_urban" >
+	  <texts description="IDS_CAMPAIGN_27" win="IDS_CAMPAIGN_27_VICTORY" defeat="IDS_CAMPAIGN_27_DEFEAT" />
+	  <reward moneySoft="560" experience="131" bundleId="bundle_mantis_t3"/>
+	  <rewardFail moneySoft="168" experience="72" />
+	  <compareInfo  damage="319" armor="1300" speed="27.9" energy="53" />
+      <bosses>
+		<boss name="IDS_MANTIS_BODY_BLACKFIRE" prefab="MantisAIBoss3"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_PUNISHER_BODY_FBI" shopVehicleBody="body_punisher_fbi" >
+     <texts description="IDS_CAMPAIGN_28" win="IDS_CAMPAIGN_28_VICTORY" defeat="IDS_CAMPAIGN_28_DEFEAT" />
+	 <reward moneySoft="569" experience="136" bundleId="bundle_punisher_t3"/>
+	 <rewardFail moneySoft="170" experience="75" />
+	 <compareInfo  damage="205" armor="1652" speed="24" energy="26" />
+      <bosses>
+		<boss name="IDS_PUNISHER_BODY_CAMOUFLAGE" prefab="PunisherAIBoss3"/>
+	  </bosses>
+    </fight>
+	
+	<fight bossName="IDS_STRIKER_BODY_SAFARI" shopVehicleBody="body_striker_safari" >
+     <texts description="IDS_CAMPAIGN_29" win="IDS_CAMPAIGN_29_VICTORY" defeat="IDS_CAMPAIGN_29_DEFEAT" />
+	 <reward moneySoft="577" experience="141" bundleId="bundle_striker_t3"/>	 
+	 <rewardFail moneySoft="173" experience="77" />
+	 <compareInfo  damage="319" armor="3500" speed="23.3" energy="53" />
+      <bosses>
+		<boss name="IDS_STRIKER_BODY_ARMY" prefab="StrikerAIBoss3"/>
+	  </bosses>
+    </fight>	
+	
+	<fight bossName="IDS_HURRICANE_BODY_HIPPIE" shopVehicleBody="body_hurricane_hippie" >
+     <texts description="IDS_CAMPAIGN_30" win="IDS_CAMPAIGN_30_VICTORY" defeat="IDS_CAMPAIGN_30_DEFEAT" />
+	 <reward moneySoft="585" experience="146" bundleId="bundle_hurricane_t3"/>	 
+	 <rewardFail moneySoft="176" experience="80" />
+	 <compareInfo  damage="236" armor="3500" speed="21.2" energy="75" />
+      <bosses>
+		<boss name="IDS_HURRICANE_BODY_FLAMER" prefab="HurricaneAIBoss3"/>
+	  </bosses>
+    </fight>
+
+	<fight waveNumber="23" bossName="IDS_CAMPAIGN_HORDE_7" backgroundImage="HordesPictures/card_7" >
+     <texts description="IDS_CAMPAIGN_31" win="IDS_CAMPAIGN_31_VICTORY" defeat="IDS_CAMPAIGN_31_DEFEAT" />
+	 <reward moneySoft="1150" experience="280" />
+	 <rewardFail moneySoft="230" experience="56" />
+	 <compareInfo  damage="180.5" armor="164.2" speed="24.6" energy="22" />
+    </fight>
+	
+	<fight bossName="IDS_ZAMBEZI_BODY_POLICE" shopVehicleBody="body_zambezi_police" >
+     <texts description="IDS_CAMPAIGN_32" win="IDS_CAMPAIGN_32_VICTORY" defeat="IDS_CAMPAIGN_32_DEFEAT" />
+	 <reward moneySoft="592" experience="150" bundleId="bundle_zambezi_t3"/>
+	 <rewardFail moneySoft="178" experience="82" />
+	 <compareInfo  damage="258.7" armor="1300" speed="24" energy="50" />
+      <bosses>
+		<boss name="IDS_ZAMBEZI_BODY_SHARK" prefab="ZambeziAIBoss3"/>
+	  </bosses>
+    </fight>
+
+	<fight bossName="IDS_DEMOLISHER_BODY_NURSE" shopVehicleBody="body_demolisher_nurse" >
+     <texts description="IDS_CAMPAIGN_33" win="IDS_CAMPAIGN_33_VICTORY" defeat="IDS_CAMPAIGN_33_DEFEAT" />
+	 <reward moneySoft="599" experience="154" bundleId="bundle_demolisher_t3"/>	 
+	 <rewardFail moneySoft="180" experience="85" />
+	 <compareInfo  damage="236" armor="3226" speed="23.3" energy="53" />
+      <bosses>
+		<boss name="IDS_DEMOLISHER_BODY_MARINE" prefab="DemolisherAIBoss3"/>
+	  </bosses>
+    </fight>
+
+	<fight bossName="IDS_THERMODON_BODY_MAGIC" shopVehicleBody="body_thermodon_magic" >
+     <texts description="IDS_CAMPAIGN_34" win="IDS_CAMPAIGN_34_VICTORY" defeat="IDS_CAMPAIGN_34_DEFEAT" />
+	 <reward moneySoft="606" experience="158" bundleId="bundle_thermodon_t3"/>	 
+	 <rewardFail moneySoft="182" experience="87" />
+	 <compareInfo  damage="236.4" armor="3710" speed="20" energy="53" />
+      <bosses>
+		<boss name="IDS_THERMODON_BODY_RED" prefab="ThermodonAIBoss3"/>
+	  </bosses>
+    </fight>
+
+	<fight waveNumber="27" bossName="IDS_CAMPAIGN_HORDE_8" backgroundImage="HordesPictures/card_8" >
+     <texts description="IDS_CAMPAIGN_35" win="IDS_CAMPAIGN_35_VICTORY" defeat="IDS_CAMPAIGN_35_DEFEAT" />
+	 <reward moneySoft="1200" experience="300" />
+	 <rewardFail moneySoft="240" experience="60" />
+	 <compareInfo  damage="238.1" armor="192.9" speed="23.9" energy="22" />
+    </fight>
+	
+	<fight bossName="IDS_GHOST_BODY_SPACE" shopVehicleBody="body_ghost_space" >
+     <texts description="IDS_CAMPAIGN_36" win="IDS_CAMPAIGN_36_VICTORY" defeat="IDS_CAMPAIGN_36_DEFEAT" />
+	 <reward moneySoft="613" experience="162" bundleId="bundle_ghost_t3"/>	 
+	 <rewardFail moneySoft="184" experience="89" />
+	 <compareInfo  damage="507" armor="1000" speed="24.5" energy="53" />
+      <bosses>
+		<boss name="IDS_GHOST_BODY_GRAY" prefab="GhostAIBoss3"/>
+	  </bosses>
+    </fight>
+
+	<fight bossName="IDS_RAVAGER_BODY_SAMURAI" shopVehicleBody="body_ravager_samurai" >
+     <texts description="IDS_CAMPAIGN_37" win="IDS_CAMPAIGN_37_VICTORY" defeat="IDS_CAMPAIGN_37_DEFEAT" />
+	 <reward moneySoft="619" experience="165" bundleId="bundle_ravager_t3"/>	 
+	 <rewardFail moneySoft="186" experience="90" />
+	 <compareInfo  damage="236.4" armor="3100" speed="22" energy="53" />
+      <bosses>
+		<boss name="IDS_RAVAGER_BODY_GREY" prefab="RavagerAIBoss3"/>
+	  </bosses>
+    </fight>
+
+	<fight bossName="IDS_DOZER_BODY_STONEAGE" shopVehicleBody="body_dozer_stoneage" >
+     <texts description="IDS_CAMPAIGN_38" win="IDS_CAMPAIGN_38_VICTORY" defeat="IDS_CAMPAIGN_38_DEFEAT" />
+	 <reward moneySoft="625" experience="168" bundleId="bundle_dozer_t3"/>	 
+	 <rewardFail moneySoft="188" experience="92" />
+	 <compareInfo  damage="450.5" armor="4500" speed="21.2" energy="53" />
+      <bosses>
+		<boss name="IDS_DOZER_BODY_YELLOW" prefab="DozerAIBoss3"/>
+	  </bosses>
+    </fight>	
+
+	<fight waveNumber="30" bossName="IDS_CAMPAIGN_HORDE_9" backgroundImage="HordesPictures/card_9" >
+     <texts description="IDS_CAMPAIGN_39" win="IDS_CAMPAIGN_39_VICTORY" defeat="IDS_CAMPAIGN_39_DEFEAT" />
+	 <reward moneySoft="1250" experience="320" />
+	 <rewardFail moneySoft="250" experience="64" />
+	 <compareInfo  damage="315.8" armor="209.5" speed="24.5" energy="24" />
+    </fight>
+	
+	<fight bossName="IDS_BOSS_SHOOTER" shopVehicleBody="body_ckz_camo" >
+     <texts description="IDS_CAMPAIGN_40" win="IDS_CAMPAIGN_40_VICTORY" defeat="IDS_CAMPAIGN_40_DEFEAT" />
+	 <reward moneySoft="2000" experience="400" bundleId="bundle_ckz"/>	 
+	 <rewardFail moneySoft="500" experience="100" />
+	 <compareInfo  damage="369.1" armor="3226" speed="24.5" energy="26" />
+      <bosses>
+		<boss name="IDS_BOSS_SHOOTER" prefab="CKZAIBoss"/>
+	  </bosses>
+    </fight>	
+	
+  </fights>
+</bossCampaign>
