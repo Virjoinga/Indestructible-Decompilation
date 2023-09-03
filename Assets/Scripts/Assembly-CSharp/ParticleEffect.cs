@@ -5,7 +5,7 @@ public class ParticleEffect : MonoBehaviour
 {
 	public Vector3[] qualityEmissionSizeLifetimeFactors;
 
-	private ParticleEmitter _emitter;
+	private ParticleSystem _emitter;
 
 	private float _minSize;
 
@@ -91,7 +91,7 @@ public class ParticleEffect : MonoBehaviour
 		}
 	}
 
-	protected ParticleEmitter emitter
+	protected ParticleSystem emitter
 	{
 		get
 		{
@@ -106,7 +106,7 @@ public class ParticleEffect : MonoBehaviour
 
 	public void Emit(Vector3 pos, Vector3 velocity, float size, float lifetime, float rotation, float angularVelocity)
 	{
-		_emitter.Emit(pos, velocity, size, lifetime, Color.white, rotation, angularVelocity);
+		//_emitter.Emit(pos, velocity, size, lifetime, Color.white, rotation, angularVelocity);
 	}
 
 	public void EmitRandomSizeLifetimeRotation(Vector3 pos, Vector3 velocity)
@@ -117,7 +117,7 @@ public class ParticleEffect : MonoBehaviour
 			return;
 		}
 		float value = Random.value;
-		_emitter.Emit(pos, velocity, rndSize, rndLifetime, Color.white, value * 360f - 180f, _minAngularVelocity + _angularVelocityRange * value);
+		//_emitter.Emit(pos, velocity, rndSize, rndLifetime, Color.white, value * 360f - 180f, _minAngularVelocity + _angularVelocityRange * value);
 	}
 
 	public void EmitRandomSizeLifetimeRotation(Vector3 pos, Vector3 velocity, float sizeScale, float lifetimeScale)
@@ -128,7 +128,7 @@ public class ParticleEffect : MonoBehaviour
 			return;
 		}
 		float value = Random.value;
-		_emitter.Emit(pos, velocity, rndSize * sizeScale, rndLifetime * lifetimeScale, Color.white, value * 360f - 180f, _minAngularVelocity + _angularVelocityRange * value);
+		//_emitter.Emit(pos, velocity, rndSize * sizeScale, rndLifetime * lifetimeScale, Color.white, value * 360f - 180f, _minAngularVelocity + _angularVelocityRange * value);
 	}
 
 	public void EmitRandomSizeLifetimeRotation(int count, Vector3 pos, Vector3 velocity)
@@ -145,7 +145,7 @@ public class ParticleEffect : MonoBehaviour
 		do
 		{
 			float value = Random.value;
-			_emitter.Emit(pos, velocity, rndSize, rndLifetime, Color.white, value * 360f - 180f, _minAngularVelocity + _angularVelocityRange * value);
+			//_emitter.Emit(pos, velocity, rndSize, rndLifetime, Color.white, value * 360f - 180f, _minAngularVelocity + _angularVelocityRange * value);
 		}
 		while (0 < --count);
 	}
@@ -164,7 +164,7 @@ public class ParticleEffect : MonoBehaviour
 		do
 		{
 			float value = Random.value;
-			_emitter.Emit(pos, velocity, rndSize * sizeScale, rndLifetime * lifetimeScale, Color.white, value * 360f - 180f, _minAngularVelocity + _angularVelocityRange * value);
+			//_emitter.Emit(pos, velocity, rndSize * sizeScale, rndLifetime * lifetimeScale, Color.white, value * 360f - 180f, _minAngularVelocity + _angularVelocityRange * value);
 		}
 		while (0 < --count);
 	}
@@ -191,28 +191,30 @@ public class ParticleEffect : MonoBehaviour
 
 	protected virtual void Awake()
 	{
-		_emitter = base.particleEmitter;
-		_emitter.emit = false;
-		_minSize = _emitter.minSize;
-		_sizeRange = _emitter.maxSize - _minSize;
-		_minLifetime = _emitter.minEnergy;
-		_lifetimeRange = _emitter.maxEnergy - _minLifetime;
-		_worldVelocity = emitter.worldVelocity;
-		_localVelocity = emitter.localVelocity;
-		_emitterVelocityScale = emitter.emitterVelocityScale;
-		_minEmissionRate = _emitter.minEmission;
+		_emitter = base.GetComponent<ParticleSystem>();
+		_emitter.Stop();
+		ParticleSystem.MainModule mainModule = _emitter.main;
+		mainModule.startSize = _minSize;
+		//_minSize = _emitter.minSize;
+		//_sizeRange = _emitter.maxSize - _minSize;
+		//_minLifetime = _emitter.minEnergy;
+		//_lifetimeRange = _emitter.maxEnergy - _minLifetime;
+		//_worldVelocity = emitter.worldVelocity;
+		//_localVelocity = emitter.localVelocity;
+		//_emitterVelocityScale = emitter.emitterVelocityScale;
+		//_minEmissionRate = _emitter.minEmission;
 		float num = 1f / _minEmissionRate;
-		float maxEmission = _emitter.maxEmission;
-		_minEmissionInterval = 1f / maxEmission;
-		_emissionRateRange = maxEmission - _minEmissionRate;
+		//float maxEmission = _emitter.maxEmission;
+		//_minEmissionInterval = 1f / maxEmission;
+		//_emissionRateRange = maxEmission - _minEmissionRate;
 		_emissionIntervalRange = num - _minEmissionInterval;
-		if (emitter.rndRotation)
+		/*if (emitter.rndRotation)
 		{
 			_isRndRotation = true;
 			float rndAngularVelocity = emitter.rndAngularVelocity;
 			_minAngularVelocity = emitter.angularVelocity - rndAngularVelocity;
 			_angularVelocityRange = rndAngularVelocity * 2f;
-		}
+		}*/
 		QualityManager instance = QualityManager.instance;
 		instance.qualityLevelChangedEvent += QualityLevelChanged;
 		QualityLevelChanged(0, instance.qualityLevel);
