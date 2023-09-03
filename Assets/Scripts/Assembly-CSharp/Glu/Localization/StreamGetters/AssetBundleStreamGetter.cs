@@ -30,7 +30,7 @@ namespace Glu.Localization.StreamGetters
 		public Stream GetStream(string name)
 		{
 			string name2 = Path.Combine(baseDir, name).Replace('\\', '/');
-			TextAsset textAsset = assetBundle.Load(name2, typeof(TextAsset)) as TextAsset;
+			TextAsset textAsset = assetBundle.LoadAsset(name2, typeof(TextAsset)) as TextAsset;
 			if (!object.ReferenceEquals(textAsset, null))
 			{
 				return new MemoryStream(textAsset.bytes);
