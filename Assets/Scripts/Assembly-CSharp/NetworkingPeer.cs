@@ -1184,13 +1184,13 @@ internal class NetworkingPeer : LoadbalancingPeer, IPhotonPeerListener
 			{
 				List<MethodInfo> list2 = new List<MethodInfo>();
 				MethodInfo[] methods = type.GetMethods(BindingFlags.DeclaredOnly | BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
-				for (int k = 0; k < methods.Length; k++)
+				/*for (int k = 0; k < methods.Length; k++)
 				{
 					if (methods[k].IsDefined(typeof(RPC), false))
 					{
 						list2.Add(methods[k]);
 					}
-				}
+				}*/
 				List<MethodInfo> list3 = list2;
 				monoRPCMethodsCache[type] = list3;
 				list = list3;
