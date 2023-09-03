@@ -122,7 +122,7 @@ public class AttackRage : MonoBehaviour
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void SetRage(float rage)
 	{
 		if (rage > _rageCoeff)
@@ -137,7 +137,7 @@ public class AttackRage : MonoBehaviour
 		_clearTime = Time.time + 1f;
 	}
 
-	[RPC]
+	//[RPC]
 	private void StopRage()
 	{
 		if (_rageCoeff != 0f)

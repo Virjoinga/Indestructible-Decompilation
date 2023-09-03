@@ -88,7 +88,7 @@ public class DozerActiveAbility : CooldownAbility, INetworkWeapon
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void AbilityActivated()
 	{
 		base.AbilityActivated();

@@ -58,26 +58,26 @@ public class NetCachedObject : CachedObject
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	public virtual void RemoteActivate()
 	{
 		base.gameObject.SetActiveRecursively(true);
 	}
 
-	[RPC]
+	//[RPC]
 	public virtual void RemoteDeactivate()
 	{
 		base.gameObject.SetActiveRecursively(false);
 	}
 
-	[RPC]
+	//[RPC]
 	public virtual void RemoteSetTransform(Vector3 pos, Quaternion rotation)
 	{
 		base.transform.localPosition = pos;
 		base.transform.localRotation = rotation;
 	}
 
-	[RPC]
+	//[RPC]
 	public virtual void RemoteSetPos(Vector3 pos)
 	{
 		base.transform.localPosition = pos;

@@ -236,20 +236,20 @@ public class KOHGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void PlayerKillEnemy(int playerID, int enemyID, int damageType)
 	{
 		base.PlayerKillEnemy(playerID, enemyID, damageType);
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void PlayerDied(int playerID)
 	{
 		base.PlayerDied(playerID);
 		ActorLeavePoint(playerID);
 	}
 
-	[RPC]
+	//[RPC]
 	public void ActorEnterPoint(int playerID)
 	{
 		if (base.isGameOver)
@@ -274,7 +274,7 @@ public class KOHGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	public void ActorLeavePoint(int playerID)
 	{
 		if (base.isGameOver)
@@ -296,7 +296,7 @@ public class KOHGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void ClearPoint()
 	{
 		if (!base.isGameOver)
@@ -307,7 +307,7 @@ public class KOHGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void FixPoint(int teamId)
 	{
 		if (!base.isGameOver)
@@ -325,7 +325,7 @@ public class KOHGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void ChangeOwnerTeam(int teamId)
 	{
 		if (!base.isGameOver)
@@ -338,7 +338,7 @@ public class KOHGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void StartCapture(int teamId)
 	{
 		if (!base.isGameOver && this.pointStartCaptureEvent != null)
@@ -347,7 +347,7 @@ public class KOHGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void InformPointProgress(float val)
 	{
 		_pointProgress = val;
@@ -357,7 +357,7 @@ public class KOHGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void InformTeamProgress(int teamId, float val)
 	{
 		if (teamId > 0)
@@ -367,7 +367,7 @@ public class KOHGame : TeamGame
 		TeamScoreChanged(base.match.GetTeam(teamId));
 	}
 
-	[RPC]
+	//[RPC]
 	private void TeamWin(int teamId)
 	{
 		GameOver(teamId == base.match.localTeam.id);

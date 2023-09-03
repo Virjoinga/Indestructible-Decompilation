@@ -47,13 +47,13 @@ public class TeamDeathmatchGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void PlayerKillEnemy(int playerID, int enemyID, int damageType)
 	{
 		base.PlayerKillEnemy(playerID, enemyID, damageType);
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void PlayerDied(int playerID)
 	{
 		base.PlayerDied(playerID);

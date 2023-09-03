@@ -203,7 +203,7 @@ public class CRTeamGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void ChargePickedUp(int playerId)
 	{
 		Debug.Log("ChargePickedUp " + playerId);
@@ -255,7 +255,7 @@ public class CRTeamGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void ChargeRespawn(long posVal)
 	{
 		Debug.Log("ChargeRespawn " + posVal);
@@ -297,7 +297,7 @@ public class CRTeamGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void ChargeDropped(long posVal)
 	{
 		Debug.Log("ChargeDropped " + posVal);
@@ -419,7 +419,7 @@ public class CRTeamGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void ChargeStartDissolving(int loadingAreaIdx)
 	{
 		Debug.Log("ChargeStartDissolving " + loadingAreaIdx + "chargeCurrier=" + _chargeCurrier);
@@ -462,7 +462,7 @@ public class CRTeamGame : TeamGame
 		return transform.position;
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void PlayerKillEnemy(int playerID, int enemyID, int damageType)
 	{
 		Debug.Log(string.Format("PlayerKillEnemy({0}, {1}, {2})", playerID, enemyID, damageType));
@@ -477,7 +477,7 @@ public class CRTeamGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void PlayerDied(int playerID)
 	{
 		base.PlayerDied(playerID);

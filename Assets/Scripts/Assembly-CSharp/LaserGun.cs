@@ -26,7 +26,7 @@ public class LaserGun : ThermalWeapon
 
 	private static Vector3 FarBeamEnd = new Vector3(0f, 0f, 100f);
 
-	[RPC]
+	//[RPC]
 	public override void SetFireInterval(float value)
 	{
 		base.SetFireInterval(value);

@@ -29,7 +29,7 @@ public class BulletStorm : BaseAbilityPlacing
 		InternalSetupPhotonView();
 	}
 
-	[RPC]
+	//[RPC]
 	public void SetTeam(int teamID)
 	{
 		InternalSetTeam(teamID);
@@ -54,7 +54,7 @@ public class BulletStorm : BaseAbilityPlacing
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void CauseDamage()
 	{
 		Vector3 position = base.gameObject.transform.position;
@@ -75,13 +75,13 @@ public class BulletStorm : BaseAbilityPlacing
 		DeactivateMe();
 	}
 
-	[RPC]
+	//[RPC]
 	private void SetOwner(int destructibleId, int actorID)
 	{
 		InternalSetOwner(destructibleId, actorID);
 	}
 
-	[RPC]
+	//[RPC]
 	private void SetEffectScale(float scale)
 	{
 		InternalSetEffectScale(scale);

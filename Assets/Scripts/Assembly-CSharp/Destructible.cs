@@ -390,7 +390,7 @@ public class Destructible : Glu.MonoBehaviour
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected virtual void Activated(long posVal, long rotVal)
 	{
 		if (!base.gameObject.active)
@@ -426,7 +426,7 @@ public class Destructible : Glu.MonoBehaviour
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected virtual void InitHP(float hp)
 	{
 		if ((_hp = hp) <= 0f)
@@ -435,7 +435,7 @@ public class Destructible : Glu.MonoBehaviour
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected virtual void UpdateHP(float hp)
 	{
 		if ((_hp = hp) <= 0f)
@@ -536,7 +536,7 @@ public class Destructible : Glu.MonoBehaviour
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected virtual void Registered(int id)
 	{
 		_id = id;

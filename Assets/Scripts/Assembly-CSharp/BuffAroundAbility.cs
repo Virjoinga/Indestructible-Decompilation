@@ -45,7 +45,7 @@ public class BuffAroundAbility : CooldownAbility
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected void BuffEnemies()
 	{
 		Vector3 position = _rootObject.transform.position;

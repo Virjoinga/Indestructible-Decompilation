@@ -94,7 +94,7 @@ public class ThermodonPassiveAbility : PassiveAbilityBase
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void DamageAttacker(int destructibleId, float damage)
 	{
 		Destructible destructible = Destructible.Find(destructibleId);

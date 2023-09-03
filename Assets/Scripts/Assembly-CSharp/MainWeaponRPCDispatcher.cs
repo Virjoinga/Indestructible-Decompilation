@@ -4,13 +4,13 @@ public class MainWeaponRPCDispatcher : MonoBehaviour
 {
 	public MainWeapon weapon;
 
-	[RPC]
+	//[RPC]
 	private void SetFireInterval(float value)
 	{
 		weapon.SetFireInterval(value);
 	}
 
-	[RPC]
+	//[RPC]
 	public virtual void SetRange(float value)
 	{
 		weapon.SetRange(value);

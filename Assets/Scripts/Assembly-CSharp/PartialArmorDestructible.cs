@@ -41,25 +41,25 @@ public class PartialArmorDestructible : Destructible
 		return DamageResult.Damaged;
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void InitHP(float hp)
 	{
 		base.InitHP(hp);
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void UpdateHP(float hp)
 	{
 		base.UpdateHP(hp);
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void Activated(long posVal, long rotVal)
 	{
 		base.Activated(posVal, rotVal);
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void Registered(int id)
 	{
 		base.Registered(id);

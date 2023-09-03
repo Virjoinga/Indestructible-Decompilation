@@ -30,14 +30,14 @@ public class ProjectileCannon : Cannon
 
 	private CachedObject.Cache _outOfRangeHitEffectCache;
 
-	[RPC]
+	//[RPC]
 	public override void SetFireInterval(float value)
 	{
 		base.SetFireInterval(value);
 		CheckProjectilePool();
 	}
 
-	[RPC]
+	//[RPC]
 	public override void SetRange(float value)
 	{
 		base.SetRange(value);

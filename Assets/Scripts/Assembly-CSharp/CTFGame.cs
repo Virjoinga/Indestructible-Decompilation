@@ -63,7 +63,7 @@ public class CTFGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void CourierKilledByPlayer(int killerId)
 	{
 		if (base.match.localPlayer.id == killerId)
@@ -158,19 +158,19 @@ public class CTFGame : TeamGame
 		TeamScoreChanged(team);
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void PlayerKillEnemy(int playerID, int enemyID, int damageType)
 	{
 		base.PlayerKillEnemy(playerID, enemyID, damageType);
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void PlayerDied(int playerID)
 	{
 		base.PlayerDied(playerID);
 	}
 
-	[RPC]
+	//[RPC]
 	private void PlayerCaptureFlag(int playerID)
 	{
 		GamePlayer player;
@@ -180,7 +180,7 @@ public class CTFGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void PlayerReturnFlag(int playerID)
 	{
 		GamePlayer player;
@@ -190,7 +190,7 @@ public class CTFGame : TeamGame
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void PlayerDeliverFlag(int playerID)
 	{
 		GamePlayer player;

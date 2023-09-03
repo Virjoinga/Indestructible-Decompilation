@@ -475,7 +475,7 @@ public class MultiplayerMatch : MatchPlayer.MatchBase
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void RemotePlayerJoined(byte[] data, int teamID, bool isReady, PhotonMessageInfo msgInfo)
 	{
 		Debug.Log("MultiplayerMatch.RemotePlayerJoined:" + msgInfo.sender.ID + "; " + teamID + "; " + isReady);
@@ -583,7 +583,7 @@ public class MultiplayerMatch : MatchPlayer.MatchBase
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void RemoteAssignTeam(int playerID, int teamID)
 	{
 		Debug.Log("MultiplayerMatch.RemoteAssignTeam: pid:" + playerID + "; tid:" + teamID);
@@ -620,7 +620,7 @@ public class MultiplayerMatch : MatchPlayer.MatchBase
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void RemotePlayerReady(PhotonMessageInfo msgInfo)
 	{
 		Debug.Log("MultiplayerMatch.RemotePlayerReady:" + msgInfo.sender.ID);
@@ -660,7 +660,7 @@ public class MultiplayerMatch : MatchPlayer.MatchBase
 		StartCoroutine(LoadMatchLevel());
 	}
 
-	[RPC]
+	//[RPC]
 	private void RemoteStartMatch()
 	{
 		Debug.Log("MultiplayerMatch.RemoteStartMatch");
@@ -733,7 +733,7 @@ public class MultiplayerMatch : MatchPlayer.MatchBase
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void MatchReady(PhotonMessageInfo msgInfo)
 	{
 		Debug.Log("MultiplayerMatch.MatchReady: " + msgInfo.sender.ID + ", timestamp=" + msgInfo.timestamp);
@@ -838,7 +838,7 @@ public class MultiplayerMatch : MatchPlayer.MatchBase
 		return false;
 	}
 
-	[RPC]
+	//[RPC]
 	private void ChatMessage(string message, PhotonMessageInfo msgInfo)
 	{
 		if (this.chatMessageRecievedEvent != null)

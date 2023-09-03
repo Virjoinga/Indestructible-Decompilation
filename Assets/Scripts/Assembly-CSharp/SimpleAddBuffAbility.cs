@@ -4,7 +4,7 @@ public class SimpleAddBuffAbility : CooldownAbility
 {
 	public BuffConf ActivateBuff;
 
-	[RPC]
+	//[RPC]
 	protected override void AbilityActivated()
 	{
 		base.AbilityActivated();

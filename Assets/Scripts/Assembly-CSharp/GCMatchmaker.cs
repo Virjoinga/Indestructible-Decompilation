@@ -171,7 +171,7 @@ public class GCMatchmaker : UnityEngine.MonoBehaviour
 		JoinMatch(minPlayerCount, maxPlayerCount, teamCount, levelName, config);
 	}
 
-	[RPC]
+	//[RPC]
 	private void RemoteJoinMatch(int minPlayerCount, int maxPlayerCount, int teamCount, string levelName, string config, PhotonMessageInfo msgInfo)
 	{
 		Debug.Log("GCMatchmaker.RemoteJoinMatch:" + levelName + "; " + config + "; " + minPlayerCount + "; " + maxPlayerCount + "; " + teamCount + "; " + msgInfo.sender.ID);

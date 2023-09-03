@@ -96,7 +96,7 @@ public class DamageReflector : MonoBehaviour
 		StartCoroutine(DelayedReactivate());
 	}
 
-	[RPC]
+	//[RPC]
 	private void ReflectDmg(int victimDestructibleId, float damage)
 	{
 		Destructible destructible = Destructible.Find(victimDestructibleId);

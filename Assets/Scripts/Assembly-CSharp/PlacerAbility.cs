@@ -41,7 +41,7 @@ public class PlacerAbility : CooldownAbility
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void AbilityActivated()
 	{
 		base.AbilityActivated();

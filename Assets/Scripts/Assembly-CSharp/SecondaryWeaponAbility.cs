@@ -58,7 +58,7 @@ public class SecondaryWeaponAbility : CooldownAbility
 		_weapon.shouldFire = false;
 	}
 
-	[RPC]
+	//[RPC]
 	private void ActivateSecondaryWeapon()
 	{
 		OnAbilityStart();

@@ -13,13 +13,13 @@ public class ParticleCannon : Cannon
 
 	private static ParticleSystem.Particle[] _particles = new ParticleSystem.Particle[64];
 
-	[RPC]
+	//[RPC]
 	public override void SetFireInterval(float value)
 	{
 		base.SetFireInterval(value);
 	}
 
-	[RPC]
+	//[RPC]
 	public override void SetRange(float value)
 	{
 		base.SetRange(value);

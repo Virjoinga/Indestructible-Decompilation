@@ -236,13 +236,13 @@ public class CollectableItem : MonoBehaviour
 		Enable(false);
 	}
 
-	[RPC]
+	//[RPC]
 	protected virtual void Respawn()
 	{
 		InternalRespawn();
 	}
 
-	[RPC]
+	//[RPC]
 	private void Consumed(int consumerViewId)
 	{
 		InternalConsumed(consumerViewId);

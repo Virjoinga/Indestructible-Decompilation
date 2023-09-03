@@ -74,7 +74,7 @@ public class CollisionHealer : MonoBehaviour
 		StartCoroutine(DamageReset());
 	}
 
-	[RPC]
+	//[RPC]
 	private void HealMe(float addHP, int victimDestructibleId)
 	{
 		if ((bool)_destructible && _destructible.isMine)

@@ -367,7 +367,7 @@ public class Vehicle : Weapon
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected virtual void RemoteMountParts(string bodyName, string armorName, string weaponName)
 	{
 		if (!string.IsNullOrEmpty(bodyName))
@@ -466,7 +466,7 @@ public class Vehicle : Weapon
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	protected virtual void RemoteMountComponents(string components)
 	{
 		if (components.Length <= 0)

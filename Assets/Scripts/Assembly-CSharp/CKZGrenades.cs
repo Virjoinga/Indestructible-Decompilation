@@ -124,7 +124,7 @@ public class CKZGrenades : BaseAbilityPlacing
 		_grenades = new Grenade[GrenadesCount];
 	}
 
-	[RPC]
+	//[RPC]
 	public void SetTeam(int teamID)
 	{
 		InternalSetTeam(teamID);
@@ -188,20 +188,20 @@ public class CKZGrenades : BaseAbilityPlacing
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void CauseDamage()
 	{
 		Damage(base.gameObject.transform.position, HitRadius, 1f, 0f, explosionForce);
 		DeactivateMe();
 	}
 
-	[RPC]
+	//[RPC]
 	private void SetOwner(int destructibleId, int actorID)
 	{
 		InternalSetOwner(destructibleId, actorID);
 	}
 
-	[RPC]
+	//[RPC]
 	private void SetEffectScale(float scale)
 	{
 		InternalSetEffectScale(scale);

@@ -193,7 +193,7 @@ public class FlagItem : CollectableItem
 		Drop();
 	}
 
-	[RPC]
+	//[RPC]
 	private void PickUpFlag(int playerID)
 	{
 		GamePlayer player;
@@ -213,7 +213,7 @@ public class FlagItem : CollectableItem
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void ReturnFlag()
 	{
 		if (_state != 0)
@@ -231,13 +231,13 @@ public class FlagItem : CollectableItem
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private new void Respawn()
 	{
 		Debug.LogWarning("Dont use Respawn() for flag");
 	}
 
-	[RPC]
+	//[RPC]
 	private void Consumed(int consumerViewId)
 	{
 		Debug.LogWarning("Dont use Consumed() for flag");

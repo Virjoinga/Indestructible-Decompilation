@@ -52,25 +52,25 @@ public class NetCachedTmpObject : NetCachedObject
 		Deactivate();
 	}
 
-	[RPC]
+	//[RPC]
 	public override void RemoteActivate()
 	{
 		base.RemoteActivate();
 	}
 
-	[RPC]
+	//[RPC]
 	public override void RemoteDeactivate()
 	{
 		base.RemoteDeactivate();
 	}
 
-	[RPC]
+	//[RPC]
 	public override void RemoteSetTransform(Vector3 pos, Quaternion rotation)
 	{
 		base.RemoteSetTransform(pos, rotation);
 	}
 
-	[RPC]
+	//[RPC]
 	public override void RemoteSetPos(Vector3 pos)
 	{
 		base.RemoteSetPos(pos);

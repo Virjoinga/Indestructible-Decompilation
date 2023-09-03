@@ -45,7 +45,7 @@ public class AbilitiesFXDispatcher : WheeledVehicleFX
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void ActivateWeaponEffect(int index)
 	{
 		Debug.Log("ActivateWeaponEffect:" + index);
@@ -74,7 +74,7 @@ public class AbilitiesFXDispatcher : WheeledVehicleFX
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void DeactivateWeaponEffect(int index)
 	{
 		int num = 1 << index;
@@ -130,7 +130,7 @@ public class AbilitiesFXDispatcher : WheeledVehicleFX
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void ActivateBurnEffect()
 	{
 		base.burningFactor = 1f;
@@ -146,7 +146,7 @@ public class AbilitiesFXDispatcher : WheeledVehicleFX
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void DeactivateBurnEffect()
 	{
 		base.burningFactor = 0f;
@@ -162,7 +162,7 @@ public class AbilitiesFXDispatcher : WheeledVehicleFX
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void ActivateBoostEffect()
 	{
 		base.exhaustFactor = 0f;
@@ -178,7 +178,7 @@ public class AbilitiesFXDispatcher : WheeledVehicleFX
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void DeactivateBoostEffect()
 	{
 		base.exhaustFactor = 1f;
@@ -230,7 +230,7 @@ public class AbilitiesFXDispatcher : WheeledVehicleFX
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void OnNamedFX(string name)
 	{
 		if (!base.isVisible)

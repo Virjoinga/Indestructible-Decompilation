@@ -41,7 +41,7 @@ public class RavagerPassiveAbility : PassiveAbilityBase
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void OnSteal()
 	{
 		_vehicle.destructible.Heal(StealHP);

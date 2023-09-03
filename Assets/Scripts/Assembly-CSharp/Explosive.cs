@@ -106,7 +106,7 @@ public class Explosive : Weapon
 		Detonate();
 	}
 
-	[RPC]
+	//[RPC]
 	protected virtual void Detonate()
 	{
 		if (!_exploded)

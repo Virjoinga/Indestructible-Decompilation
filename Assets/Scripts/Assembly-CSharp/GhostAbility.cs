@@ -98,7 +98,7 @@ public class GhostAbility : CooldownAbility
 		return base.CanActivateAbility() && !_itemConsumer.IsCarryingCargo;
 	}
 
-	[RPC]
+	//[RPC]
 	protected override void AbilityActivated()
 	{
 		base.AbilityActivated();

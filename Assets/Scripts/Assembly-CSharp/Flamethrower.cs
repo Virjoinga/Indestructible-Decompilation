@@ -71,7 +71,7 @@ public class Flamethrower : ThermalWeapon
 
 	private bool _isUpdating;
 
-	[RPC]
+	//[RPC]
 	public override void SetFireInterval(float value)
 	{
 		base.SetFireInterval(value);

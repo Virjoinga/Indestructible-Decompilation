@@ -813,7 +813,7 @@ public class RankedMatchmaker : Glu.MonoBehaviour
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void MatchmakerPlayerJoined(byte[] data, PhotonMessageInfo msgInfo)
 	{
 		if (state == State.Connecting || state == State.Searching)
@@ -826,7 +826,7 @@ public class RankedMatchmaker : Glu.MonoBehaviour
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void RemoteJoinMatch(string matchID, int requiredPlayerCount, int teamCount, string levelName, string config)
 	{
 		Debug.Log("RankedMatchmaker.RemoteJoinMatch:" + levelName);

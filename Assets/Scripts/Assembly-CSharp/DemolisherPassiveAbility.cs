@@ -41,7 +41,7 @@ public class DemolisherPassiveAbility : DOTBasedPassiveAbility
 		}
 	}
 
-	[RPC]
+	//[RPC]
 	private void Heal()
 	{
 		if (_destructible != null && _destructible.isMine)

@@ -4,7 +4,7 @@ public class ComplexAddBuffAbility : CooldownAbility
 {
 	public BuffConf[] ActivateBuffs = new BuffConf[0];
 
-	[RPC]
+	//[RPC]
 	protected override void AbilityActivated()
 	{
 		base.AbilityActivated();

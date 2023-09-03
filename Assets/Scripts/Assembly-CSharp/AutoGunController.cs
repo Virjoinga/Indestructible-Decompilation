@@ -59,7 +59,7 @@ public class AutoGunController : Glu.MonoBehaviour
 		_photonView.RPC("ChangeAimTarget", PhotonTargets.Others, num);
 	}
 
-	[RPC]
+	//[RPC]
 	private void ChangeAimTarget(int destructibleID)
 	{
 		Collider aimTarget = null;
