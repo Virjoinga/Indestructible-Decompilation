@@ -20,7 +20,7 @@ public class LaserGun : ThermalWeapon
 
 	private Renderer _hitRenderer;
 
-	private ParticleEmitter[] _hitEmitters;
+	private ParticleSystem[] _hitEmitters;
 
 	private bool _isHitEffectsActive;
 
@@ -51,14 +51,14 @@ public class LaserGun : ThermalWeapon
 		_hitEffectsTransform = gameObject.transform;
 		_hitEffectsTransform.parent = base.transform;
 		_hitRenderer = gameObject.GetComponent<Renderer>();
-		ParticleEmitter particleEmitter = gameObject.particleEmitter;
+		ParticleSystem particleEmitter = gameObject.GetComponent<ParticleSystem>();
 		if ((bool)particleEmitter)
 		{
-			List<ParticleEmitter> list = new List<ParticleEmitter>();
+			List<ParticleSystem> list = new List<ParticleSystem>();
 			list.Add(particleEmitter);
 			foreach (Transform item in _hitEffectsTransform)
 			{
-				particleEmitter = item.particleEmitter;
+				particleEmitter = item.GetComponent<ParticleSystem>();
 				if ((bool)particleEmitter)
 				{
 					list.Add(particleEmitter);
@@ -68,7 +68,7 @@ public class LaserGun : ThermalWeapon
 		}
 		else
 		{
-			_hitEmitters = new ParticleEmitter[0];
+			_hitEmitters = new ParticleSystem[0];
 		}
 	}
 
@@ -141,10 +141,10 @@ public class LaserGun : ThermalWeapon
 		{
 			_hitRenderer.enabled = true;
 		}
-		ParticleEmitter[] hitEmitters = _hitEmitters;
-		foreach (ParticleEmitter particleEmitter in hitEmitters)
+		ParticleSystem[] hitEmitters = _hitEmitters;
+		foreach (ParticleSystem particleEmitter in hitEmitters)
 		{
-			particleEmitter.emit = true;
+			particleEmitter.Play();
 		}
 	}
 
@@ -163,12 +163,12 @@ public class LaserGun : ThermalWeapon
 		{
 			_hitRenderer.enabled = false;
 		}
-		ParticleEmitter[] hitEmitters = _hitEmitters;
-		foreach (ParticleEmitter particleEmitter in hitEmitters)
+		ParticleSystem[] hitEmitters = _hitEmitters;
+		foreach (ParticleSystem particleEmitter in hitEmitters)
 		{
 			if (particleEmitter != null)
 			{
-				particleEmitter.emit = false;
+				particleEmitter.Stop();
 			}
 		}
 	}
