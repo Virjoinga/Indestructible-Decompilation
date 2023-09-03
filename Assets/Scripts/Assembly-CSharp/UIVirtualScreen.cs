@@ -249,7 +249,7 @@ public class UIVirtualScreen : MonoBehaviour, IEZDragDrop, IUIObject
 		Vector3 vector = ptr.devicePos;
 		float z = ptr.inputDelta.z;
 		RaycastHit hitInfo;
-		if (ptr.prevRay.direction.sqrMagnitude > 0f && base.collider.Raycast(ptr.prevRay, out hitInfo, ptr.rayDepth))
+		if (ptr.prevRay.direction.sqrMagnitude > 0f && base.GetComponent<Collider>().Raycast(ptr.prevRay, out hitInfo, ptr.rayDepth))
 		{
 			vector = new Vector3(hitInfo.textureCoord.x * screenCamera.pixelWidth, hitInfo.textureCoord.y * screenCamera.pixelHeight, 0f);
 			ptr.inputDelta = ptr.devicePos - vector;
@@ -276,7 +276,7 @@ public class UIVirtualScreen : MonoBehaviour, IEZDragDrop, IUIObject
 		else if (ptr.evt == POINTER_INFO.INPUT_EVENT.TAP)
 		{
 			Component component = (Component)ptr.targetObj;
-			if (!component.collider.Raycast(ptr.ray, out hitInfo, rayDepth))
+			if (!component.GetComponent<Collider>().Raycast(ptr.ray, out hitInfo, rayDepth))
 			{
 				StartCoroutine(DeactivateScreenCam(renderTimeout));
 			}

@@ -608,15 +608,15 @@ public abstract class AutoSpriteControlBase : AutoSpriteBase, IEZDragDrop, ICont
 		}
 		if (!IsHidden() && tf)
 		{
-			if (base.collider is BoxCollider && Application.isPlaying)
+			if (base.GetComponent<Collider>() is BoxCollider && Application.isPlaying)
 			{
-				savedColliderSize = ((BoxCollider)base.collider).size;
-				((BoxCollider)base.collider).size = Vector3.zero;
+				savedColliderSize = ((BoxCollider)base.GetComponent<Collider>()).size;
+				((BoxCollider)base.GetComponent<Collider>()).size = Vector3.zero;
 			}
 		}
-		else if (IsHidden() && !tf && base.collider is BoxCollider)
+		else if (IsHidden() && !tf && base.GetComponent<Collider>() is BoxCollider)
 		{
-			((BoxCollider)base.collider).size = savedColliderSize;
+			((BoxCollider)base.GetComponent<Collider>()).size = savedColliderSize;
 		}
 		base.Hide(tf);
 		if (aggregateLayers != null)
@@ -736,81 +736,81 @@ public abstract class AutoSpriteControlBase : AutoSpriteBase, IEZDragDrop, ICont
 		}
 		if ((flags & ControlCopyFlags.Appearance) == ControlCopyFlags.Appearance)
 		{
-			if (autoSpriteControlBase.collider != null)
+			if (autoSpriteControlBase.GetComponent<Collider>() != null)
 			{
-				if (base.collider.GetType() == autoSpriteControlBase.collider.GetType())
+				if (base.GetComponent<Collider>().GetType() == autoSpriteControlBase.GetComponent<Collider>().GetType())
 				{
-					if (autoSpriteControlBase.collider is BoxCollider)
+					if (autoSpriteControlBase.GetComponent<Collider>() is BoxCollider)
 					{
-						if (base.collider == null)
+						if (base.GetComponent<Collider>() == null)
 						{
 							base.gameObject.AddComponent(typeof(BoxCollider));
 						}
-						BoxCollider boxCollider = (BoxCollider)base.collider;
-						BoxCollider boxCollider2 = (BoxCollider)autoSpriteControlBase.collider;
+						BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
+						BoxCollider boxCollider2 = (BoxCollider)autoSpriteControlBase.GetComponent<Collider>();
 						boxCollider.center = boxCollider2.center;
 						boxCollider.size = boxCollider2.size;
 					}
-					else if (autoSpriteControlBase.collider is SphereCollider)
+					else if (autoSpriteControlBase.GetComponent<Collider>() is SphereCollider)
 					{
-						if (base.collider == null)
+						if (base.GetComponent<Collider>() == null)
 						{
 							base.gameObject.AddComponent(typeof(SphereCollider));
 						}
-						SphereCollider sphereCollider = (SphereCollider)base.collider;
-						SphereCollider sphereCollider2 = (SphereCollider)autoSpriteControlBase.collider;
+						SphereCollider sphereCollider = (SphereCollider)base.GetComponent<Collider>();
+						SphereCollider sphereCollider2 = (SphereCollider)autoSpriteControlBase.GetComponent<Collider>();
 						sphereCollider.center = sphereCollider2.center;
 						sphereCollider.radius = sphereCollider2.radius;
 					}
-					else if (autoSpriteControlBase.collider is MeshCollider)
+					else if (autoSpriteControlBase.GetComponent<Collider>() is MeshCollider)
 					{
-						if (base.collider == null)
+						if (base.GetComponent<Collider>() == null)
 						{
 							base.gameObject.AddComponent(typeof(MeshCollider));
 						}
-						MeshCollider meshCollider = (MeshCollider)base.collider;
-						MeshCollider meshCollider2 = (MeshCollider)autoSpriteControlBase.collider;
+						MeshCollider meshCollider = (MeshCollider)base.GetComponent<Collider>();
+						MeshCollider meshCollider2 = (MeshCollider)autoSpriteControlBase.GetComponent<Collider>();
 						meshCollider.smoothSphereCollisions = meshCollider2.smoothSphereCollisions;
 						meshCollider.convex = meshCollider2.convex;
 						meshCollider.sharedMesh = meshCollider2.sharedMesh;
 					}
-					else if (autoSpriteControlBase.collider is CapsuleCollider)
+					else if (autoSpriteControlBase.GetComponent<Collider>() is CapsuleCollider)
 					{
-						if (base.collider == null)
+						if (base.GetComponent<Collider>() == null)
 						{
 							base.gameObject.AddComponent(typeof(CapsuleCollider));
 						}
-						CapsuleCollider capsuleCollider = (CapsuleCollider)base.collider;
-						CapsuleCollider capsuleCollider2 = (CapsuleCollider)autoSpriteControlBase.collider;
+						CapsuleCollider capsuleCollider = (CapsuleCollider)base.GetComponent<Collider>();
+						CapsuleCollider capsuleCollider2 = (CapsuleCollider)autoSpriteControlBase.GetComponent<Collider>();
 						capsuleCollider.center = capsuleCollider2.center;
 						capsuleCollider.radius = capsuleCollider2.radius;
 						capsuleCollider.height = capsuleCollider2.height;
 						capsuleCollider.direction = capsuleCollider2.direction;
 					}
-					if (base.collider != null)
+					if (base.GetComponent<Collider>() != null)
 					{
-						base.collider.isTrigger = autoSpriteControlBase.collider.isTrigger;
+						base.GetComponent<Collider>().isTrigger = autoSpriteControlBase.GetComponent<Collider>().isTrigger;
 					}
 				}
 			}
 			else if (Application.isPlaying)
 			{
-				if (base.collider == null && width != 0f && height != 0f && !float.IsNaN(width) && !float.IsNaN(height))
+				if (base.GetComponent<Collider>() == null && width != 0f && height != 0f && !float.IsNaN(width) && !float.IsNaN(height))
 				{
 					BoxCollider boxCollider3 = (BoxCollider)base.gameObject.AddComponent(typeof(BoxCollider));
 					boxCollider3.size = new Vector3(autoSpriteControlBase.width, autoSpriteControlBase.height, 0.001f);
 					boxCollider3.center = autoSpriteControlBase.GetCenterPoint();
 					boxCollider3.isTrigger = true;
 				}
-				else if (base.collider is BoxCollider)
+				else if (base.GetComponent<Collider>() is BoxCollider)
 				{
-					BoxCollider boxCollider4 = (BoxCollider)base.collider;
+					BoxCollider boxCollider4 = (BoxCollider)base.GetComponent<Collider>();
 					boxCollider4.size = new Vector3(autoSpriteControlBase.width, autoSpriteControlBase.height, 0.001f);
 					boxCollider4.center = autoSpriteControlBase.GetCenterPoint();
 				}
-				else if (base.collider is SphereCollider)
+				else if (base.GetComponent<Collider>() is SphereCollider)
 				{
-					SphereCollider sphereCollider3 = (SphereCollider)base.collider;
+					SphereCollider sphereCollider3 = (SphereCollider)base.GetComponent<Collider>();
 					sphereCollider3.radius = Mathf.Max(autoSpriteControlBase.width, autoSpriteControlBase.height);
 					sphereCollider3.center = autoSpriteControlBase.GetCenterPoint();
 				}
@@ -874,7 +874,7 @@ public abstract class AutoSpriteControlBase : AutoSpriteBase, IEZDragDrop, ICont
 		{
 			dragDropHelper.host = this;
 		}
-		if (base.collider != null)
+		if (base.GetComponent<Collider>() != null)
 		{
 			customCollider = true;
 		}
@@ -933,7 +933,7 @@ public abstract class AutoSpriteControlBase : AutoSpriteBase, IEZDragDrop, ICont
 
 	public virtual void UpdateCollider()
 	{
-		if (deleted || m_spriteMesh == null || !(base.collider is BoxCollider) || IsHidden() || m_spriteMesh == null || customCollider)
+		if (deleted || m_spriteMesh == null || !(base.GetComponent<Collider>() is BoxCollider) || IsHidden() || m_spriteMesh == null || customCollider)
 		{
 			return;
 		}
@@ -954,7 +954,7 @@ public abstract class AutoSpriteControlBase : AutoSpriteBase, IEZDragDrop, ICont
 				vector2.y = Mathf.Max(vector2.y, vector3.y);
 			}
 		}
-		BoxCollider boxCollider = (BoxCollider)base.collider;
+		BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
 		boxCollider.size = vector2 - vector;
 		boxCollider.center = vector + boxCollider.size * 0.5f;
 		boxCollider.isTrigger = true;

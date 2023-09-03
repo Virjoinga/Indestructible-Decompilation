@@ -38,16 +38,16 @@ public class RunAnimClip : EZAnimation
 		{
 			if (duration == 0f && blending == 0f)
 			{
-				subject.animation.Play(m_clip);
+				subject.GetComponent<Animation>().Play(m_clip);
 			}
 			else
 			{
-				subject.animation.Blend(m_clip, blending, duration);
+				subject.GetComponent<Animation>().Blend(m_clip, blending, duration);
 			}
 			playedYet = true;
 			return true;
 		}
-		if (subject.animation.IsPlaying(m_clip))
+		if (subject.GetComponent<Animation>().IsPlaying(m_clip))
 		{
 			return true;
 		}
@@ -72,7 +72,7 @@ public class RunAnimClip : EZAnimation
 		{
 			return false;
 		}
-		if (sub.animation == null)
+		if (sub.GetComponent<Animation>() == null)
 		{
 			return false;
 		}
@@ -85,7 +85,7 @@ public class RunAnimClip : EZAnimation
 
 	public void Start(GameObject sub, string clip, float blend, float dur, float delay, CompletionDelegate startDel, CompletionDelegate del)
 	{
-		if (!(sub == null) && !(sub.animation == null))
+		if (!(sub == null) && !(sub.GetComponent<Animation>() == null))
 		{
 			playedYet = false;
 			subject = sub;

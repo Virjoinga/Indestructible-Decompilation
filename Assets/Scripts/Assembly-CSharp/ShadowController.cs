@@ -57,7 +57,7 @@ public class ShadowController : MonoBehaviour
 		_viewCamera = Camera.main;
 		_viewCameraTransform = _viewCamera.transform;
 		_shadowCameraTransform = base.transform;
-		_shadowCamera = base.camera;
+		_shadowCamera = base.GetComponent<Camera>();
 		_shadowCamera.targetTexture = _targetTexture;
 		float num = 1f / shadowMapSize.x;
 		float num2 = 1f / shadowMapSize.y;

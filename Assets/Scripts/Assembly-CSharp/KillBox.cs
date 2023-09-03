@@ -9,7 +9,7 @@ public class KillBox : MonoBehaviour
 
 	private void Start()
 	{
-		_followCamera = Camera.mainCamera.GetComponent<FollowingCameraFixedDirection>();
+		_followCamera = Camera.main.GetComponent<FollowingCameraFixedDirection>();
 	}
 
 	private void OnTriggerEnter(Collider collider)
@@ -54,11 +54,11 @@ public class KillBox : MonoBehaviour
 	{
 		if (PhotonNetwork.isMasterClient)
 		{
-			base.collider.enabled = true;
+			base.GetComponent<Collider>().enabled = true;
 		}
 		else
 		{
-			base.collider.enabled = false;
+			base.GetComponent<Collider>().enabled = false;
 		}
 	}
 

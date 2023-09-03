@@ -206,7 +206,7 @@ public class UIButton3D : ControlBase
 			break;
 		case POINTER_INFO.INPUT_EVENT.RELEASE:
 		case POINTER_INFO.INPUT_EVENT.TAP:
-			if (ptr.type != POINTER_INFO.POINTER_TYPE.TOUCHPAD && ptr.hitInfo.collider == base.collider)
+			if (ptr.type != POINTER_INFO.POINTER_TYPE.TOUCHPAD && ptr.hitInfo.collider == base.GetComponent<Collider>())
 			{
 				SetControlState(CONTROL_STATE.OVER);
 			}
@@ -269,7 +269,7 @@ public class UIButton3D : ControlBase
 				}
 			}
 		}
-		if (base.collider == null)
+		if (base.GetComponent<Collider>() == null)
 		{
 			AddCollider();
 		}

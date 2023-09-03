@@ -218,7 +218,7 @@ public class UIButton : AutoSpriteControlBase
 			goto default;
 		case POINTER_INFO.INPUT_EVENT.RELEASE:
 		case POINTER_INFO.INPUT_EVENT.TAP:
-			if (ptr.hitInfo.collider == base.collider)
+			if (ptr.hitInfo.collider == base.GetComponent<Collider>())
 			{
 				SetControlState(CONTROL_STATE.OVER);
 				break;
@@ -323,7 +323,7 @@ public class UIButton : AutoSpriteControlBase
 					layers[k].Hide(true);
 				}
 			}
-			if (base.collider == null)
+			if (base.GetComponent<Collider>() == null)
 			{
 				AddCollider();
 			}

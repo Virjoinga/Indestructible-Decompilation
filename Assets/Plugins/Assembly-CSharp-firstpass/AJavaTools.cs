@@ -998,7 +998,7 @@ public class AJavaTools : MonoBehaviour
 		AJT_Init(Debug.isDebugBuild);
 		if (gameObject != null)
 		{
-			gameObject.AddComponent("AJavaTools");
+			gameObject.AddComponent<AJavaTools>();
 		}
 	}
 

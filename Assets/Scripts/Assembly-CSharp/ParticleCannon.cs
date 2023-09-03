@@ -79,7 +79,7 @@ public class ParticleCannon : Cannon
 				}
 				Vector3 velocity = _particles[i].velocity;
 				Vector3 vector2 = _particles[i].position;
-				float lifetime = _particles[i].lifetime;
+				float lifetime = _particles[i].remainingLifetime;
 				float num4 = lifetime - num3;
 				if (0f <= num4 && num4 < maxDeltaTimeToShareCollision)
 				{
@@ -100,7 +100,7 @@ public class ParticleCannon : Cannon
 						}
 						(cache.RetainObject() as HitEffect).Activate(vector3, normal);
 						_particles[i].randomValue = -1f;
-						_particles[i].lifetime = num4;
+						_particles[i].remainingLifetime = num4;
 						flag = true;
 						continue;
 					}
@@ -143,7 +143,7 @@ public class ParticleCannon : Cannon
 				cache = GetHitEffectCache(GetColliderInfo(collider).surfaceType);
 				(cache.RetainObject() as HitEffect).Activate(vector, normal);
 				_particles[i].randomValue = -1f;
-				_particles[i].lifetime = 0f;
+				_particles[i].remainingLifetime = 0f;
 				flag = true;
 				flag2 = true;
 			}

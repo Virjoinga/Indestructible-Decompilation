@@ -36,7 +36,7 @@ public class AIMoveAndFireController : Glu.MonoBehaviour
 
 	protected int _pathNextPoint;
 
-	protected NavMeshPath _movementPath;
+	protected UnityEngine.AI.NavMeshPath _movementPath;
 
 	protected Vector3 _prevCheckPosition = Vector3.zero;
 
@@ -229,14 +229,14 @@ public class AIMoveAndFireController : Glu.MonoBehaviour
 		_isFinalPoint = false;
 		float maxDistance = 30f;
 		int num = -1;
-		NavMeshHit hit = default(NavMeshHit);
-		if (NavMesh.SamplePosition(base.gameObject.transform.position, out hit, maxDistance, num))
+		UnityEngine.AI.NavMeshHit hit = default(UnityEngine.AI.NavMeshHit);
+		if (UnityEngine.AI.NavMesh.SamplePosition(base.gameObject.transform.position, out hit, maxDistance, num))
 		{
-			NavMeshHit hit2 = default(NavMeshHit);
-			if (NavMesh.SamplePosition(destination, out hit2, maxDistance, num))
+			UnityEngine.AI.NavMeshHit hit2 = default(UnityEngine.AI.NavMeshHit);
+			if (UnityEngine.AI.NavMesh.SamplePosition(destination, out hit2, maxDistance, num))
 			{
-				_movementPath = new NavMeshPath();
-				if (NavMesh.CalculatePath(hit.position, hit2.position, num, _movementPath))
+				_movementPath = new UnityEngine.AI.NavMeshPath();
+				if (UnityEngine.AI.NavMesh.CalculatePath(hit.position, hit2.position, num, _movementPath))
 				{
 					if (_movementPath.corners.Length > 1)
 					{
@@ -465,7 +465,7 @@ public class AIMoveAndFireController : Glu.MonoBehaviour
 		float epsilon2 = ((!_isFinalPoint) ? (PathPointRadius * PathPointRadius) : (FinalPointRadius * FinalPointRadius));
 		while (true)
 		{
-			float velMagnitude = base.rigidbody.velocity.magnitude;
+			float velMagnitude = base.GetComponent<Rigidbody>().velocity.magnitude;
 			if (IsWayBlocked(Mathf.Max(velMagnitude, SensorDistance)))
 			{
 				yield return StartCoroutine("MoveReverceUntillWayBlocked");

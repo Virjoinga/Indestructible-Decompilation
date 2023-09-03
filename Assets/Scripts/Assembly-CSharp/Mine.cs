@@ -55,10 +55,10 @@ public class Mine : BaseAbilityPlacing
 			_checkCollision = true;
 			StartCoroutine(DelayedDetonate());
 		}
-		if ((bool)base.rigidbody)
+		if ((bool)base.GetComponent<Rigidbody>())
 		{
-			base.rigidbody.velocity = Vector3.zero;
-			base.rigidbody.angularVelocity = Vector3.zero;
+			base.GetComponent<Rigidbody>().velocity = Vector3.zero;
+			base.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 		}
 		_exploded = false;
 	}

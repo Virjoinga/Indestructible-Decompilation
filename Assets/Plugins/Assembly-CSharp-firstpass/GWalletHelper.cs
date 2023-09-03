@@ -316,7 +316,7 @@ public class GWalletHelper : MonoBehaviour
 
 	public static void Init(GameObject gameObject)
 	{
-		gameObject.AddComponent("GWalletHelper");
+		gameObject.AddComponent<GWalletHelper>();
 	}
 
 	private void Awake()

@@ -58,7 +58,7 @@ namespace Glu.Localization.Utils
 			dictionary["de"] = SystemLanguage.German;
 			dictionary["el"] = SystemLanguage.Greek;
 			dictionary["he"] = SystemLanguage.Hebrew;
-			dictionary["hu"] = SystemLanguage.Hugarian;
+			dictionary["hu"] = SystemLanguage.Hungarian;
 			dictionary["is"] = SystemLanguage.Icelandic;
 			dictionary["id"] = SystemLanguage.Indonesian;
 			dictionary["it"] = SystemLanguage.Italian;

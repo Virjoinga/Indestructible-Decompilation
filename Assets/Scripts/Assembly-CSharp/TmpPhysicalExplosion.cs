@@ -22,7 +22,7 @@ public class TmpPhysicalExplosion : CachedTmpObject
 	protected override void Awake()
 	{
 		Transform component = GetComponent<Transform>();
-		_parts = new Part[component.GetChildCount()];
+		_parts = new Part[component.childCount];
 		int num = 0;
 		foreach (Transform item in component)
 		{

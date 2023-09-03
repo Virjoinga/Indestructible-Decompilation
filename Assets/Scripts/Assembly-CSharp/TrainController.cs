@@ -34,7 +34,7 @@ public class TrainController : MonoBehaviour, IUpdatable
 		_trainTransform = base.transform;
 		_startPosition = _trainTransform.position;
 		_velocity = _trainTransform.forward * speed;
-		_trainRigidbody = base.rigidbody;
+		_trainRigidbody = base.GetComponent<Rigidbody>();
 		_stopIntervalInstruction = new WaitForSeconds(stopInterval);
 		base.gameObject.SetActiveRecursively(false);
 		if (PhotonNetwork.room != null)

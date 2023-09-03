@@ -521,7 +521,7 @@ public class UIPageScrollList : MonoBehaviour, IEZDragDrop, IUIObject
 			slider.AddValueChangedDelegate(SliderMoved);
 			slider.AddInputDelegate(SliderInputDel);
 		}
-		if (base.collider == null && touchScroll)
+		if (base.GetComponent<Collider>() == null && touchScroll)
 		{
 			BoxCollider boxCollider = (BoxCollider)base.gameObject.AddComponent(typeof(BoxCollider));
 			boxCollider.size = new Vector3(viewableAreaActual.x, viewableAreaActual.y, 0.001f);

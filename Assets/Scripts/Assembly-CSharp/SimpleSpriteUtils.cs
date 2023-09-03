@@ -101,7 +101,7 @@ public class SimpleSpriteUtils
 	{
 		if (sprite != null)
 		{
-			UnloadTexture(sprite.renderer.material);
+			UnloadTexture(sprite.GetComponent<Renderer>().material);
 		}
 	}
 }

@@ -47,7 +47,7 @@ public class DC_KillVehiclesByMass : DailyChallenges.DailyChallenge
 		MultiplayerGame multiplayerGame = IDTGame.Instance as MultiplayerGame;
 		if (enemy != null && !(enemy.vehicle == null) && player == multiplayerGame.localPlayer && player != enemy)
 		{
-			float mass = enemy.vehicle.rigidbody.mass;
+			float mass = enemy.vehicle.GetComponent<UnityEngine.Rigidbody>().mass;
 			if (mass >= _minMass && mass < _maxMass)
 			{
 				_kills++;

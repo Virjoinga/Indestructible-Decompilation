@@ -288,7 +288,7 @@ public abstract class ControlBase : MonoBehaviour, IEZDragDrop, IControl, IUIObj
 
 	protected virtual void Awake()
 	{
-		if (base.collider != null)
+		if (base.GetComponent<Collider>() != null)
 		{
 			customCollider = true;
 		}
@@ -336,9 +336,9 @@ public abstract class ControlBase : MonoBehaviour, IEZDragDrop, IControl, IUIObj
 
 	public virtual void UpdateCollider()
 	{
-		if (!customCollider && base.collider is BoxCollider)
+		if (!customCollider && base.GetComponent<Collider>() is BoxCollider)
 		{
-			BoxCollider boxCollider = (BoxCollider)base.collider;
+			BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
 			if (includeTextInAutoCollider && spriteText != null)
 			{
 				Bounds bounds = new Bounds(boxCollider.center, boxCollider.size);
@@ -499,40 +499,40 @@ public abstract class ControlBase : MonoBehaviour, IEZDragDrop, IControl, IUIObj
 			}
 			Text = controlBase.Text;
 		}
-		if ((flags & ControlCopyFlags.Appearance) == ControlCopyFlags.Appearance && base.collider.GetType() == controlBase.collider.GetType())
+		if ((flags & ControlCopyFlags.Appearance) == ControlCopyFlags.Appearance && base.GetComponent<Collider>().GetType() == controlBase.GetComponent<Collider>().GetType())
 		{
-			if (base.collider is BoxCollider)
+			if (base.GetComponent<Collider>() is BoxCollider)
 			{
-				BoxCollider boxCollider = (BoxCollider)base.collider;
-				BoxCollider boxCollider2 = (BoxCollider)controlBase.collider;
+				BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
+				BoxCollider boxCollider2 = (BoxCollider)controlBase.GetComponent<Collider>();
 				boxCollider.center = boxCollider2.center;
 				boxCollider.size = boxCollider2.size;
 			}
-			else if (base.collider is SphereCollider)
+			else if (base.GetComponent<Collider>() is SphereCollider)
 			{
-				SphereCollider sphereCollider = (SphereCollider)base.collider;
-				SphereCollider sphereCollider2 = (SphereCollider)controlBase.collider;
+				SphereCollider sphereCollider = (SphereCollider)base.GetComponent<Collider>();
+				SphereCollider sphereCollider2 = (SphereCollider)controlBase.GetComponent<Collider>();
 				sphereCollider.center = sphereCollider2.center;
 				sphereCollider.radius = sphereCollider2.radius;
 			}
-			else if (base.collider is CapsuleCollider)
+			else if (base.GetComponent<Collider>() is CapsuleCollider)
 			{
-				CapsuleCollider capsuleCollider = (CapsuleCollider)base.collider;
-				CapsuleCollider capsuleCollider2 = (CapsuleCollider)controlBase.collider;
+				CapsuleCollider capsuleCollider = (CapsuleCollider)base.GetComponent<Collider>();
+				CapsuleCollider capsuleCollider2 = (CapsuleCollider)controlBase.GetComponent<Collider>();
 				capsuleCollider.center = capsuleCollider2.center;
 				capsuleCollider.radius = capsuleCollider2.radius;
 				capsuleCollider.height = capsuleCollider2.height;
 				capsuleCollider.direction = capsuleCollider2.direction;
 			}
-			else if (base.collider is MeshCollider)
+			else if (base.GetComponent<Collider>() is MeshCollider)
 			{
-				MeshCollider meshCollider = (MeshCollider)base.collider;
-				MeshCollider meshCollider2 = (MeshCollider)controlBase.collider;
+				MeshCollider meshCollider = (MeshCollider)base.GetComponent<Collider>();
+				MeshCollider meshCollider2 = (MeshCollider)controlBase.GetComponent<Collider>();
 				meshCollider.smoothSphereCollisions = meshCollider2.smoothSphereCollisions;
 				meshCollider.convex = meshCollider2.convex;
 				meshCollider.sharedMesh = meshCollider2.sharedMesh;
 			}
-			base.collider.isTrigger = controlBase.collider.isTrigger;
+			base.GetComponent<Collider>().isTrigger = controlBase.GetComponent<Collider>().isTrigger;
 		}
 		if ((flags & ControlCopyFlags.Invocation) == ControlCopyFlags.Invocation)
 		{

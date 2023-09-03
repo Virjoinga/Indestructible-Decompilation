@@ -97,12 +97,12 @@ public class UIBistateInteractivePanel : UIPanelBase
 		case POINTER_INFO.INPUT_EVENT.MOVE_OFF:
 		case POINTER_INFO.INPUT_EVENT.RELEASE_OFF:
 		{
-			if (!(base.collider != null))
+			if (!(base.GetComponent<Collider>() != null))
 			{
 				break;
 			}
 			RaycastHit hitInfo;
-			if (base.collider.Raycast(ptr.ray, out hitInfo, ptr.rayDepth))
+			if (base.GetComponent<Collider>().Raycast(ptr.ray, out hitInfo, ptr.rayDepth))
 			{
 				if (ptr.evt == POINTER_INFO.INPUT_EVENT.MOVE_OFF)
 				{

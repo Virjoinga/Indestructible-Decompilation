@@ -93,10 +93,10 @@ public class UIInteractivePanel : UIPanelBase
 			break;
 		case POINTER_INFO.INPUT_EVENT.MOVE_OFF:
 		case POINTER_INFO.INPUT_EVENT.RELEASE_OFF:
-			if (base.collider != null)
+			if (base.GetComponent<Collider>() != null)
 			{
 				RaycastHit hitInfo;
-				if (!base.collider.Raycast(ptr.ray, out hitInfo, ptr.rayDepth))
+				if (!base.GetComponent<Collider>().Raycast(ptr.ray, out hitInfo, ptr.rayDepth))
 				{
 					SetPanelState(STATE.NORMAL);
 				}

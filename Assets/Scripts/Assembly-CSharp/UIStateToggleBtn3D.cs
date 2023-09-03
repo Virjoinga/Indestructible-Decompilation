@@ -198,7 +198,7 @@ public class UIStateToggleBtn3D : ControlBase
 				transitions[i].list[0].AddSubSubject(spriteText.gameObject);
 			}
 		}
-		if (base.collider == null)
+		if (base.GetComponent<Collider>() == null)
 		{
 			AddCollider();
 		}

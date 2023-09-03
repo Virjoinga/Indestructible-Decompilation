@@ -443,7 +443,7 @@ public class AAds : MonoBehaviour
 			gameObject = new GameObject(".AAds");
 			UnityEngine.Object.DontDestroyOnLoad(gameObject);
 		}
-		gameObject.AddComponent("AAds");
+		gameObject.AddComponent<AAds>();
 	}
 
 	private void OnApplicationPause(bool paused)

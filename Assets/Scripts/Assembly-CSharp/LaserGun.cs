@@ -50,7 +50,7 @@ public class LaserGun : ThermalWeapon
 		GameObject gameObject = Object.Instantiate(hitEffectsPrefab) as GameObject;
 		_hitEffectsTransform = gameObject.transform;
 		_hitEffectsTransform.parent = base.transform;
-		_hitRenderer = gameObject.renderer;
+		_hitRenderer = gameObject.GetComponent<Renderer>();
 		ParticleEmitter particleEmitter = gameObject.particleEmitter;
 		if ((bool)particleEmitter)
 		{

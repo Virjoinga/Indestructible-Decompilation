@@ -165,7 +165,7 @@ public class SpriteMesh : ISpriteMesh
 			}
 			if (m_sprite.renderCamera == null)
 			{
-				m_sprite.SetCamera(Camera.mainCamera);
+				m_sprite.SetCamera(Camera.main);
 			}
 			else
 			{

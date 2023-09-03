@@ -56,11 +56,11 @@ public class DozerActiveAbility : CooldownAbility, INetworkWeapon
 		base.OnEnable();
 		if ((bool)_bladeObj)
 		{
-			_bladeObj.animation.Play();
-			_bladeObj.animation.Rewind();
-			_bladeObj.animation["hit"].normalizedTime = 1f;
-			_bladeObj.animation.Sample();
-			_bladeObj.animation.Stop();
+			_bladeObj.GetComponent<Animation>().Play();
+			_bladeObj.GetComponent<Animation>().Rewind();
+			_bladeObj.GetComponent<Animation>()["hit"].normalizedTime = 1f;
+			_bladeObj.GetComponent<Animation>().Sample();
+			_bladeObj.GetComponent<Animation>().Stop();
 		}
 	}
 
@@ -115,9 +115,9 @@ public class DozerActiveAbility : CooldownAbility, INetworkWeapon
 		}
 		if ((bool)_bladeObj)
 		{
-			_bladeObj.animation["hit"].enabled = true;
-			_bladeObj.animation["hit"].normalizedTime = 0f;
-			_bladeObj.animation.Play("hit");
+			_bladeObj.GetComponent<Animation>()["hit"].enabled = true;
+			_bladeObj.GetComponent<Animation>()["hit"].normalizedTime = 0f;
+			_bladeObj.GetComponent<Animation>().Play("hit");
 		}
 		if ((bool)_activationFXGO)
 		{

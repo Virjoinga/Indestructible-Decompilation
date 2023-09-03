@@ -56,7 +56,7 @@ public class GhostAbility : CooldownAbility
 	protected override void Start()
 	{
 		base.Start();
-		_renderer = base.renderer;
+		_renderer = base.GetComponent<Renderer>();
 		_skelController = GetComponent<SkelController>();
 		_origMaterials = _renderer.materials;
 		_infoIndicatorController = GetComponent<EnemyInfoIndicatorController>();
@@ -67,7 +67,7 @@ public class GhostAbility : CooldownAbility
 		}
 		if (componentInChildren != null)
 		{
-			_teamIndicatorRenderer = componentInChildren.renderer;
+			_teamIndicatorRenderer = componentInChildren.GetComponent<Renderer>();
 		}
 		_itemConsumer = GetComponent<ItemConsumer>();
 		if (_itemConsumer != null)
@@ -119,7 +119,7 @@ public class GhostAbility : CooldownAbility
 		}
 		else
 		{
-			base.renderer.enabled = false;
+			base.GetComponent<Renderer>().enabled = false;
 			if (_infoIndicatorController != null)
 			{
 				_infoIndicatorController.indicatorEnabled = false;

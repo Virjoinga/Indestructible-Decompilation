@@ -271,7 +271,7 @@ public class UIRadioBtn3D : ControlBase, IRadioButton
 			}
 			int num = ((!btnValue) ? 1 : 0);
 			num = ((!m_controlIsEnabled) ? 2 : num);
-			if (base.collider == null)
+			if (base.GetComponent<Collider>() == null)
 			{
 				AddCollider();
 			}

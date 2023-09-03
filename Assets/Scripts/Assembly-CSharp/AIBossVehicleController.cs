@@ -610,7 +610,7 @@ public class AIBossVehicleController : Glu.MonoBehaviour
 
 	protected int _pathNextPoint;
 
-	protected NavMeshPath _movementPath;
+	protected UnityEngine.AI.NavMeshPath _movementPath;
 
 	protected Vector3 _prevCheckPosition = Vector3.zero;
 
@@ -1126,14 +1126,14 @@ public class AIBossVehicleController : Glu.MonoBehaviour
 		_isFinalPoint = false;
 		float maxDistance = 30f;
 		int num = -1;
-		NavMeshHit hit = default(NavMeshHit);
-		if (NavMesh.SamplePosition(_transform.position, out hit, maxDistance, num))
+		UnityEngine.AI.NavMeshHit hit = default(UnityEngine.AI.NavMeshHit);
+		if (UnityEngine.AI.NavMesh.SamplePosition(_transform.position, out hit, maxDistance, num))
 		{
-			NavMeshHit hit2 = default(NavMeshHit);
-			if (NavMesh.SamplePosition(destination, out hit2, maxDistance, num))
+			UnityEngine.AI.NavMeshHit hit2 = default(UnityEngine.AI.NavMeshHit);
+			if (UnityEngine.AI.NavMesh.SamplePosition(destination, out hit2, maxDistance, num))
 			{
-				_movementPath = new NavMeshPath();
-				if (NavMesh.CalculatePath(hit.position, hit2.position, num, _movementPath))
+				_movementPath = new UnityEngine.AI.NavMeshPath();
+				if (UnityEngine.AI.NavMesh.CalculatePath(hit.position, hit2.position, num, _movementPath))
 				{
 					if (_movementPath.corners.Length > 1)
 					{
@@ -1365,7 +1365,7 @@ public class AIBossVehicleController : Glu.MonoBehaviour
 		float speedDownEpsilon2 = (pointRadius + SpeedDownRadius) * (pointRadius + SpeedDownRadius);
 		while (true)
 		{
-			float velMagnitude = base.rigidbody.velocity.magnitude;
+			float velMagnitude = base.GetComponent<Rigidbody>().velocity.magnitude;
 			float delay = 0.3f;
 			Vector3 diff3d2 = _pathCornerPosition - _transform.position;
 			float dist3 = new Vector2(diff3d2.x, diff3d2.z).sqrMagnitude;
@@ -1542,7 +1542,7 @@ public class AIBossVehicleController : Glu.MonoBehaviour
 		Quaternion ccwCorectAng = Quaternion.Euler(0f, 0f - coorectionAngle, 0f);
 		while (true)
 		{
-			float velMagnitude = base.rigidbody.velocity.magnitude;
+			float velMagnitude = base.GetComponent<Rigidbody>().velocity.magnitude;
 			Vector3 dir3d = _transform.forward;
 			dir3d.y = 0f;
 			dir3d.Normalize();

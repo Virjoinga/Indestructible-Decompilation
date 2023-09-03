@@ -178,7 +178,7 @@ public class UIProgressBar : AutoSpriteControlBase
 			emptySprite.bleedCompensation = bleedCompensation;
 			if (!managed)
 			{
-				emptySprite.renderer.sharedMaterial = base.renderer.sharedMaterial;
+				emptySprite.GetComponent<Renderer>().sharedMaterial = base.GetComponent<Renderer>().sharedMaterial;
 			}
 			else if (manager != null)
 			{

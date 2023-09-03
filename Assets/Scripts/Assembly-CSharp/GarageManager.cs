@@ -274,7 +274,7 @@ public class GarageManager : PanelManager
 			Transform component = _vehicle.GetComponent<Transform>();
 			_armor = ChangeItem(item.Armor, _armorItem, _armor, component);
 			_body = ChangeItem(item.Body, _bodyItem, _body, component);
-			Transform parent = component.FindChild("Weapon");
+			Transform parent = component.Find("Weapon");
 			_weapon = ChangeItem(item.Weapon, _weaponItem, _weapon, parent);
 		}
 		_vehicleItem = item.Vehicle;

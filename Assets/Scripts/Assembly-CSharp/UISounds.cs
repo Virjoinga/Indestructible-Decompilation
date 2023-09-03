@@ -64,7 +64,7 @@ public class UISounds : MonoSingleton<UISounds>
 		{
 			return 0f;
 		}
-		if (!base.audio)
+		if (!base.GetComponent<AudioSource>())
 		{
 			base.gameObject.AddComponent<AudioSource>();
 		}
@@ -82,7 +82,7 @@ public class UISounds : MonoSingleton<UISounds>
 				return 0f;
 			}
 		}
-		base.audio.PlayOneShot(audioClip);
+		base.GetComponent<AudioSource>().PlayOneShot(audioClip);
 		return audioClip.length;
 	}
 }

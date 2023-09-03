@@ -99,7 +99,7 @@ public class AwayAnimActivator : MonoBehaviour
 	{
 		while (true)
 		{
-			Camera cam = Camera.mainCamera;
+			Camera cam = Camera.main;
 			Vector3 vpP = cam.WorldToViewportPoint(_visiblePivot);
 			if (vpP.x < -0.12f || vpP.x > 1.12f || vpP.y < -0.12f || vpP.y > 1.12f)
 			{

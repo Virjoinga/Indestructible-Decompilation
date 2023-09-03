@@ -92,9 +92,9 @@ public class UIScrollKnob : UIButton
 	public override void UpdateCollider()
 	{
 		base.UpdateCollider();
-		if (base.collider is BoxCollider && !IsHidden())
+		if (base.GetComponent<Collider>() is BoxCollider && !IsHidden())
 		{
-			BoxCollider boxCollider = (BoxCollider)base.collider;
+			BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
 			boxCollider.size = new Vector3(boxCollider.size.x * colliderSizeFactor.x, boxCollider.size.y * colliderSizeFactor.y, 0.001f);
 			colliderExtent = boxCollider.size.x * 0.5f;
 		}

@@ -74,9 +74,9 @@ public class UIListItem : UIButton, IUIListObject, IEZDragDrop, IUIObject
 	protected override void Awake()
 	{
 		base.Awake();
-		if (customCollider && base.collider is BoxCollider)
+		if (customCollider && base.GetComponent<Collider>() is BoxCollider)
 		{
-			BoxCollider boxCollider = (BoxCollider)base.collider;
+			BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
 			colliderTL.x = boxCollider.center.x - boxCollider.size.x * 0.5f;
 			colliderTL.y = boxCollider.center.y + boxCollider.size.y * 0.5f;
 			colliderBR.x = boxCollider.center.x + boxCollider.size.x * 0.5f;
@@ -325,11 +325,11 @@ public class UIListItem : UIButton, IUIListObject, IEZDragDrop, IUIObject
 	public override void TruncateRight(float pct)
 	{
 		base.TruncateRight(pct);
-		if (base.collider != null && base.collider is BoxCollider)
+		if (base.GetComponent<Collider>() != null && base.GetComponent<Collider>() is BoxCollider)
 		{
 			if (customCollider)
 			{
-				BoxCollider boxCollider = (BoxCollider)base.collider;
+				BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
 				Vector3 center = boxCollider.center;
 				center.x = (1f - pct) * (colliderBR.x - colliderTL.x) * -0.5f;
 				boxCollider.center = center;
@@ -347,11 +347,11 @@ public class UIListItem : UIButton, IUIListObject, IEZDragDrop, IUIObject
 	public override void TruncateLeft(float pct)
 	{
 		base.TruncateLeft(pct);
-		if (base.collider != null && base.collider is BoxCollider)
+		if (base.GetComponent<Collider>() != null && base.GetComponent<Collider>() is BoxCollider)
 		{
 			if (customCollider)
 			{
-				BoxCollider boxCollider = (BoxCollider)base.collider;
+				BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
 				Vector3 center = boxCollider.center;
 				center.x = (1f - pct) * (colliderBR.x - colliderTL.x) * 0.5f;
 				boxCollider.center = center;
@@ -369,11 +369,11 @@ public class UIListItem : UIButton, IUIListObject, IEZDragDrop, IUIObject
 	public override void TruncateTop(float pct)
 	{
 		base.TruncateTop(pct);
-		if (base.collider != null && base.collider is BoxCollider)
+		if (base.GetComponent<Collider>() != null && base.GetComponent<Collider>() is BoxCollider)
 		{
 			if (customCollider)
 			{
-				BoxCollider boxCollider = (BoxCollider)base.collider;
+				BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
 				Vector3 center = boxCollider.center;
 				center.y = (1f - pct) * (colliderBR.y - colliderTL.y) * 0.5f;
 				boxCollider.center = center;
@@ -391,11 +391,11 @@ public class UIListItem : UIButton, IUIListObject, IEZDragDrop, IUIObject
 	public override void TruncateBottom(float pct)
 	{
 		base.TruncateBottom(pct);
-		if (base.collider != null && base.collider is BoxCollider)
+		if (base.GetComponent<Collider>() != null && base.GetComponent<Collider>() is BoxCollider)
 		{
 			if (customCollider)
 			{
-				BoxCollider boxCollider = (BoxCollider)base.collider;
+				BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
 				Vector3 center = boxCollider.center;
 				center.y = (1f - pct) * (colliderBR.y - colliderTL.y) * -0.5f;
 				boxCollider.center = center;
@@ -413,13 +413,13 @@ public class UIListItem : UIButton, IUIListObject, IEZDragDrop, IUIObject
 	public override void Untruncate()
 	{
 		base.Untruncate();
-		if (!(base.collider != null) || !(base.collider is BoxCollider))
+		if (!(base.GetComponent<Collider>() != null) || !(base.GetComponent<Collider>() is BoxCollider))
 		{
 			return;
 		}
 		if (customCollider)
 		{
-			BoxCollider boxCollider = (BoxCollider)base.collider;
+			BoxCollider boxCollider = (BoxCollider)base.GetComponent<Collider>();
 			if (!customCollider)
 			{
 				boxCollider.center = Vector3.zero;

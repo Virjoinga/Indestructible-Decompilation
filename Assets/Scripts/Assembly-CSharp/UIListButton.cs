@@ -78,7 +78,7 @@ public class UIListButton : UIListItem
 			{
 				list.PointerReleased();
 			}
-			if (ptr.type != POINTER_INFO.POINTER_TYPE.TOUCHPAD && ptr.hitInfo.collider == base.collider)
+			if (ptr.type != POINTER_INFO.POINTER_TYPE.TOUCHPAD && ptr.hitInfo.collider == base.GetComponent<Collider>())
 			{
 				SetControlState(CONTROL_STATE.OVER);
 			}

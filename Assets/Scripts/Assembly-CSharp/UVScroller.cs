@@ -9,7 +9,7 @@ public class UVScroller : MonoBehaviour
 
 	private void Start()
 	{
-		Renderer renderer = base.renderer;
+		Renderer renderer = base.GetComponent<Renderer>();
 		if (renderer != null)
 		{
 			_material = renderer.material;

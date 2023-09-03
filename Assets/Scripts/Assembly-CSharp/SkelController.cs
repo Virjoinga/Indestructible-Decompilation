@@ -40,7 +40,7 @@ public class SkelController : MonoBehaviour
 		_boneWorldMatrices = new Matrix4x4[_bones.Length];
 		base.gameObject.AddComponent<MeshFilter>().sharedMesh = mesh;
 		_isD3D = 0 <= SystemInfo.graphicsDeviceVersion.IndexOf("Direct3D");
-		Renderer renderer = base.renderer;
+		Renderer renderer = base.GetComponent<Renderer>();
 		_materials = renderer.materials;
 		return renderer;
 	}

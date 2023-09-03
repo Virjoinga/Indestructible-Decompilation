@@ -26,7 +26,7 @@ public class Projectile : MonoBehaviour
 	{
 		speed = projectileSpeed;
 		_transform = base.transform;
-		_renderer = base.renderer;
+		_renderer = base.GetComponent<Renderer>();
 		base.enabled = false;
 		base.gameObject.SetActiveRecursively(false);
 	}

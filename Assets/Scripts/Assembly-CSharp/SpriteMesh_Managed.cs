@@ -69,7 +69,7 @@ public class SpriteMesh_Managed : ISpriteMesh, IEZLinkedListItem<SpriteMesh_Mana
 		set
 		{
 			m_manager = value;
-			m_material = m_manager.renderer.sharedMaterial;
+			m_material = m_manager.GetComponent<Renderer>().sharedMaterial;
 			if (m_material != null)
 			{
 				m_texture = m_material.GetTexture("_MainTex");
@@ -202,7 +202,7 @@ public class SpriteMesh_Managed : ISpriteMesh, IEZLinkedListItem<SpriteMesh_Mana
 			}
 			if (m_sprite.renderCamera == null)
 			{
-				m_sprite.SetCamera(Camera.mainCamera);
+				m_sprite.SetCamera(Camera.main);
 			}
 			else
 			{

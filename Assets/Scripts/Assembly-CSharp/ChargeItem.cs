@@ -16,7 +16,7 @@ public class ChargeItem : MonoBehaviour
 	protected void Start()
 	{
 		_transform = base.transform;
-		_collider = base.collider;
+		_collider = base.GetComponent<Collider>();
 		_crGame = IDTGame.Instance as CRTeamGame;
 		Object[] array = Object.FindObjectsOfType(typeof(KillBox));
 		if (array.Length > 0)
@@ -24,7 +24,7 @@ public class ChargeItem : MonoBehaviour
 			_killBoxesColliders = new Collider[array.Length];
 			for (int i = 0; i < array.Length; i++)
 			{
-				_killBoxesColliders[i] = ((KillBox)array[i]).collider;
+				_killBoxesColliders[i] = ((KillBox)array[i]).GetComponent<Collider>();
 			}
 		}
 	}

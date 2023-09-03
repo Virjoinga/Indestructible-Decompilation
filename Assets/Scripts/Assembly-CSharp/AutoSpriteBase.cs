@@ -671,18 +671,18 @@ public abstract class AutoSpriteBase : SpriteBase, ISpriteAggregator, ISpritePac
 			{
 				if (manager != null)
 				{
-					return manager.renderer.sharedMaterial;
+					return manager.GetComponent<Renderer>().sharedMaterial;
 				}
 				errString = "Sprite \"" + base.name + "\" is not associated with a SpriteManager, and can therefore not be included in the atlas build.";
 				return null;
 			}
-			return base.renderer.sharedMaterial;
+			return base.GetComponent<Renderer>().sharedMaterial;
 		}
 		if (managed)
 		{
 			if (manager != null)
 			{
-				return manager.renderer.sharedMaterial;
+				return manager.GetComponent<Renderer>().sharedMaterial;
 			}
 			errString = "Sprite \"" + base.name + "\" is not associated with a SpriteManager, and can therefore not be included in the atlas build.";
 			return null;

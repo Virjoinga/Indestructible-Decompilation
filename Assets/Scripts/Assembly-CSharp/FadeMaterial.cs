@@ -84,11 +84,11 @@ public class FadeMaterial : EZAnimation
 		{
 			return false;
 		}
-		if (sub.renderer == null)
+		if (sub.GetComponent<Renderer>() == null)
 		{
 			return false;
 		}
-		if (sub.renderer.material == null)
+		if (sub.GetComponent<Renderer>().material == null)
 		{
 			return false;
 		}
@@ -97,11 +97,11 @@ public class FadeMaterial : EZAnimation
 		repeatDelay = parms.repeatDelay;
 		if (parms.mode == ANIM_MODE.FromTo)
 		{
-			Start(sub.renderer.material, parms.mode, parms.color, parms.color2, EZAnimation.GetInterpolator(parms.easing), parms.duration, parms.delay, null, parms.transition.OnAnimEnd);
+			Start(sub.GetComponent<Renderer>().material, parms.mode, parms.color, parms.color2, EZAnimation.GetInterpolator(parms.easing), parms.duration, parms.delay, null, parms.transition.OnAnimEnd);
 		}
 		else
 		{
-			Start(sub.renderer.material, parms.mode, sub.renderer.material.color, parms.color, EZAnimation.GetInterpolator(parms.easing), parms.duration, parms.delay, null, parms.transition.OnAnimEnd);
+			Start(sub.GetComponent<Renderer>().material, parms.mode, sub.GetComponent<Renderer>().material.color, parms.color, EZAnimation.GetInterpolator(parms.easing), parms.duration, parms.delay, null, parms.transition.OnAnimEnd);
 		}
 		return true;
 	}

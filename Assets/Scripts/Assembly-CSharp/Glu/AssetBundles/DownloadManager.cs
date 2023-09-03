@@ -590,7 +590,7 @@ namespace Glu.AssetBundles
 									string filename = download.Urls[urlIndex2].Substring(download.Urls[urlIndex2].IndexOf("://") + 3);
 									if (download.version >= 0 && File.Exists(filename) && ShouldAssetBundleBeTriedAsUncompressed(filename))
 									{
-										download.OfflineAssetBundle = AssetBundle.CreateFromFile(filename);
+										download.OfflineAssetBundle = AssetBundle.LoadFromFile(filename);
 										downloaded = download.OfflineAssetBundle != null;
 										if (downloaded)
 										{
