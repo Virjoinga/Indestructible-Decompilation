@@ -13,16 +13,19 @@ public struct BitConverter32
 	public readonly float floatValue;
 
 	public BitConverter32(int value)
+		: this()
 	{
 		intValue = value;
 	}
 
 	public BitConverter32(uint value)
+		: this()
 	{
 		uintValue = value;
 	}
 
 	public BitConverter32(float value)
+		: this()
 	{
 		floatValue = value;
 	}
