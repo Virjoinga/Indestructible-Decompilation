@@ -433,13 +433,9 @@ public class UIRadioBtn3D : ControlBase, IRadioButton
 		return (UIRadioBtn3D)gameObject.AddComponent(typeof(UIRadioBtn3D));
 	}
 
-	virtual string IRadioButton.get_name()
+	string IRadioButton.name
 	{
-		return base.name;
-	}
-
-	virtual void IRadioButton.set_name(string value)
-	{
-		base.name = value;
+		get { return base.name; }
+		set { base.name = value; }
 	}
 }

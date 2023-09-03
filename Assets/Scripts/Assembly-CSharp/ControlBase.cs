@@ -688,18 +688,9 @@ public abstract class ControlBase : MonoBehaviour, IEZDragDrop, IControl, IUIObj
 		DoMirror();
 	}
 
-	virtual GameObject IUIObject.get_gameObject()
-	{
-		return base.gameObject;
-	}
+    GameObject IUIObject.gameObject => base.gameObject;
 
-	virtual Transform IUIObject.get_transform()
-	{
-		return base.transform;
-	}
+    Transform IUIObject.transform => base.transform;
 
-	virtual string IUIObject.get_name()
-	{
-		return base.name;
-	}
+    string IUIObject.name => base.name;
 }

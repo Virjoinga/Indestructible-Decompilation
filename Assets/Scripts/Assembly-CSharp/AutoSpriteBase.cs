@@ -725,33 +725,31 @@ public abstract class AutoSpriteBase : SpriteBase, ISpriteAggregator, ISpritePac
 		spriteFrames = (CSpriteFrame[])arrayList2.ToArray(typeof(CSpriteFrame));
 	}
 
-	virtual void ISpriteAggregator.SetUVs(Rect uvs)
+	void ISpriteAggregator.SetUVs(Rect uvs)
 	{
 		SetUVs(uvs);
 	}
 
-	virtual GameObject ISpriteAggregator.get_gameObject()
-	{
-		return base.gameObject;
-	}
+    GameObject ISpriteAggregator.gameObject => base.gameObject;
 
-	virtual GameObject ISpritePackable.get_gameObject()
-	{
-		return base.gameObject;
-	}
+    GameObject ISpritePackable.gameObject => base.gameObject;
 
-	virtual ANCHOR_METHOD ISpritePackable.get_Anchor()
-	{
-		return base.Anchor;
-	}
+    ANCHOR_METHOD ISpritePackable.Anchor => base.Anchor;
 
-	virtual Color ISpritePackable.get_Color()
+
+    /*virtual Color ISpritePackable.get_Color()
 	{
 		return base.Color;
 	}
 
-	virtual void ISpritePackable.set_Color(Color value)
+    virtual void ISpritePackable.set_Color(Color value)
 	{
 		base.Color = value;
-	}
+	}*/
+    Color ISpritePackable.Color
+    {
+        get { return base.Color; }
+        set { base.Color = value; }
+    }
+
 }

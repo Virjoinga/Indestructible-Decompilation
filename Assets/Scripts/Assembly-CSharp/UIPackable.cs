@@ -526,13 +526,7 @@ public class UIPackable : MonoBehaviour, ISpriteAggregator, ISpriteAnimatable, I
 		return false;
 	}
 
-	virtual GameObject ISpriteAggregator.get_gameObject()
-	{
-		return base.gameObject;
-	}
+    GameObject ISpriteAggregator.gameObject => base.gameObject;
 
-	virtual GameObject ISpritePackable.get_gameObject()
-	{
-		return base.gameObject;
-	}
+    GameObject ISpritePackable.gameObject => base.gameObject;
 }

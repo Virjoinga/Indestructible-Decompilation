@@ -638,13 +638,9 @@ public class UIRadioBtn : AutoSpriteControlBase, IRadioButton
 		return (UIRadioBtn)gameObject.AddComponent(typeof(UIRadioBtn));
 	}
 
-	virtual string IRadioButton.get_name()
+	string IRadioButton.name
 	{
-		return base.name;
-	}
-
-	virtual void IRadioButton.set_name(string value)
-	{
-		base.name = value;
+		get { return base.name; }
+		set { base.name = value; }
 	}
 }
