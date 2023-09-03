@@ -275,7 +275,7 @@ namespace Glu.AssetBundles
 							AssetBundle assetBundle = value.assetBundle;
 							if (assetBundle != null)
 							{
-								@object = assetBundle.Load(assetPath);
+								@object = assetBundle.LoadAsset(assetPath);
 							}
 						}
 						if (!(@object == null))
@@ -306,7 +306,7 @@ namespace Glu.AssetBundles
 							AssetBundle assetBundle = value.assetBundle;
 							if (assetBundle != null)
 							{
-								@object = assetBundle.Load(assetPath, assetType);
+								@object = assetBundle.LoadAsset(assetPath, assetType);
 							}
 						}
 						if (!(@object == null))
