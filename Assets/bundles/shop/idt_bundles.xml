@@ -1,0 +1,36 @@
+<ShopConfig>
+
+  <items>
+    <bundle 
+      id="bundle_thermodon_madness"
+      nameId="IDS_BUNDLE_THERMODON_MADNESS"
+      descriptionId="IDS_BUNDLE_THERMODON_MADNESS_TEXT"
+      itemSprite="Shop/Items/Bundles/Thermodon-Madness/ItemSprite"
+      itemBackground="Shop/Items/Bundles/Thermodon-Madness/ItemBackground"
+      durationHours="12"
+      priceHard="250"
+      vehicleId="vehicle_thermodon"
+      bodyId="body_thermodon_waver"
+      weaponId="weapon_4barrel"
+      armorId="armor_thermodon_tier_4"
+      >
+
+      <components>
+        <component id="component_t3_power" />
+        <component id="component_t3_cooldown_reduce" />
+        <component id="component_t3_damage_per_bullet" />
+      </components>
+      
+      <lock level="5" limitBoughtIAPs="1" />
+    </bundle>
+  </items>
+
+  <groups>
+    <group id="bundles" nameId="IDS_GROUP_BUNDLES" visible="true" prefab="Bundles">
+      <itemRefs>
+        <itemRef id="bundle_thermodon_madness_ref" itemId="bundle_thermodon_madness" visible="true" />
+      </itemRefs>
+    </group>
+  </groups>
+  
+</ShopConfig>

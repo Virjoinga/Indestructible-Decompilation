@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1187988995136344}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1187988995136344
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4373116375482099}
+  - 33: {fileID: 33748576291186324}
+  - 23: {fileID: 23330757030753196}
+  - 111: {fileID: 111651086077973350}
+  m_Layer: 12
+  m_Name: Punisher-Armor-Tier-4
+  m_TagString: StaticLocalTransform
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4373116375482099
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1187988995136344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4519334446451640}
+  - {fileID: 4960910048848788}
+  m_Father: {fileID: 0}
+--- !u!33 &33748576291186324
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1187988995136344}
+  m_Mesh: {fileID: 4300000, guid: a1f9f359fd4f60a4ba4fd60cbfe91c42, type: 2}
+--- !u!23 &23330757030753196
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1187988995136344}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5841e70804c08e443a5d0e8cf1f3ee4f, type: 2}
+  - {fileID: 2100000, guid: 937a38cb707ed9f4d9cf5ec11afc729b, type: 2}
+  - {fileID: 2100000, guid: c4bfa6b53a87a33429976a73ba278acc, type: 2}
+  - {fileID: 2100000, guid: 0fb90c69f43a1db48b713a0d0cb636a7, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!111 &111651086077973350
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1187988995136344}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 66d8dbb4eb44dd740b2f487182187b6d, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 66d8dbb4eb44dd740b2f487182187b6d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+  m_UserAABB:
+    m_Center: {x: 0.0027087927, y: 0.85791713, z: 3.1082633}
+    m_Extent: {x: 1.6138865, y: 0.48461515, z: 0.5554383}
+--- !u!1 &1654050013057656
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4519334446451640}
+  - 33: {fileID: 33360084940103442}
+  - 23: {fileID: 23119726123096860}
+  m_Layer: 12
+  m_Name: bumper_4_l01_lo
+  m_TagString: StaticLocalTransform
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4519334446451640
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654050013057656}
+  m_LocalRotation: {x: 0.24809739, y: 0.74809724, z: 0.3894351, w: -0.4765905}
+  m_LocalPosition: {x: -1.073083, y: 0.8531953, z: 2.7951412}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1.0000001}
+  m_Children:
+  - {fileID: 4160884245490744}
+  m_Father: {fileID: 4373116375482099}
+--- !u!33 &33360084940103442
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654050013057656}
+  m_Mesh: {fileID: 4300000, guid: e3a2206e028bffc40a500c63010d2198, type: 2}
+--- !u!23 &23119726123096860
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654050013057656}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5841e70804c08e443a5d0e8cf1f3ee4f, type: 2}
+  - {fileID: 2100000, guid: 937a38cb707ed9f4d9cf5ec11afc729b, type: 2}
+  - {fileID: 2100000, guid: c4bfa6b53a87a33429976a73ba278acc, type: 2}
+  - {fileID: 2100000, guid: 0fb90c69f43a1db48b713a0d0cb636a7, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1 &1152609182749732
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4160884245490744}
+  - 33: {fileID: 33028130946415388}
+  - 23: {fileID: 23695198346182436}
+  m_Layer: 12
+  m_Name: bumper_4_l02_lo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4160884245490744
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1152609182749732}
+  m_LocalRotation: {x: 7.450581E-08, y: 1.4412144E-07, z: 1.1442615E-09, w: 1}
+  m_LocalPosition: {x: 0.3441336, y: 0.006040878, z: 0.0015346908}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4519334446451640}
+--- !u!33 &33028130946415388
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1152609182749732}
+  m_Mesh: {fileID: 4300000, guid: c645b9d2c85c84a42b246e29994d1d42, type: 2}
+--- !u!23 &23695198346182436
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1152609182749732}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5841e70804c08e443a5d0e8cf1f3ee4f, type: 2}
+  - {fileID: 2100000, guid: 937a38cb707ed9f4d9cf5ec11afc729b, type: 2}
+  - {fileID: 2100000, guid: c4bfa6b53a87a33429976a73ba278acc, type: 2}
+  - {fileID: 2100000, guid: 0fb90c69f43a1db48b713a0d0cb636a7, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1 &1311718199182529
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4960910048848788}
+  - 33: {fileID: 33598401946235738}
+  - 23: {fileID: 23999386335725419}
+  m_Layer: 12
+  m_Name: bumper_4_r01_lo
+  m_TagString: StaticLocalTransform
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4960910048848788
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311718199182529}
+  m_LocalRotation: {x: 0.74809736, y: 0.24809735, z: 0.47659066, w: -0.38943484}
+  m_LocalPosition: {x: 1.078501, y: 0.853195, z: 2.7941656}
+  m_LocalScale: {x: 0.9999998, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 4888501293298561}
+  m_Father: {fileID: 4373116375482099}
+--- !u!33 &33598401946235738
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311718199182529}
+  m_Mesh: {fileID: 4300000, guid: ac15ed274c55c474e9d5f13877924cfb, type: 2}
+--- !u!23 &23999386335725419
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311718199182529}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5841e70804c08e443a5d0e8cf1f3ee4f, type: 2}
+  - {fileID: 2100000, guid: 937a38cb707ed9f4d9cf5ec11afc729b, type: 2}
+  - {fileID: 2100000, guid: c4bfa6b53a87a33429976a73ba278acc, type: 2}
+  - {fileID: 2100000, guid: 0fb90c69f43a1db48b713a0d0cb636a7, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1 &1032880751487975
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4888501293298561}
+  - 33: {fileID: 33677844008069056}
+  - 23: {fileID: 23122682945280828}
+  m_Layer: 12
+  m_Name: bumper_4_r02_lo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4888501293298561
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032880751487975}
+  m_LocalRotation: {x: -3.2101778E-15, y: 1.4538922E-07, z: 2.207989E-08, w: 1}
+  m_LocalPosition: {x: 0.3441327, y: -0.0060409545, z: 0.0015345382}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4960910048848788}
+--- !u!33 &33677844008069056
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032880751487975}
+  m_Mesh: {fileID: 4300000, guid: 4a68a4aca3b3c9645a6ce93d396ee02e, type: 2}
+--- !u!23 &23122682945280828
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032880751487975}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 5841e70804c08e443a5d0e8cf1f3ee4f, type: 2}
+  - {fileID: 2100000, guid: 937a38cb707ed9f4d9cf5ec11afc729b, type: 2}
+  - {fileID: 2100000, guid: c4bfa6b53a87a33429976a73ba278acc, type: 2}
+  - {fileID: 2100000, guid: 0fb90c69f43a1db48b713a0d0cb636a7, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1

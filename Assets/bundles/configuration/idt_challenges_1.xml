@@ -1,0 +1,200 @@
+<settings>
+
+  <!-- REWARD FOR COMPLETING CHALLENGE -->
+  <reward moneyHard="10" />
+
+  <challenges>
+    
+    <!-- EASY CHALLENGES -->
+    <challenge group="0" id="daily_challenge_collect_10_powerups">
+      <reward moneySoft="250" experience="40" />
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_5_kills">
+      <reward moneySoft="275" experience="45" />	
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_3_wins">
+      <reward moneySoft="300" experience="50" />	
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_kills_with_each_weapon_type">
+      <reward moneySoft="300" experience="50" />
+      <lock level="5" />	  
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_capture_3_flags">
+      <reward moneySoft="275" experience="45" />	
+      <lock level="3" />	  
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_recover_3_charges">
+      <reward moneySoft="275" experience="45" />	
+      <lock level="6" />	  
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_5_kills_in_dm">
+      <reward moneySoft="300" experience="50" />	
+      <lock level="9" />	  
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_5_kills_in_tdm">
+      <reward moneySoft="300" experience="50" />	
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_win_in_every_mod">
+      <reward moneySoft="325" experience="55" />	
+      <lock level="9" />	  
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_play_on_all_maps">
+      <reward moneySoft="250" experience="40" />	
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_win_on_all_maps">
+      <reward moneySoft="325" experience="55" />	
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_kills_on_3_different_vehicles">
+      <reward moneySoft="350" experience="60" />	
+      <lock level="5" />	  
+    </challenge>
+
+    <challenge group="0" id="daily_challenge_win_match_with_0_powerups">
+      <reward moneySoft="325" experience="55" />	
+    </challenge>
+	
+    <challenge group="0" id="daily_challenge_win_on_3_different_vehicles">
+      <reward moneySoft="350" experience="60" />
+      <lock level="5" />	  
+    </challenge>	
+
+    <!-- MEDIUM CHALLENGES -->
+    <challenge group="1" id="daily_challenge_3_kills_with_flag">
+      <reward moneySoft="1100" experience="150" />	
+      <lock level="3" />	  
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_3_kills_with_charge">
+      <reward moneySoft="1200" experience="165" />
+      <lock level="6" />	  
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_most_kills">
+      <reward moneySoft="1100" experience="150" />	
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_5_repairs_in_match">
+      <reward moneySoft="800" experience="90" />	
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_kill_10_light_vehicles">
+      <reward moneySoft="800" experience="90" />	
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_kill_5_medium_vehicles">
+      <reward moneySoft="900" experience="100" />	  
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_kill_3_heavy_vehicles">
+      <reward moneySoft="1000" experience="125" />	
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_kill_5_flags_carrier">
+      <reward moneySoft="900" experience="100" />	
+      <lock level="3" />	  
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_kill_5_charge_carrier">
+      <reward moneySoft="900" experience="100" />	
+      <lock level="6" />	  
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_kill_each_opponent_in_dm">
+      <reward moneySoft="1100" experience="150" />
+      <lock level="9" />	  
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_first_kill">
+      <reward moneySoft="1200" experience="165" />	  
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_10_kills_with_kinetic_weapon">
+      <reward moneySoft="1000" experience="125" />
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_10_kills_with_thermal_weapon">
+      <reward moneySoft="1000" experience="125" />
+      <lock level="2" />	  
+    </challenge>
+
+    <challenge group="1" id="daily_challenge_10_kills_with_explosive_weapon">
+      <reward moneySoft="1000" experience="125" />
+      <lock level="5" />	  
+    </challenge>
+
+    <!-- HARD CHALLENGES -->
+    <challenge group="2" id="daily_challenge_point_under_5p_armor">
+      <reward moneySoft="1500" experience="250" />	
+      <lock level="5" />	  
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_3_kills_under_dd">
+      <reward moneySoft="1350" experience="225" />	
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_5_collision_kills">
+      <reward moneySoft="1800" experience="300" />	
+      <lock level="4" />	  
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_win_dm_with_6_frags">
+      <reward moneySoft="1800" experience="300" />	
+      <lock level="9" />	  
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_win_ctf_with_3_0">
+      <reward moneySoft="1500" experience="250" />	
+      <lock level="3" />	  
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_win_rtc_with_3_0">
+      <reward moneySoft="1500" experience="250" />	
+      <lock level="6" />	  
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_win_tdm_with_4_or_more">
+      <reward moneySoft="1500" experience="250" />	
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_win_without_dying">
+      <reward moneySoft="1650" experience="275" />	
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_kill_enemy_with_active_ability">
+      <reward moneySoft="1650" experience="275" />
+      <lock level="5" />	  
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_kill_3_enemies_in_row">
+      <reward moneySoft="1200" experience="200" />	
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_win_3_matches_in_row">
+      <reward moneySoft="1350" experience="225" />	
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_5_kills_in_single_match">
+      <reward moneySoft="1350" experience="225" />	
+    </challenge>
+
+    <challenge group="2" id="daily_challenge_win_with_100p_armor">
+      <reward moneySoft="1200" experience="200" />	
+    </challenge>
+	
+    <challenge group="2" id="daily_challenge_score_point">
+      <reward moneySoft="1650" experience="275" />	
+    </challenge>		
+
+  </challenges>
+</settings>

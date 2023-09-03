@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 271338965469884fc19198788f4c2da5, type: 3}
+  m_Name: ExplosionParticleEffect
+  effectOptions:
+  - effectPrefab: Effects/GraySmokeEffect
+    randomCount: 15
+    randomSpeedMinRange: {x: 3, y: 26}
+    randomSizeScale: 1.25
+    randomLifetimeScale: 1
+    randomDispersion: 1
+    arrayDispersion: 0
+    offsetSpeedSizeLifetimeArray: []
+  - effectPrefab: Effects/SmokeEffect
+    randomCount: 14
+    randomSpeedMinRange: {x: 3, y: 26}
+    randomSizeScale: 1.5
+    randomLifetimeScale: 1
+    randomDispersion: 1
+    arrayDispersion: 0
+    offsetSpeedSizeLifetimeArray: []
+  - effectPrefab: Effects/BurnEffect
+    randomCount: 13
+    randomSpeedMinRange: {x: 2, y: 20}
+    randomSizeScale: 1.15
+    randomLifetimeScale: 0.7
+    randomDispersion: 1
+    arrayDispersion: 0
+    offsetSpeedSizeLifetimeArray: []
+  - effectPrefab: Effects/FlashEffect
+    randomCount: 1
+    randomSpeedMinRange: {x: 0, y: 0}
+    randomSizeScale: 1
+    randomLifetimeScale: 1
+    randomDispersion: -2
+    arrayDispersion: 0
+    offsetSpeedSizeLifetimeArray: []
+  - effectPrefab: Effects/SparkEffect
+    randomCount: 16
+    randomSpeedMinRange: {x: 25, y: 10}
+    randomSizeScale: 2
+    randomLifetimeScale: 1
+    randomDispersion: 0.6
+    arrayDispersion: 0
+    offsetSpeedSizeLifetimeArray: []
