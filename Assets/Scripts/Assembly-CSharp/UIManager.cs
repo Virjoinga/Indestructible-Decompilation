@@ -285,6 +285,10 @@ public class UIManager : MonoBehaviour
 
 	private void Awake()
 	{
+		if (Application.isEditor || Application.platform == RuntimePlatform.WindowsPlayer)
+		{
+			pointerType = POINTER_TYPE.MOUSE;
+		}
 		if (m_awake)
 		{
 			return;
