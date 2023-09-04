@@ -215,10 +215,6 @@ public class Player : MonoSingleton<Player>
 	{
 		get
 		{
-			if (GWalletHelper.GetBalance() != int.MinValue)
-			{
-				return GWalletHelper.GetBalance();
-			}
 			return m_moneyHard;
 		}
 	}
@@ -292,7 +288,6 @@ public class Player : MonoSingleton<Player>
 		InfluencePoints = 0;
 		TalentPoints = 0;
 		MoneySoft = 120;
-		GWalletHelper.AddSoftCurrency(120, "CREDIT_SC", "StartingBalance");
 		AddMoneyHard(7, "CREDIT_NEW_PLAYER_CURRENCY", "StartingBalance", "StartingBalance");
 		Experience = 0;
 		Level = 1;
@@ -525,7 +520,6 @@ public class Player : MonoSingleton<Player>
 		m_moneyHard = XmlUtils.GetAttribute<int>(element, "moneyHard");
 		if ((int)m_moneyHard > 0)
 		{
-			GWalletHelper.LocalHardCurrency = m_moneyHard;
 			m_moneyHard = 0;
 		}
 		MoneySoft = XmlUtils.GetAttribute<int>(element, "moneySoft");
@@ -1050,7 +1044,6 @@ public class Player : MonoSingleton<Player>
 			if ((int)MoneySoft >= num2)
 			{
 				MoneySoft = (int)MoneySoft - num2;
-				GWalletHelper.SubtractSoftCurrency(num2, "DEBIT_SC", item.id);
 				UpdateStoredItems(item, ShopItemCurrency.Soft, num2);
 				GameAnalytics.EventLoseSoft(num2);
 				return true;
@@ -1569,10 +1562,6 @@ public class Player : MonoSingleton<Player>
 			Statistics.TotalMoneySoftEarned += money;
 			GameAnalytics.EventEarnedSoft(money);
 			MoneySoft = (int)MoneySoft + money;
-			if (type != "CREDIT_IN_GAME_AWARD")
-			{
-				GWalletHelper.AddSoftCurrency(money, type, desc);
-			}
 		}
 	}
 
@@ -1581,16 +1570,12 @@ public class Player : MonoSingleton<Player>
 		if (money > 0)
 		{
 			GameAnalytics.EventEarnedHard(money, source);
-			GWalletHelper.AddCurrency(money, type, desc);
 		}
 	}
 
 	public void SubMoneyHard(int money, string type, string desc)
 	{
-		if (money > 0)
-		{
-			GWalletHelper.SubtractCurrency(money, type, desc);
-		}
+
 	}
 
 	public int AddInfluencePoints(int points)

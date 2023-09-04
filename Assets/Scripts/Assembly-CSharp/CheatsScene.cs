@@ -96,14 +96,12 @@ public class CheatsScene : MonoBehaviour
 			Player instance3 = MonoSingleton<Player>.Instance;
 			instance3.MoneySoft = (int)instance3.MoneySoft + 5000;
 			MonoSingleton<Player>.Instance.Save();
-			GWalletHelper.AddSoftCurrency(5000, "CREDIT_SC", "cheat");
 		});
 		AddCheat("Soft +50000", delegate
 		{
 			Player instance2 = MonoSingleton<Player>.Instance;
 			instance2.MoneySoft = (int)instance2.MoneySoft + 50000;
 			MonoSingleton<Player>.Instance.Save();
-			GWalletHelper.AddSoftCurrency(50000, "CREDIT_SC", "cheat");
 		});
 		AddCheat("Hard +500", delegate
 		{
@@ -114,7 +112,6 @@ public class CheatsScene : MonoBehaviour
 		{
 			Player instance = MonoSingleton<Player>.Instance;
 			instance.MoneySoft = (int)instance.MoneySoft / 2;
-			GWalletHelper.SubtractSoftCurrency(MonoSingleton<Player>.Instance.MoneySoft, "DEBIT_SC", "cheat");
 			MonoSingleton<Player>.Instance.Save();
 		});
 		AddCheat("Hard -50%", delegate

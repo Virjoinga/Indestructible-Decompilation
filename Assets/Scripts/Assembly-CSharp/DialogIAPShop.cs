@@ -53,7 +53,6 @@ public class DialogIAPShop : UIDialog
 	{
 		base.Activate();
 		FeedData(GroupId);
-		GWalletHelper.ShowNotification("BANK");
 	}
 
 	public override void Close()
@@ -110,7 +109,7 @@ public class DialogIAPShop : UIDialog
 
 	private void Update()
 	{
-		if (MonoSingleton<GameController>.Instance.BackKeyReleased() && !GWalletHelper.IsGWalletDisplayActive())
+		if (MonoSingleton<GameController>.Instance.BackKeyReleased())
 		{
 			OnCloseButtonTap();
 		}

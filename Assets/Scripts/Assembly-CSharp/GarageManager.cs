@@ -58,14 +58,7 @@ public class GarageManager : PanelManager
 		}
 		if (DynamicContent.CheckForUpdates())
 		{
-			if (ForcedUpdate.NeedToQuit())
-			{
-				Dialogs.ApplicationGotForcedUpdateDialog();
-			}
-			else
-			{
-				Dialogs.ApplicationShouldBeUpdatedDialog();
-			}
+			Dialogs.ApplicationShouldBeUpdatedDialog();
 		}
 		else
 		{

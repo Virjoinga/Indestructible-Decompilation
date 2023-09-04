@@ -154,7 +154,6 @@ public class PanelGarage : PanelAtlasController
 		NewVehiclesButton.OnActivate();
 		MonoSingleton<DialogsQueue>.Instance.Resume();
 		StartCoroutine(ShowRateMe());
-		GWalletHelper.ShowNotification("LAUNCH");
 	}
 
 	public void ChangeVehicle(GarageItemStandard item)
@@ -185,7 +184,7 @@ public class PanelGarage : PanelAtlasController
 
 	private void Update()
 	{
-		if (MonoSingleton<GameController>.Instance.BackKeyReleased() && MonoSingleton<DialogsQueue>.Instance.IsEmpty() && !GWalletHelper.IsGWalletDisplayActive())
+		if (MonoSingleton<GameController>.Instance.BackKeyReleased() && MonoSingleton<DialogsQueue>.Instance.IsEmpty())
 		{
 			MonoSingleton<UISounds>.Instance.Play(UISounds.Type.Click);
 			Dialogs.QuitConfirmation();

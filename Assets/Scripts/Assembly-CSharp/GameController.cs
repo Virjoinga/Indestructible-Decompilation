@@ -92,10 +92,6 @@ public class GameController : MonoSingleton<GameController>
 		}
 		float num3 = (float)num / 800f;
 		float num4 = (float)num2 / 480f;
-		GWalletHelper.SetupGGN("ggn_button", "ggn_badge", string.Empty);
-		GWalletHelper.SetupGGNButton((int)(50f * num3), (int)(50f * num4), 51, (int)(154f * num3), (int)(6f * num4));
-		GWalletHelper.SetupGGNBadge((int)(20f * num3), (int)(20f * num4), 53);
-		GWalletHelper.Init(base.gameObject);
 		Kontagent.StartSession(string.Empty);
 		Kontagent.StartSession(string.Empty);
 		InitPushNotifications();
@@ -228,7 +224,6 @@ public class GameController : MonoSingleton<GameController>
 				if (text4.ToLower().Equals("subscription"))
 				{
 					Debug.Log("PURCHASED SUBSCRIPTION: " + text5);
-					GWallet.Subscribe(text5, AInAppPurchase.UserID);
 					AStats.Flurry.LogEvent("SUBSCRIPTION_PURCHASED", text3);
 					if (text3.ToLower().Contains("gold"))
 					{
@@ -432,9 +427,5 @@ public class GameController : MonoSingleton<GameController>
 			return;
 		}
 		AAds.PlayHaven.Show(placement);
-		if (placement == "game_launch")
-		{
-			AAds.PlayHaven.Show(GWallet.IsSubscriber() ? "subscriber" : "non_subscriber");
-		}
 	}
 }

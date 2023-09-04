@@ -79,7 +79,6 @@ public class PanelShop : PanelAtlasController
 		{
 			GamePlayHaven.Placement("store_launch");
 		}
-		GWalletHelper.ShowNotification("STORE");
 	}
 
 	public override void OnDeactivate()
@@ -110,7 +109,7 @@ public class PanelShop : PanelAtlasController
 
 	private void Update()
 	{
-		if (MonoSingleton<GameController>.Instance.BackKeyReleased() && MonoSingleton<DialogsQueue>.Instance.IsEmpty() && !GWalletHelper.IsGWalletDisplayActive())
+		if (MonoSingleton<GameController>.Instance.BackKeyReleased() && MonoSingleton<DialogsQueue>.Instance.IsEmpty())
 		{
 			OnBackButtonTap();
 		}

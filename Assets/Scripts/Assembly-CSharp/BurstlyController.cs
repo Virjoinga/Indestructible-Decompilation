@@ -6,7 +6,6 @@ public class BurstlyController : MonoBehaviour
 
 	public static void HideAd()
 	{
-		GWalletHelper.HideAd();
 		m_displayed = false;
 	}
 
