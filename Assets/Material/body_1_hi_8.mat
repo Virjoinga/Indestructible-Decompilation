@@ -2,38 +2,36 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 3
+  serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: body_1_hi
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: body_1_hi_8
   m_Shader: {fileID: 4800000, guid: 8ba34764b9f674b40828e4910e308a2a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TexEnvs:
-    - first:
-        name: _MainTex
-      second:
-        m_Texture: {fileID: 2800000, guid: 68b086d0fdf78ad498d900dfc653df72, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _Cube
-      second:
+    - _Cube:
         m_Texture: {fileID: 8900000, guid: fdaae8a8ae4b62b47831e7e531db8dbc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - first:
-        name: _ReflectionMask
-      second:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 68b086d0fdf78ad498d900dfc653df72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionMask:
         m_Texture: {fileID: 2800000, guid: 076dc6e35c3ba4745be5c4905f667df6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+    m_Floats: []
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
-    - first:
-        name: _ReflectColor
-      second: {r: 0.08208954, g: 0.08208954, b: 0.08208954, a: 0.5019608}
+    - _Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+    - _ReflectColor: {r: 0.08208954, g: 0.08208954, b: 0.08208954, a: 0.5019608}
