@@ -122,7 +122,6 @@ public class GarageManager : PanelManager
 
 	private void OnDestroy()
 	{
-		GWalletHelper.HideGGN();
 		m_ggnDisplayed = false;
 		if (MonoSingleton<GameController>.Exists())
 		{
@@ -310,13 +309,11 @@ public class GarageManager : PanelManager
 			}
 			else if (!m_ggnDisplayed)
 			{
-				GWalletHelper.ShowGGN();
 				m_ggnDisplayed = true;
 			}
 		}
 		else if (m_ggnDisplayed)
 		{
-			GWalletHelper.HideGGN();
 			m_ggnDisplayed = false;
 		}
 	}
